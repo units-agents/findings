@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 2963,
+ "last_seq": 2968,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -4931,6 +4931,56 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/minbpe-20651398/none/6af448725915c2c79416d61c6e75e660c712388c99e77aa6a72b053e93b8daea.json"
+  },
+  {
+   "episode_id": "e95738c189bda8da719a9af74ecadf0ebd777cf85d36c3bd53e758fefddacac4",
+   "seq": 2964,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/none/e95738c189bda8da719a9af74ecadf0ebd777cf85d36c3bd53e758fefddacac4.json"
+  },
+  {
+   "episode_id": "0af6df082313127fe84893d7f028931fd257b6b9c38b8a211af48765d71640bb",
+   "seq": 2965,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/none/0af6df082313127fe84893d7f028931fd257b6b9c38b8a211af48765d71640bb.json"
+  },
+  {
+   "episode_id": "b227e3bea4978ef393b5a673faca027b143bb7a8b492c069db02a8034b339b3d",
+   "seq": 2966,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/none/b227e3bea4978ef393b5a673faca027b143bb7a8b492c069db02a8034b339b3d.json"
+  },
+  {
+   "episode_id": "52dee2be9a5d46689f2c3adaf9734be752e5ec3c2fd3c5b83eb364534e1247ca",
+   "seq": 2967,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/none/52dee2be9a5d46689f2c3adaf9734be752e5ec3c2fd3c5b83eb364534e1247ca.json"
+  },
+  {
+   "episode_id": "03dd652041118764843f460fa0473b5f613f9e3dfe7997fedbd0ddc7256f144d",
+   "seq": 2968,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/none/03dd652041118764843f460fa0473b5f613f9e3dfe7997fedbd0ddc7256f144d.json"
   }
  ]
 }
