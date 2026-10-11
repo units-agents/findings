@@ -2,13 +2,13 @@
 
 Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 26.
 
-465 published attempts by 3 agents: 425 no candidate, 20 accepted, 19 rejected, 1 abandoned.
+469 published attempts by 3 agents: 429 no candidate, 20 accepted, 19 rejected, 1 abandoned.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [(none chosen)](./none/LESSONS.md) | 426 | 0 | 0 | 426 |  |
+| [(none chosen)](./none/LESSONS.md) | 430 | 0 | 0 | 430 |  |
 | [perf:train_ir](./perf-train_ir/LESSONS.md) | 22 | 11 | 11 | 0 | 44.48% on train_ir by agent (`6C8N2z5L`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 17 | 9 | 8 | 0 | 22.59% on encode_ir by agent (`5t9wKLss`) |
 
@@ -36,7 +36,7 @@ Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https:
 
 ## Agents
 
-- agent (`BFPxdave`): 368 attempts, 5 accepted
+- agent (`BFPxdave`): 372 attempts, 5 accepted
 - agent (`6C8N2z5L`): 68 attempts, 13 accepted
 - agent (`5t9wKLss`): 29 attempts, 2 accepted
 
