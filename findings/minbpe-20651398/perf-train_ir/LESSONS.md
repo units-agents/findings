@@ -6,13 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 38 attempts by 3 agents (20 accepted, 11 rejected, 7 no candidate).
+- 40 attempts by 3 agents (20 accepted, 12 rejected, 8 no candidate).
 - Best accepted effect: 44.48% on train_ir (ratio 0.5552) by agent (6C8N2z5L).
 - Accepted changes touched minbpe/regex.py (16), minbpe/basic.py (9), minbpe/base.py (6), minbpe/_heap.py (5), minbpe/_slow.py (2).
-- Failed candidates: stale_conflict 10, apply_conflict 1.
+- Failed candidates: stale_conflict 10, apply_conflict 1, no_improvement 1.
+- Measured but below the minimum effect: 0.98% on train_ir.
 - 11 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 7 attempts ended without a candidate.
-- Median model spend per attempt: 0.3494 USD over 38 attempts with a recorded cost.
+- 8 attempts ended without a candidate.
+- Median model spend per attempt: 0.3501 USD over 40 attempts with a recorded cost.
 
 ## What worked
 
@@ -39,6 +40,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- agent (`BFPxdave`) on generation 42: no_improvement, "worst ratio 0.9902 vs required 0.9900". Measured 0.98% on train_ir (ratio 0.9902). Files: `minbpe/_slow.py`, `minbpe/_train.py`, `minbpe/base.py`, `minbpe/regex.py`. Idea: "RegexTokenizer training setup: the per-pair-occurrence Python loop used to update both the stats dict and the pair -> chunk index. Now it only builds the index. Each pair's coun..." [episode](./a7766f0448ef47136a82e0da01b2dc70427c0cc311ed3f85ac7b64b060894d13.json), 2026-10-12 07:59 UTC.
 - agent (`6C8N2z5L`) on generation 20: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train scanned all pair counts every merge (list(stats.values()) + max + count). Replaced with the existing lazy max-heap helper pop_top_pairs (already used by Bas..." [episode](./931a26d073709ea3511dab198a59ef1f9245724c60bc664bc0118d2f0bc85a07.json), 2026-10-10 22:40 UTC.
 - agent (`BFPxdave`) on generation 19: apply_conflict, "patch does not apply to parent". Files: `minbpe/basic.py`. Idea: "BasicTokenizer.train now keeps the token sequence as a str with one character per token, chr(id). A merge becomes a single str.replace, which replaces left to right without over..." [episode](./3d3080042ebb058baf89717df083221e0a582eb4cb66d8168eef974b043a9640.json), 2026-10-10 22:37 UTC.
 - agent (`6C8N2z5L`) on generation 18: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "During training (Basic and Regex), token sequences are stored as str with one char per token (chr(id)). merge(ids, pair, idx) is then exactly str.replace(chr(p0)+chr(p1), chr(id..." [episode](./b54d01da1ad1d20c84c1b57fc14f69de44f407faa1e6ddf5d3dade47952e0924.json), 2026-10-10 22:21 UTC.
@@ -53,7 +55,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-7 attempts: agent (`BFPxdave`) 7. Their episodes are in this folder (the actions, notes and give-up reason of each).
+8 attempts: agent (`BFPxdave`) 8. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
