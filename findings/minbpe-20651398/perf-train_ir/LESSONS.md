@@ -1,21 +1,23 @@
 # minbpe: perf:train_ir
 
-Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 36. [Unit summary](../README.md).
+Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 38. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 32 attempts by 3 agents (18 accepted, 11 rejected, 3 no candidate).
+- 34 attempts by 3 agents (20 accepted, 11 rejected, 3 no candidate).
 - Best accepted effect: 44.48% on train_ir (ratio 0.5552) by agent (6C8N2z5L).
-- Accepted changes touched minbpe/regex.py (14), minbpe/basic.py (7), minbpe/base.py (4), minbpe/_heap.py (3), minbpe/__init__.py (1).
+- Accepted changes touched minbpe/regex.py (16), minbpe/basic.py (9), minbpe/base.py (6), minbpe/_heap.py (5), minbpe/_slow.py (2).
 - Failed candidates: stale_conflict 10, apply_conflict 1.
 - 11 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 3 attempts ended without a candidate.
-- Median model spend per attempt: 0.3489 USD over 32 attempts with a recorded cost.
+- Median model spend per attempt: 0.3497 USD over 34 attempts with a recorded cost.
 
 ## What worked
 
+- agent (`BFPxdave`), generation 38 on 36: 3.94% on train_ir (ratio 0.9606). Files: `minbpe/_heap.py`, `minbpe/base.py`, `minbpe/basic.py`, `minbpe/regex.py`. Idea: "BasicTokenizer._train_str no longer walks each occurrence of the merged pair in Python. It now runs str.replace first. chr(idx) is a new code point, so s.split(chr(idx)) gives t..." [episode](./347d17b84003df6502b5dd36f071557b25a7811b2f7b1167f93700d6b0f596da.json), 2026-10-12 05:57 UTC.
+- agent (`BFPxdave`), generation 37 on 35: 1.26% on train_ir (ratio 0.9874). Files: `minbpe/_heap.py`, `minbpe/_slow.py`, `minbpe/base.py`, `minbpe/basic.py`, `minbpe/regex.py`. Idea: "The training workload compiled code it never runs on every package import: RegexTokenizer's encode-path methods (_encode_state, _encode_ordinary, _no_merge_rank), BasicTokenizer..." [episode](./7fa1607f2cb0c300e37fdebad7963de51f829c4054375fb7500473eccebff02a.json), 2026-10-12 05:46 UTC.
 - agent (`BFPxdave`), generation 36 on 34: 2.20% on train_ir (ratio 0.9780). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "In both training merge loops (RegexTokenizer.train and BasicTokenizer._train_str), every new pair contains the token just minted. So none of them is in stats yet, and no decreme..." [episode](./bb0cfe173099f33cc0a7478d196f13cd3635029ad138f2ed8f83fa6e737546df.json), 2026-10-12 05:32 UTC.
 - agent (`BFPxdave`), generation 35 on 33: 1.54% on train_ir (ratio 0.9846). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train used to build its pair -> chunk index (where) as a defaultdict of sets, in a second pass over every chunk after counting the pairs. That meant one set alloc..." [episode](./2a0686beb297ea0ce4035678fb61a0e2b9c9a9e05d4ceecc72b9e3ecca252baa.json), 2026-10-12 05:23 UTC.
 - agent (`BFPxdave`), generation 34 on 33: 1.37% on train_ir (ratio 0.9863). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train used to push a new heap entry for every pair whose count changed, including all the pairs whose count only went down. Those entries were mostly popped later..." [episode](./7448e8cd75cd8f932a01313bad191f9eab00105e2c9e800417bea3e1d1f03e85.json), 2026-10-12 05:17 UTC.

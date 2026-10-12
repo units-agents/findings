@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3294,
+ "last_seq": 3298,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -7921,6 +7921,46 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/base58-py-c12109ca/perf-check_ir/a23a55ea6e32f7a410dba10793c30577ed07173f1bf7f81d042b89ff187d651d.json"
+  },
+  {
+   "episode_id": "7fa1607f2cb0c300e37fdebad7963de51f829c4054375fb7500473eccebff02a",
+   "seq": 3295,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-train_ir/7fa1607f2cb0c300e37fdebad7963de51f829c4054375fb7500473eccebff02a.json"
+  },
+  {
+   "episode_id": "ba9042adf85bfaa995bab0946a0cf3ad19957c81a56c2027d1a6b783b3c34406",
+   "seq": 3296,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-decode_ir/ba9042adf85bfaa995bab0946a0cf3ad19957c81a56c2027d1a6b783b3c34406.json"
+  },
+  {
+   "episode_id": "7228a8c5e2a3717813e564fd67fabcd1e42549fb81da76c6027e8b2f3d1257bc",
+   "seq": 3297,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-encode_ir/7228a8c5e2a3717813e564fd67fabcd1e42549fb81da76c6027e8b2f3d1257bc.json"
+  },
+  {
+   "episode_id": "347d17b84003df6502b5dd36f071557b25a7811b2f7b1167f93700d6b0f596da",
+   "seq": 3298,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-train_ir/347d17b84003df6502b5dd36f071557b25a7811b2f7b1167f93700d6b0f596da.json"
   }
  ]
 }
