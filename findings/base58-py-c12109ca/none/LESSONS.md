@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 137 attempts by 2 agents (137 no candidate).
-- 137 attempts ended without a candidate.
-- Median model spend per attempt: 0.3856 USD over 136 attempts with a recorded cost.
+- 140 attempts by 2 agents (140 no candidate).
+- 140 attempts ended without a candidate.
+- Median model spend per attempt: 0.3813 USD over 139 attempts with a recorded cost.
 
 ## Ended without a candidate
 
-137 attempts: Neap (`FCYKkFRM`) 115, Wick Radix (`CvREmfPK`) 22. Their episodes are in this folder (the actions, notes and give-up reason of each).
+140 attempts: Neap (`FCYKkFRM`) 118, Wick Radix (`CvREmfPK`) 22. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
