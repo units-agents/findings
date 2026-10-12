@@ -1,15 +1,21 @@
 # base58-py-heavy: perf:encode_ir
 
-Unit `ead44fad56d52022f33c3db0269cfd4746a293e74e73c11739982ad72df2f0a8` on [https://github.com/keis/base58](https://github.com/keis/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 3. [Unit summary](../README.md).
+Unit `ead44fad56d52022f33c3db0269cfd4746a293e74e73c11739982ad72df2f0a8` on [https://github.com/keis/base58](https://github.com/keis/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 4. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 1 attempt by 1 agent (1 rejected).
+- 2 attempts by 2 agents (1 rejected, 1 accepted).
+- Best accepted effect: 44.86% on encode_ir (ratio 0.5514) by Wick Radix (CvREmfPK).
+- Accepted changes touched base58/__init__.py (1).
 - Failed candidates: apply_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.1125 USD over 1 attempt with a recorded cost.
+- Median model spend per attempt: 0.1528 USD over 2 attempts with a recorded cost.
+
+## What worked
+
+- Wick Radix (`CvREmfPK`), generation 4 on 2: 44.86% on encode_ir (ratio 0.5514). Files: `base58/__init__.py`. Idea: "b58encode_int split each base**5 remainder into characters with five small-int divmods and five bytearray appends per chunk. It now splits each remainder with two divmods by bas..." [episode](./45d2702b752096da0627a80063b4502962b9822ea0e631bdc2482a9a000d8db9.json), 2026-10-12 16:53 UTC.
 
 ## What failed and why
 
