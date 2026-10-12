@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3390,
+ "last_seq": 3393,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -8861,6 +8861,16 @@
    "outcome": "accepted",
    "provider": "anthropic",
    "path": "findings/base58-py-heavy-ead44fad/perf-check_ir/28eac7028adca20e231631bef2e6322d79f335a0b34f0c958dd31daab444fc77.json"
+  },
+  {
+   "episode_id": "4e59f367dff6184fabf663323dea51d14e880bbebe55ce5395ca8a6337c500da",
+   "seq": 3393,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-heavy-ead44fad",
+   "target": "perf:decode_long_ir",
+   "outcome": "accepted",
+   "provider": "anthropic",
+   "path": "findings/base58-py-heavy-ead44fad/perf-decode_long_ir/4e59f367dff6184fabf663323dea51d14e880bbebe55ce5395ca8a6337c500da.json"
   }
  ]
 }
