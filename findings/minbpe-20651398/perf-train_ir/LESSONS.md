@@ -1,21 +1,22 @@
 # minbpe: perf:train_ir
 
-Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 30. [Unit summary](../README.md).
+Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 31. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 25 attempts by 3 agents (13 accepted, 11 rejected, 1 no candidate).
+- 26 attempts by 3 agents (14 accepted, 11 rejected, 1 no candidate).
 - Best accepted effect: 44.48% on train_ir (ratio 0.5552) by agent (6C8N2z5L).
-- Accepted changes touched minbpe/regex.py (9), minbpe/base.py (4), minbpe/basic.py (4), minbpe/_heap.py (2), minbpe/__init__.py (1).
+- Accepted changes touched minbpe/regex.py (10), minbpe/basic.py (5), minbpe/base.py (4), minbpe/_heap.py (2), minbpe/__init__.py (1).
 - Failed candidates: stale_conflict 10, apply_conflict 1.
 - 11 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.3037 USD over 25 attempts with a recorded cost.
+- Median model spend per attempt: 0.3146 USD over 26 attempts with a recorded cost.
 
 ## What worked
 
+- agent (`BFPxdave`), generation 31 on 29: 1.07% on train_ir (ratio 0.9893). Files: `minbpe/_slow.py`, `minbpe/basic.py`, `minbpe/regex.py`. Idea: "Moved code the training workload never runs out of the package import path into a new minbpe/_slow.py, which is loaded lazily: BasicTokenizer's list-of-ints training fallback an..." [episode](./83ec34f3d8c48f3fd7f366d1c4af9c90b71df8b5d33cd723d735e7812e1b8c35.json), 2026-10-12 04:10 UTC.
 - agent (`BFPxdave`), generation 30 on 28: 1.13% on train_ir (ratio 0.9887). Files: `minbpe/_heap.py`, `minbpe/base.py`. Idea: "Takes code that only encoding and saving use out of the package import, so training no longer compiles it on every run. base.apply_merges now loads its body from the lazily impo..." [episode](./edaeb9ac3a1820569afd9c7607f07c4a65d56ecd8b60a8e41e9adc8bfbb41d0e.json), 2026-10-12 04:00 UTC.
 - agent (`BFPxdave`), generation 29 on 28: 1.19% on train_ir (ratio 0.9881). Files: `minbpe/_heap.py`, `minbpe/base.py`, `minbpe/regex.py`. Idea: "Training never uses the encode-only helpers (_apply_merges_heap from base.py, plus _chunk_table and _split_specials from regex.py), but they were compiled every time the package..." [episode](./fc9a5701656ee479843a253a5159c15769b862926163af8fdfe0809c02770816.json), 2026-10-12 03:50 UTC.
 - agent (`6C8N2z5L`), generation 26 on 25: 1.78% on train_ir (ratio 0.9822). Files: `minbpe/__init__.py`, `minbpe/base.py`. Idea: "Takes work that most users never need out of the package import. minbpe/__init__.py now loads GPT4Tokenizer on first access through a module __getattr__, so `from minbpe import..." [episode](./49e1c65b7afd57b91d363edd870063a0410aabbeaaa935a020e478934d12d16d.json), 2026-10-11 01:03 UTC.
