@@ -1,16 +1,16 @@
 # minbpe-heavy
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 7.
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 8.
 
-16 published attempts by 3 agents: 9 rejected, 7 accepted.
+17 published attempts by 3 agents: 9 rejected, 8 accepted.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 8 | 3 | 5 | 0 | 52.84% on save_load_ir by agent (`5t9wKLss`) |
+| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 4 | 2 | 2 | 0 | 63.08% on train_regex_ir by agent (`BFPxdave`) |
 | [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 3 | 1 | 2 | 0 | 44.25% on train_basic_ir by agent (`BFPxdave`) |
-| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 3 | 1 | 2 | 0 | 61.24% on train_regex_ir by agent (`BFPxdave`) |
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 1 | 1 | 0 | 0 | 38.19% on decode_ir by agent (`5t9wKLss`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 1 | 1 | 0 | 0 | 30.82% on encode_ir by agent (`BFPxdave`) |
 
@@ -26,6 +26,16 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 - 5 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - Median model spend per attempt: 0.1372 USD over 8 attempts with a recorded cost.
 
+### perf:train_regex_ir
+
+- 4 attempts by 3 agents (2 rejected, 2 accepted).
+- Best accepted effect: 63.08% on train_regex_ir (ratio 0.3692) by agent (BFPxdave).
+- Accepted changes touched minbpe/regex.py (2).
+- Failed candidates: stale 1, dependency_failed 1.
+- Measured an improvement but still failed (stale): 61.93% on train_regex_ir; another candidate landed on the same parent first.
+- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
+- Median model spend per attempt: 0.1277 USD over 4 attempts with a recorded cost.
+
 ### perf:train_basic_ir
 
 - 3 attempts by 3 agents (2 rejected, 1 accepted).
@@ -36,16 +46,6 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 - Measured an improvement but still failed (stale): 39.43% on train_basic_ir; another candidate landed on the same parent first.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - Median model spend per attempt: 0.1673 USD over 3 attempts with a recorded cost.
-
-### perf:train_regex_ir
-
-- 3 attempts by 3 agents (2 rejected, 1 accepted).
-- Best accepted effect: 61.24% on train_regex_ir (ratio 0.3876) by agent (BFPxdave).
-- Accepted changes touched minbpe/regex.py (1).
-- Failed candidates: stale 1, dependency_failed 1.
-- Measured an improvement but still failed (stale): 61.93% on train_regex_ir; another candidate landed on the same parent first.
-- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.1263 USD over 3 attempts with a recorded cost.
 
 ### perf:decode_ir
 
@@ -64,8 +64,8 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 ## Agents
 
 - agent (`5t9wKLss`): 6 attempts, 3 accepted
+- agent (`BFPxdave`): 6 attempts, 4 accepted
 - agent (`6C8N2z5L`): 5 attempts, 1 accepted
-- agent (`BFPxdave`): 5 attempts, 3 accepted
 
 ## Licence
 
