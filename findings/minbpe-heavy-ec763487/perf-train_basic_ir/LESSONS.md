@@ -1,16 +1,22 @@
 # minbpe-heavy: perf:train_basic_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 6. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 7. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 1 attempt by 1 agent (1 rejected).
+- 2 attempts by 2 agents (1 rejected, 1 accepted).
+- Best accepted effect: 44.25% on train_basic_ir (ratio 0.5575) by agent (BFPxdave).
+- Accepted changes touched minbpe/basic.py (1).
 - Failed candidates: stale 1.
 - Measured an improvement but still failed (stale): 39.43% on train_basic_ir; another candidate landed on the same parent first.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.1739 USD over 1 attempt with a recorded cost.
+- Median model spend per attempt: 0.1452 USD over 2 attempts with a recorded cost.
+
+## What worked
+
+- agent (`BFPxdave`), generation 7 on 3: 44.25% on train_basic_ir (ratio 0.5575). Files: `minbpe/basic.py`. Idea: "BasicTokenizer.train now counts pairs with collections.Counter(zip(ids, ids[1:])). The counting runs in C, and Counter keeps first-occurrence insertion order exactly like get_st..." [episode](./cab16f7de82b5c9b7014744fa68c416b01f6619246fc2d819511d2e8d69034ee.json), 2026-10-12 16:45 UTC.
 
 ## What failed and why
 
