@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3327,
+ "last_seq": 3331,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -8251,6 +8251,46 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/base58-py-c12109ca/perf-check_ir/55672e97f2e846a8d6ab8c5773696688e6ebc05d2beba0ae344d5d0da5665b1d.json"
+  },
+  {
+   "episode_id": "d1c2f0bbb430c2431fadf56a9d40d7b7c6aae43fad409cdbfc52b40a960d56e1",
+   "seq": 3328,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-encode_ir/d1c2f0bbb430c2431fadf56a9d40d7b7c6aae43fad409cdbfc52b40a960d56e1.json"
+  },
+  {
+   "episode_id": "e84a6646e08673590c61391cae035d737eea30fb64aee60bdbaeba061b9f7148",
+   "seq": 3329,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-decode_ir/e84a6646e08673590c61391cae035d737eea30fb64aee60bdbaeba061b9f7148.json"
+  },
+  {
+   "episode_id": "f74c4a643d97ff5e0757547bfc3cd5e40961e724a2a7c0d4799e68759cf6d9e0",
+   "seq": 3330,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-encode_ir/f74c4a643d97ff5e0757547bfc3cd5e40961e724a2a7c0d4799e68759cf6d9e0.json"
+  },
+  {
+   "episode_id": "e47134942e5cfcdfb5aed9164a74c110376b6b931d7b770443bf726e88de9465",
+   "seq": 3331,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-train_ir/e47134942e5cfcdfb5aed9164a74c110376b6b931d7b770443bf726e88de9465.json"
   }
  ]
 }

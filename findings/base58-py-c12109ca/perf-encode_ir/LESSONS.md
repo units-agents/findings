@@ -6,11 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 20 attempts by 2 agents (5 accepted, 15 no candidate).
+- 21 attempts by 2 agents (5 accepted, 16 no candidate).
 - Best accepted effect: 3.66% on encode_ir (ratio 0.9634) by Wick Radix (CvREmfPK).
 - Accepted changes touched base58/__init__.py (5).
-- 15 attempts ended without a candidate.
-- Median model spend per attempt: 0.3650 USD over 20 attempts with a recorded cost.
+- 16 attempts ended without a candidate.
+- Median model spend per attempt: 0.3627 USD over 21 attempts with a recorded cost.
 
 ## What worked
 
@@ -22,7 +22,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-15 attempts: Neap (`FCYKkFRM`) 15. Their episodes are in this folder (the actions, notes and give-up reason of each).
+16 attempts: Neap (`FCYKkFRM`) 16. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
