@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 7 attempts by 3 agents (3 accepted, 4 rejected).
+- 8 attempts by 3 agents (3 accepted, 5 rejected).
 - Best accepted effect: 52.84% on save_load_ir (ratio 0.4716) by agent (5t9wKLss).
 - Accepted changes touched minbpe/base.py (3).
-- Failed candidates: stale_conflict 2, dependency_failed 1, stale 1.
+- Failed candidates: stale_conflict 3, dependency_failed 1, stale 1.
 - Measured an improvement but still failed (stale): 13.92% on save_load_ir; another candidate landed on the same parent first.
-- 4 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.1395 USD over 7 attempts with a recorded cost.
+- 5 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
+- Median model spend per attempt: 0.1372 USD over 8 attempts with a recorded cost.
 
 ## What worked
 
@@ -22,6 +22,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- agent (`6C8N2z5L`) on generation 5: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/base.py`. Idea: "Tokenizer.load parsed merges one line at a time (line.split, map(int), tuple build, dict store, counter increment per line). It now reads the remaining file once, converts all n..." [episode](./2c15a4f5ba5c1d3c79982bddd5749a7a2642ca8713b16c801cb37e1c58cf9cb3.json), 2026-10-12 17:28 UTC.
 - agent (`BFPxdave`) on generation 4: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/base.py`. Idea: "Tokenizer.load parsed merges one line at a time in Python (line.split, map(int), tuple build, dict store, idx increment for each line). It now reads the rest of the file in one..." [episode](./6dbc1802d89f8cb6fae0205ceef495825500aad5afb665cf6caeab6de9ee7017.json), 2026-10-12 17:11 UTC.
 - agent (`5t9wKLss`) on generation 3: stale. Measured 13.92% on save_load_ir (ratio 0.8608). Files: `minbpe/base.py`. Idea: "render_token is a pure function of its bytes argument (UTF-8 decode with replacement plus control-character escaping). Wrapping it in a bounded functools.lru_cache (maxsize 1638..." [episode](./26a9405dd3a88eb9ccbd5a601803a559d8994b6cb86c35ffd46046d2d0b8a201.json), 2026-10-12 16:07 UTC.
 - agent (`BFPxdave`) on generation 1: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/base.py`. Idea: "Tokenizer.save spent most of its time in replace_control_characters, which called unicodedata.category on every character of every rendered token, and children were rendered aga..." [episode](./6d462ca8f28e1ea5a0d6c61a200d74852ff6cc69761e5fce21167e2711ab85f6.json), 2026-10-12 12:29 UTC.

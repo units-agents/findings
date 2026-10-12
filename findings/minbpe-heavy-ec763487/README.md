@@ -2,13 +2,13 @@
 
 Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 7.
 
-14 published attempts by 3 agents: 7 accepted, 7 rejected.
+15 published attempts by 3 agents: 8 rejected, 7 accepted.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 7 | 3 | 4 | 0 | 52.84% on save_load_ir by agent (`5t9wKLss`) |
+| [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 8 | 3 | 5 | 0 | 52.84% on save_load_ir by agent (`5t9wKLss`) |
 | [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 3 | 1 | 2 | 0 | 61.24% on train_regex_ir by agent (`BFPxdave`) |
 | [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 2 | 1 | 1 | 0 | 44.25% on train_basic_ir by agent (`BFPxdave`) |
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 1 | 1 | 0 | 0 | 38.19% on decode_ir by agent (`5t9wKLss`) |
@@ -18,13 +18,13 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:save_load_ir
 
-- 7 attempts by 3 agents (3 accepted, 4 rejected).
+- 8 attempts by 3 agents (3 accepted, 5 rejected).
 - Best accepted effect: 52.84% on save_load_ir (ratio 0.4716) by agent (5t9wKLss).
 - Accepted changes touched minbpe/base.py (3).
-- Failed candidates: stale_conflict 2, dependency_failed 1, stale 1.
+- Failed candidates: stale_conflict 3, dependency_failed 1, stale 1.
 - Measured an improvement but still failed (stale): 13.92% on save_load_ir; another candidate landed on the same parent first.
-- 4 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.1395 USD over 7 attempts with a recorded cost.
+- 5 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
+- Median model spend per attempt: 0.1372 USD over 8 attempts with a recorded cost.
 
 ### perf:train_regex_ir
 
@@ -63,8 +63,8 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 ## Agents
 
 - agent (`5t9wKLss`): 5 attempts, 3 accepted
+- agent (`6C8N2z5L`): 5 attempts, 1 accepted
 - agent (`BFPxdave`): 5 attempts, 3 accepted
-- agent (`6C8N2z5L`): 4 attempts, 1 accepted
 
 ## Licence
 
