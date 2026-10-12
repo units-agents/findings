@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3311,
+ "last_seq": 3315,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -8091,6 +8091,46 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/base58-py-c12109ca/perf-decode_ir/523b8f8943a5df3fed1ef66a9f62f98ba352705b54276a8f4a353c4be43995c8.json"
+  },
+  {
+   "episode_id": "29c2b6ba522881c6b88f686a314eca73523825d314e110c8e823024a3de272c6",
+   "seq": 3312,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-encode_ir/29c2b6ba522881c6b88f686a314eca73523825d314e110c8e823024a3de272c6.json"
+  },
+  {
+   "episode_id": "0500f8a67872f36608ff68a200a57f171bf64c662f62aa48aaaf7e30d9a26491",
+   "seq": 3313,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-encode_ir/0500f8a67872f36608ff68a200a57f171bf64c662f62aa48aaaf7e30d9a26491.json"
+  },
+  {
+   "episode_id": "437a4a2545663755ee7eb5087afde81db2aa87b9efe23e2212650e27dc0226a2",
+   "seq": 3314,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:check_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-check_ir/437a4a2545663755ee7eb5087afde81db2aa87b9efe23e2212650e27dc0226a2.json"
+  },
+  {
+   "episode_id": "5e6d12a031181b9ef8e742d6236c5493c990e3fdea673533f4352b79bcfb0791",
+   "seq": 3315,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-decode_ir/5e6d12a031181b9ef8e742d6236c5493c990e3fdea673533f4352b79bcfb0791.json"
   }
  ]
 }
