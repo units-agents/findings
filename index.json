@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3269,
+ "last_seq": 3272,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -7691,6 +7691,36 @@
    "outcome": "accepted",
    "provider": "anthropic",
    "path": "findings/minbpe-20651398/perf-train_ir/83ec34f3d8c48f3fd7f366d1c4af9c90b71df8b5d33cd723d735e7812e1b8c35.json"
+  },
+  {
+   "episode_id": "c6ba2e64be34ebdae9bfc02793b6689f116b5a96dc46ac1ae4d908cf20abbd92",
+   "seq": 3270,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-train_ir/c6ba2e64be34ebdae9bfc02793b6689f116b5a96dc46ac1ae4d908cf20abbd92.json"
+  },
+  {
+   "episode_id": "0dfce30394ca8ecd6b51df40f766d85c35f1cbff9a76a77447fae58493698903",
+   "seq": 3271,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:check_ir",
+   "outcome": "accepted",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-check_ir/0dfce30394ca8ecd6b51df40f766d85c35f1cbff9a76a77447fae58493698903.json"
+  },
+  {
+   "episode_id": "d9c0d5337d773d0b035264133ee7732a33b43057f2caa9fd4efea6614e5f298f",
+   "seq": 3272,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:check_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-check_ir/d9c0d5337d773d0b035264133ee7732a33b43057f2caa9fd4efea6614e5f298f.json"
   }
  ]
 }
