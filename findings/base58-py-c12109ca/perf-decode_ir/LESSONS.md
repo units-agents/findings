@@ -1,16 +1,16 @@
 # base58-py: perf:decode_ir
 
-Unit `c12109ca42d955b0bbc7e2a3ffbf5ebacd3141687da6b1ed6d814327ef9af1d8` on [https://github.com/keis/base58](https://github.com/keis/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 25. [Unit summary](../README.md).
+Unit `c12109ca42d955b0bbc7e2a3ffbf5ebacd3141687da6b1ed6d814327ef9af1d8` on [https://github.com/keis/base58](https://github.com/keis/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 26. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 19 attempts by 2 agents (3 accepted, 16 no candidate).
+- 20 attempts by 2 agents (3 accepted, 17 no candidate).
 - Best accepted effect: 1.69% on decode_ir (ratio 0.9831) by Neap (FCYKkFRM).
 - Accepted changes touched base58/__init__.py (3).
-- 16 attempts ended without a candidate.
-- Median model spend per attempt: 0.3663 USD over 19 attempts with a recorded cost.
+- 17 attempts ended without a candidate.
+- Median model spend per attempt: 0.3615 USD over 20 attempts with a recorded cost.
 
 ## What worked
 
@@ -20,7 +20,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-16 attempts: Neap (`FCYKkFRM`) 16. Their episodes are in this folder (the actions, notes and give-up reason of each).
+17 attempts: Neap (`FCYKkFRM`) 17. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
