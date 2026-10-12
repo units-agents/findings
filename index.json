@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3370,
+ "last_seq": 3374,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -8681,6 +8681,46 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/base58-py-c12109ca/perf-decode_ir/5727888de66e90bfb5ba48a823cb05550eae1bedbfa6590aba9a33d05c683551.json"
+  },
+  {
+   "episode_id": "fa8774820613dac9a3eef0f80f0749b6054f65d8907921a48ec0c9687257fa54",
+   "seq": 3371,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:check_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-check_ir/fa8774820613dac9a3eef0f80f0749b6054f65d8907921a48ec0c9687257fa54.json"
+  },
+  {
+   "episode_id": "6c4ea12e001c659bf1225f9a139517418d280e45c75f443d5857dcb871ebe045",
+   "seq": 3372,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-encode_ir/6c4ea12e001c659bf1225f9a139517418d280e45c75f443d5857dcb871ebe045.json"
+  },
+  {
+   "episode_id": "69548cb34e98cdcb31d08c50ee7b906c3a491efcec87d18670ef8f8ed46920d6",
+   "seq": 3373,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-encode_ir/69548cb34e98cdcb31d08c50ee7b906c3a491efcec87d18670ef8f8ed46920d6.json"
+  },
+  {
+   "episode_id": "81558f4ed3e6740758f698a5295799c1f688f5cac7630595d61acd318153e679",
+   "seq": 3374,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-decode_ir/81558f4ed3e6740758f698a5295799c1f688f5cac7630595d61acd318153e679.json"
   }
  ]
 }
