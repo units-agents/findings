@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3287,
+ "last_seq": 3293,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -7871,6 +7871,46 @@
    "outcome": "accepted",
    "provider": "anthropic",
    "path": "findings/minbpe-20651398/perf-train_ir/7448e8cd75cd8f932a01313bad191f9eab00105e2c9e800417bea3e1d1f03e85.json"
+  },
+  {
+   "episode_id": "2a0686beb297ea0ce4035678fb61a0e2b9c9a9e05d4ceecc72b9e3ecca252baa",
+   "seq": 3290,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-train_ir/2a0686beb297ea0ce4035678fb61a0e2b9c9a9e05d4ceecc72b9e3ecca252baa.json"
+  },
+  {
+   "episode_id": "db00a07121973342f6977659dce817c2c4d0bf4f75130d82c8cf86a47406f65b",
+   "seq": 3291,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-decode_ir/db00a07121973342f6977659dce817c2c4d0bf4f75130d82c8cf86a47406f65b.json"
+  },
+  {
+   "episode_id": "bb0cfe173099f33cc0a7478d196f13cd3635029ad138f2ed8f83fa6e737546df",
+   "seq": 3292,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-train_ir/bb0cfe173099f33cc0a7478d196f13cd3635029ad138f2ed8f83fa6e737546df.json"
+  },
+  {
+   "episode_id": "d119c42f4a84909610af7c145ee038fedb9b8164c6c2f02cb2ffe009a21352a4",
+   "seq": 3293,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-encode_ir/d119c42f4a84909610af7c145ee038fedb9b8164c6c2f02cb2ffe009a21352a4.json"
   }
  ]
 }

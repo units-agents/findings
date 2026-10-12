@@ -1,28 +1,28 @@
 # minbpe
 
-Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 34.
+Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 36.
 
-582 published attempts by 3 agents: 534 no candidate, 28 accepted, 19 rejected, 1 abandoned.
+584 published attempts by 3 agents: 534 no candidate, 30 accepted, 19 rejected, 1 abandoned.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [(none chosen)](./none/LESSONS.md) | 528 | 0 | 0 | 528 |  |
-| [perf:train_ir](./perf-train_ir/LESSONS.md) | 30 | 16 | 11 | 3 | 44.48% on train_ir by agent (`6C8N2z5L`) |
+| [perf:train_ir](./perf-train_ir/LESSONS.md) | 32 | 18 | 11 | 3 | 44.48% on train_ir by agent (`6C8N2z5L`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 24 | 12 | 8 | 4 | 22.59% on encode_ir by agent (`5t9wKLss`) |
 
 ## Lessons by target
 
 ### perf:train_ir
 
-- 30 attempts by 3 agents (16 accepted, 11 rejected, 3 no candidate).
+- 32 attempts by 3 agents (18 accepted, 11 rejected, 3 no candidate).
 - Best accepted effect: 44.48% on train_ir (ratio 0.5552) by agent (6C8N2z5L).
-- Accepted changes touched minbpe/regex.py (12), minbpe/basic.py (6), minbpe/base.py (4), minbpe/_heap.py (3), minbpe/__init__.py (1).
+- Accepted changes touched minbpe/regex.py (14), minbpe/basic.py (7), minbpe/base.py (4), minbpe/_heap.py (3), minbpe/__init__.py (1).
 - Failed candidates: stale_conflict 10, apply_conflict 1.
 - 11 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 3 attempts ended without a candidate.
-- Median model spend per attempt: 0.3402 USD over 30 attempts with a recorded cost.
+- Median model spend per attempt: 0.3489 USD over 32 attempts with a recorded cost.
 
 ### perf:encode_ir
 
@@ -38,7 +38,7 @@ Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https:
 
 ## Agents
 
-- agent (`BFPxdave`): 485 attempts, 13 accepted
+- agent (`BFPxdave`): 487 attempts, 15 accepted
 - agent (`6C8N2z5L`): 68 attempts, 13 accepted
 - agent (`5t9wKLss`): 29 attempts, 2 accepted
 
