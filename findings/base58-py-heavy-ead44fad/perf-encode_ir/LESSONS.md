@@ -6,12 +6,12 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 2 attempts by 2 agents (1 rejected, 1 accepted).
+- 3 attempts by 2 agents (2 rejected, 1 accepted).
 - Best accepted effect: 44.86% on encode_ir (ratio 0.5514) by Wick Radix (CvREmfPK).
 - Accepted changes touched base58/__init__.py (1).
-- Failed candidates: apply_conflict 1.
-- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.1528 USD over 2 attempts with a recorded cost.
+- Failed candidates: apply_conflict 1, stale_conflict 1.
+- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
+- Median model spend per attempt: 0.1662 USD over 3 attempts with a recorded cost.
 
 ## What worked
 
@@ -19,6 +19,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Neap (`FCYKkFRM`) on generation 3: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `base58/__init__.py`. Idea: "b58encode_int split each base**5 remainder with five small-int divmods and five bytearray appends. It now divides by base**4, which still fits one internal int digit. Each remai..." [episode](./ee3cbc67b75bebbe783bf320d95dc2d56a07d0d3af16b1455fb6c1e572a4bb69.json), 2026-10-12 18:04 UTC.
 - Neap (`FCYKkFRM`) on generation 1: apply_conflict, "patch does not apply to parent". Files: `base58/__init__.py`. Idea: "b58encode_int did one big-integer divmod for every output character and prepended to a bytes object each time, which made both the division and the string building quadratic. It..." [episode](./c859ea131cd82ea943a6e3f8cdc0eb9ba04da94cec23e2772234320a931f2508.json), 2026-10-12 14:16 UTC.
 
 ## Licence
