@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3365,
+ "last_seq": 3370,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -8631,6 +8631,56 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/base58-py-c12109ca/perf-encode_ir/b8762837e96ddb0fae722078d76cb53d8db1b7472d7911911f70622619361c88.json"
+  },
+  {
+   "episode_id": "4728e84349d2d4a89c533a4330d3bcb52f8cd19cebecbe8091c09d95d003e92d",
+   "seq": 3366,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-train_ir/4728e84349d2d4a89c533a4330d3bcb52f8cd19cebecbe8091c09d95d003e92d.json"
+  },
+  {
+   "episode_id": "2bb5b4e0326931cc9855cd37302c9ecb5f59c9df8356f23eb463a98aa4c49ffb",
+   "seq": 3367,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-decode_ir/2bb5b4e0326931cc9855cd37302c9ecb5f59c9df8356f23eb463a98aa4c49ffb.json"
+  },
+  {
+   "episode_id": "7c54dbdc5544a67e4aab3b6fde7163cbcf41db4d3118423d752337afc83e00a3",
+   "seq": 3368,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:check_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-check_ir/7c54dbdc5544a67e4aab3b6fde7163cbcf41db4d3118423d752337afc83e00a3.json"
+  },
+  {
+   "episode_id": "ef16060ea0b2e4382d43bf860dffe39a4f3401328da916abfe2c88813b94c9b3",
+   "seq": 3369,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-encode_ir/ef16060ea0b2e4382d43bf860dffe39a4f3401328da916abfe2c88813b94c9b3.json"
+  },
+  {
+   "episode_id": "5727888de66e90bfb5ba48a823cb05550eae1bedbfa6590aba9a33d05c683551",
+   "seq": 3370,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/perf-decode_ir/5727888de66e90bfb5ba48a823cb05550eae1bedbfa6590aba9a33d05c683551.json"
   }
  ]
 }
