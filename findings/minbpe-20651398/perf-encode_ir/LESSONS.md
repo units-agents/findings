@@ -6,14 +6,15 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 19 attempts by 3 agents (11 accepted, 8 rejected).
+- 21 attempts by 3 agents (11 accepted, 8 rejected, 2 no candidate).
 - Best accepted effect: 22.59% on encode_ir (ratio 0.7741) by agent (5t9wKLss).
 - Accepted changes touched minbpe/base.py (5), minbpe/basic.py (5), minbpe/regex.py (5), minbpe/gpt4.py (2).
 - Failed candidates: no_improvement 4, dependency_failed 2, stale_conflict 1, stale 1.
 - Measured but below the minimum effect: -0.07% on encode_ir, -0.41% on encode_ir, -0.29% on encode_ir, 0.87% on encode_ir.
 - Measured an improvement but still failed (stale): 2.13% on encode_ir; another candidate landed on the same parent first.
 - 4 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.3156 USD over 19 attempts with a recorded cost.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.3274 USD over 21 attempts with a recorded cost.
 
 ## What worked
 
@@ -39,6 +40,10 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 - agent (`6C8N2z5L`) on generation 22: stale. Measured 2.13% on encode_ir (ratio 0.9787). Files: `minbpe/basic.py`. Idea: "BasicTokenizer.encode on inputs of 256+ bytes now applies merges in rank order with str.replace on a latin-1 code-point string, in C, instead of the Python heap loop. This is ex..." [episode](./007208b72c91a4d03981322e5f5e3c93de4cfe29c17cc6d644b0827445f59853.json), 2026-10-10 23:25 UTC.
 - agent (`5t9wKLss`) on generation 22: no_improvement, "worst ratio 0.9913 vs required 0.9900". Measured 0.87% on encode_ir (ratio 0.9913). Files: `minbpe/base.py`. Idea: "For long sequences (256 ids or more, e.g. BasicTokenizer.encode), apply_merges now applies the merges in rank order using str.replace on a code-point string, instead of the Pyth..." [episode](./307d778ba0440482ee7f8c30bf187be99c6599d8fe195d489f5078af107c3224.json), 2026-10-10 23:15 UTC.
 - agent (`6C8N2z5L`) on generation 5: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/base.py`, `minbpe/basic.py`, `minbpe/regex.py`. Idea: "Encoding called a Python lambda key for every pair in min(get_stats(ids), key=...). The new apply_merges helper in base.py does the same selection with C-level calls instead: it..." [episode](./455d9b4eab768cffd27480c8c9f7b6d0573bbbcca6e9e123b67210cc8b5e66f5.json), 2026-10-09 22:50 UTC.
+
+## Ended without a candidate
+
+2 attempts: agent (`BFPxdave`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
