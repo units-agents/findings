@@ -6,11 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 5 attempts by 2 agents (3 accepted, 2 no candidate).
+- 6 attempts by 2 agents (3 accepted, 3 no candidate).
 - Best accepted effect: 1.69% on decode_ir (ratio 0.9831) by Neap (FCYKkFRM).
 - Accepted changes touched base58/__init__.py (3).
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.3663 USD over 5 attempts with a recorded cost.
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.3572 USD over 6 attempts with a recorded cost.
 
 ## What worked
 
@@ -20,7 +20,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-2 attempts: Neap (`FCYKkFRM`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
+3 attempts: Neap (`FCYKkFRM`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
