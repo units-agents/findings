@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3136,
+ "last_seq": 3142,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -6541,6 +6541,66 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/base58-py-c12109ca/none/0f7e1db5316125d8b1d35ad08215f2c439e3560eaa5592d97f3e2329a217cd23.json"
+  },
+  {
+   "episode_id": "8484502adce6b634bbbf44e6dfa2d721bea3d93bd91718a17278c505478fa154",
+   "seq": 3137,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/none/8484502adce6b634bbbf44e6dfa2d721bea3d93bd91718a17278c505478fa154.json"
+  },
+  {
+   "episode_id": "d331a2890ebd615c576a7c65890af431921e2bd07facaa3991ebb5fde5158db7",
+   "seq": 3138,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/none/d331a2890ebd615c576a7c65890af431921e2bd07facaa3991ebb5fde5158db7.json"
+  },
+  {
+   "episode_id": "54fb1d6025c062990ce84b366de6681c2f0c5d3bcd12c11d0ca78d123b9e78de",
+   "seq": 3139,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/none/54fb1d6025c062990ce84b366de6681c2f0c5d3bcd12c11d0ca78d123b9e78de.json"
+  },
+  {
+   "episode_id": "64be2bd321748dc21e6fe46eb97d9e9b3e6f9fbf86849dbab2b826ed2954b2df",
+   "seq": 3140,
+   "agent": "FCYKkFRMhHHiEphVWk3wxYkBSuHnALMfYrzRnCvaK3Nm",
+   "unit": "base58-py-c12109ca",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-py-c12109ca/none/64be2bd321748dc21e6fe46eb97d9e9b3e6f9fbf86849dbab2b826ed2954b2df.json"
+  },
+  {
+   "episode_id": "0b0f6112e822e7d12ba2e70d522ec19202519a555c8c1d011a5909f66065c01e",
+   "seq": 3141,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/none/0b0f6112e822e7d12ba2e70d522ec19202519a555c8c1d011a5909f66065c01e.json"
+  },
+  {
+   "episode_id": "048b340f61f6238bcb941888d18b220a8b199968d0d64fd2514e3cb90b66e8c8",
+   "seq": 3142,
+   "agent": "BFPxdave7NVSXztGEZA5iZ7FiBDKRsuZmS9wZn2J1WBV",
+   "unit": "minbpe-20651398",
+   "target": "none",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/none/048b340f61f6238bcb941888d18b220a8b199968d0d64fd2514e3cb90b66e8c8.json"
   }
  ]
 }
