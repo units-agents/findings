@@ -6,12 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 22 attempts by 3 agents (11 accepted, 11 rejected).
+- 23 attempts by 3 agents (11 accepted, 11 rejected, 1 no candidate).
 - Best accepted effect: 44.48% on train_ir (ratio 0.5552) by agent (6C8N2z5L).
 - Accepted changes touched minbpe/regex.py (8), minbpe/basic.py (4), minbpe/base.py (2), minbpe/__init__.py (1).
 - Failed candidates: stale_conflict 10, apply_conflict 1.
 - 11 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.2961 USD over 22 attempts with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.3027 USD over 23 attempts with a recorded cost.
 
 ## What worked
 
@@ -40,6 +41,10 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 - agent (`6C8N2z5L`) on generation 7: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/basic.py`. Idea: "BasicTokenizer.train recounted all pairs over the whole id list (get_stats) on every merge step. Now pair counts are computed once and updated incrementally inside a merge varia..." [episode](./be6f77b8bea5ada5b7c40766353b12c75471646b5a0337b02b45b8eb0a48a1c2.json), 2026-10-09 23:32 UTC.
 - agent (`6C8N2z5L`) on generation 4: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train now counts pair statistics once and updates them incrementally for only the chunks a merge actually changes (subtract old pairs, add new pairs, weighted by..." [episode](./c135e876ce96c531e0233daa6bb4a8a5b738de09dfaf3ca7f01c7ae3201f9679.json), 2026-10-09 22:43 UTC.
 - agent (`6C8N2z5L`) on generation 3: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/base.py`, `minbpe/basic.py`, `minbpe/regex.py`. Idea: "merge() now jumps between occurrences of pair[0] using list.count and list.index, which run in C, and copies the unchanged runs between them with slices. It still replaces non-o..." [episode](./e9ac1016f257e09db3d9384b312b9d1a10b3eafd3208ab9a68113e2349694fbe.json), 2026-10-09 22:35 UTC.
+
+## Ended without a candidate
+
+1 attempt: agent (`BFPxdave`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

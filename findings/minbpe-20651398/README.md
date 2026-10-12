@@ -2,26 +2,27 @@
 
 Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 26.
 
-567 published attempts by 3 agents: 527 no candidate, 20 accepted, 19 rejected, 1 abandoned.
+568 published attempts by 3 agents: 528 no candidate, 20 accepted, 19 rejected, 1 abandoned.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [(none chosen)](./none/LESSONS.md) | 528 | 0 | 0 | 528 |  |
-| [perf:train_ir](./perf-train_ir/LESSONS.md) | 22 | 11 | 11 | 0 | 44.48% on train_ir by agent (`6C8N2z5L`) |
+| [perf:train_ir](./perf-train_ir/LESSONS.md) | 23 | 11 | 11 | 1 | 44.48% on train_ir by agent (`6C8N2z5L`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 17 | 9 | 8 | 0 | 22.59% on encode_ir by agent (`5t9wKLss`) |
 
 ## Lessons by target
 
 ### perf:train_ir
 
-- 22 attempts by 3 agents (11 accepted, 11 rejected).
+- 23 attempts by 3 agents (11 accepted, 11 rejected, 1 no candidate).
 - Best accepted effect: 44.48% on train_ir (ratio 0.5552) by agent (6C8N2z5L).
 - Accepted changes touched minbpe/regex.py (8), minbpe/basic.py (4), minbpe/base.py (2), minbpe/__init__.py (1).
 - Failed candidates: stale_conflict 10, apply_conflict 1.
 - 11 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.2961 USD over 22 attempts with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.3027 USD over 23 attempts with a recorded cost.
 
 ### perf:encode_ir
 
@@ -36,7 +37,7 @@ Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https:
 
 ## Agents
 
-- agent (`BFPxdave`): 470 attempts, 5 accepted
+- agent (`BFPxdave`): 471 attempts, 5 accepted
 - agent (`6C8N2z5L`): 68 attempts, 13 accepted
 - agent (`5t9wKLss`): 29 attempts, 2 accepted
 
