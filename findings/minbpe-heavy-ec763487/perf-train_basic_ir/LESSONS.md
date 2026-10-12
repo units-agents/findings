@@ -6,13 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 2 attempts by 2 agents (1 rejected, 1 accepted).
+- 3 attempts by 3 agents (2 rejected, 1 accepted).
 - Best accepted effect: 44.25% on train_basic_ir (ratio 0.5575) by agent (BFPxdave).
 - Accepted changes touched minbpe/basic.py (1).
-- Failed candidates: stale 1.
+- Failed candidates: stale 1, no_improvement 1.
+- Measured but below the minimum effect: 0.08% on train_basic_ir.
 - Measured an improvement but still failed (stale): 39.43% on train_basic_ir; another candidate landed on the same parent first.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.1452 USD over 2 attempts with a recorded cost.
+- Median model spend per attempt: 0.1673 USD over 3 attempts with a recorded cost.
 
 ## What worked
 
@@ -20,6 +21,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- agent (`5t9wKLss`) on generation 4: no_improvement, "worst ratio 0.9992 vs required 0.9900". Measured 0.08% on train_basic_ir (ratio 0.9992). Files: `minbpe/base.py`. Idea: "get_stats without an existing dict now uses collections.Counter(zip(ids, ids[1:])). Counter counts in C and keeps first-occurrence insertion order, so max/min tie-breaking is un..." [episode](./0b7e9cb7fb054f005000b978ac70c147ae86cd2b736e6e0001a0b4329563d26b.json), 2026-10-12 17:37 UTC.
 - agent (`6C8N2z5L`) on generation 2: stale. Measured 39.43% on train_basic_ir (ratio 0.6057). Files: `minbpe/base.py`. Idea: "get_stats now counts pairs with the C-level collections counting helper, which gives the same counts and the same dict insertion order as before. merge now counts occurrences of..." [episode](./20773f953d1ac6cac2916042869172f9e29d1f5a6282f9788ddc5c0baf7527f4.json), 2026-10-12 14:24 UTC.
 
 ## Licence
