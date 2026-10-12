@@ -6,14 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 46 attempts by 3 agents (20 accepted, 13 rejected, 13 no candidate).
+- 47 attempts by 3 agents (20 accepted, 13 rejected, 14 no candidate).
 - Best accepted effect: 44.48% on train_ir (ratio 0.5552) by agent (6C8N2z5L).
 - Accepted changes touched minbpe/regex.py (16), minbpe/basic.py (9), minbpe/base.py (6), minbpe/_heap.py (5), minbpe/_slow.py (2).
 - Failed candidates: stale_conflict 10, no_improvement 2, apply_conflict 1.
 - Measured but below the minimum effect: 0.92% on train_ir, 0.98% on train_ir.
 - 11 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 13 attempts ended without a candidate.
-- Median model spend per attempt: 0.3745 USD over 46 attempts with a recorded cost.
+- 14 attempts ended without a candidate.
+- Median model spend per attempt: 0.3770 USD over 47 attempts with a recorded cost.
 
 ## What worked
 
@@ -56,7 +56,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-13 attempts: agent (`BFPxdave`) 12, agent (`5t9wKLss`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+14 attempts: agent (`BFPxdave`) 12, agent (`5t9wKLss`) 1, agent (`6C8N2z5L`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
