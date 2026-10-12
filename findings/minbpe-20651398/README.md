@@ -2,27 +2,27 @@
 
 Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 39.
 
-590 published attempts by 3 agents: 536 no candidate, 33 accepted, 20 rejected, 1 abandoned.
+591 published attempts by 3 agents: 537 no candidate, 33 accepted, 20 rejected, 1 abandoned.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [(none chosen)](./none/LESSONS.md) | 528 | 0 | 0 | 528 |  |
-| [perf:train_ir](./perf-train_ir/LESSONS.md) | 35 | 20 | 11 | 4 | 44.48% on train_ir by agent (`6C8N2z5L`) |
+| [perf:train_ir](./perf-train_ir/LESSONS.md) | 36 | 20 | 11 | 5 | 44.48% on train_ir by agent (`6C8N2z5L`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 27 | 13 | 9 | 5 | 22.59% on encode_ir by agent (`5t9wKLss`) |
 
 ## Lessons by target
 
 ### perf:train_ir
 
-- 35 attempts by 3 agents (20 accepted, 11 rejected, 4 no candidate).
+- 36 attempts by 3 agents (20 accepted, 11 rejected, 5 no candidate).
 - Best accepted effect: 44.48% on train_ir (ratio 0.5552) by agent (6C8N2z5L).
 - Accepted changes touched minbpe/regex.py (16), minbpe/basic.py (9), minbpe/base.py (6), minbpe/_heap.py (5), minbpe/_slow.py (2).
 - Failed candidates: stale_conflict 10, apply_conflict 1.
 - 11 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.3490 USD over 35 attempts with a recorded cost.
+- 5 attempts ended without a candidate.
+- Median model spend per attempt: 0.3494 USD over 36 attempts with a recorded cost.
 
 ### perf:encode_ir
 
@@ -38,7 +38,7 @@ Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https:
 
 ## Agents
 
-- agent (`BFPxdave`): 493 attempts, 18 accepted
+- agent (`BFPxdave`): 494 attempts, 18 accepted
 - agent (`6C8N2z5L`): 68 attempts, 13 accepted
 - agent (`5t9wKLss`): 29 attempts, 2 accepted
 
