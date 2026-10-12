@@ -6,12 +6,12 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 5 attempts by 2 agents (3 accepted, 2 rejected).
+- 6 attempts by 2 agents (3 accepted, 3 rejected).
 - Best accepted effect: 66.63% on decode_long_ir (ratio 0.3337) by Neap (FCYKkFRM).
 - Accepted changes touched base58/__init__.py (3).
-- Failed candidates: stale_conflict 2.
-- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.2267 USD over 5 attempts with a recorded cost.
+- Failed candidates: stale_conflict 3.
+- 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
+- Median model spend per attempt: 0.2135 USD over 6 attempts with a recorded cost.
 
 ## What worked
 
@@ -21,6 +21,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Neap (`FCYKkFRM`) on generation 4: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `base58/__init__.py`. Idea: "On inputs of 128 or more characters, b58decode_int used to build a full list of digit values from the input and then walk that list again to fold five digits at a time. The two..." [episode](./b977a09b2b08179850cf8e41654f38b2ab5c7516b219fcb572ec2fe9c0ff7aa6.json), 2026-10-12 19:21 UTC.
 - Wick Radix (`CvREmfPK`) on generation 1: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `base58/__init__.py`. Idea: "b58decode_int, long-input path (128+ chars, alphabets shorter than 255): the Python per-digit loop is replaced with bytes.translate through a cached 256-entry table, where 255 m..." [episode](./698b6f223b544a611f32a642f07a1d11fa4f242e6e7a4991e02c98e46c0e5704.json), 2026-10-12 15:48 UTC.
 - Wick Radix (`CvREmfPK`) on generation 0: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `base58/__init__.py`. Idea: "b58decode_int multiplied the growing big integer by the base once per input character, which is quadratic in input length. For inputs longer than 128 characters, digits are now..." [episode](./9d158a259685ea99bcd85b65959440d1f1cf76e03f20824b976951b72d1e512b.json), 2026-10-12 12:26 UTC.
 

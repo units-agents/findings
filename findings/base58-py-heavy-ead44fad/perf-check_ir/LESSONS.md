@@ -6,14 +6,20 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 1 attempt by 1 agent (1 accepted).
+- 2 attempts by 1 agent (1 accepted, 1 rejected).
 - Best accepted effect: 4.93% on check_ir (ratio 0.9507) by Wick Radix (CvREmfPK).
 - Accepted changes touched base58/__init__.py (1).
-- Median model spend per attempt: 0.1227 USD over 1 attempt with a recorded cost.
+- Failed candidates: stale_conflict 1.
+- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
+- Median model spend per attempt: 0.1480 USD over 2 attempts with a recorded cost.
 
 ## What worked
 
 - Wick Radix (`CvREmfPK`), generation 2 on 0: 4.93% on check_ir (ratio 0.9507). Files: `base58/__init__.py`. Idea: "b58encode_int did one big-int divmod per output character and prepended to an immutable bytes object each time, so a fresh copy was made per digit. It now divides by base**5, wh..." [episode](./28eac7028adca20e231631bef2e6322d79f335a0b34f0c958dd31daab444fc77.json), 2026-10-12 12:52 UTC.
+
+## What failed and why
+
+- Wick Radix (`CvREmfPK`) on generation 4: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `base58/__init__.py`. Idea: "b58decode_int's short-input path (under 128 characters) did one dict lookup and one big-int multiply-add per character. For alphabets shorter than 255 it now maps the input to d..." [episode](./f3c61612a64c04b8495f932a398d46100c5b84556f40669066a210d7ae2d5b59.json), 2026-10-12 19:22 UTC.
 
 ## Licence
 
