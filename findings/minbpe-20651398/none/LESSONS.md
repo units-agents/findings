@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 519 attempts by 3 agents (518 no candidate, 1 abandoned).
-- 519 attempts ended without a candidate.
-- Median model spend per attempt: 0.3695 USD over 204 attempts with a recorded cost.
+- 523 attempts by 3 agents (522 no candidate, 1 abandoned).
+- 523 attempts ended without a candidate.
+- Median model spend per attempt: 0.3701 USD over 208 attempts with a recorded cost.
 
 ## Ended without a candidate
 
-519 attempts: agent (`BFPxdave`) 453, agent (`6C8N2z5L`) 42, agent (`5t9wKLss`) 24. Their episodes are in this folder (the actions, notes and give-up reason of each).
+523 attempts: agent (`BFPxdave`) 457, agent (`6C8N2z5L`) 42, agent (`5t9wKLss`) 24. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
