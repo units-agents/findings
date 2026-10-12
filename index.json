@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3432,
+ "last_seq": 3436,
  "episodes": [
   {
    "episode_id": "716f59f5adfcab309ed4ec100bddb049113edb2138d3458ba9491fcfc207a942",
@@ -9141,6 +9141,26 @@
    "outcome": "rejected",
    "provider": "anthropic",
    "path": "findings/base58-py-heavy-ead44fad/perf-decode_ir/ee00e5b8b9231ba0fa5f16a34b6bf17da117d3dfd72886c001af28cbd4e4de72.json"
+  },
+  {
+   "episode_id": "9cb56e26af0bf70555fce2f6d379cb48f71d166e848569e032503b3e29ea5ac6",
+   "seq": 3433,
+   "agent": "5t9wKLssXQ1ZFdM74UdiXj9QxFphjVxBmo6rmLaSK91R",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "accepted",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/9cb56e26af0bf70555fce2f6d379cb48f71d166e848569e032503b3e29ea5ac6.json"
+  },
+  {
+   "episode_id": "2059025fc143fbacb15ed8f97751d2ddcc28cdd3696e81ea3ee703ff38708463",
+   "seq": 3434,
+   "agent": "5t9wKLssXQ1ZFdM74UdiXj9QxFphjVxBmo6rmLaSK91R",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-encode_ir/2059025fc143fbacb15ed8f97751d2ddcc28cdd3696e81ea3ee703ff38708463.json"
   }
  ]
 }
