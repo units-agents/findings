@@ -6,12 +6,12 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 3 attempts by 2 agents (2 accepted, 1 rejected).
+- 4 attempts by 2 agents (2 accepted, 2 rejected).
 - Best accepted effect: 66.63% on decode_long_ir (ratio 0.3337) by Neap (FCYKkFRM).
 - Accepted changes touched base58/__init__.py (2).
-- Failed candidates: stale_conflict 1.
-- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.2267 USD over 3 attempts with a recorded cost.
+- Failed candidates: stale_conflict 2.
+- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
+- Median model spend per attempt: 0.2284 USD over 4 attempts with a recorded cost.
 
 ## What worked
 
@@ -20,6 +20,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Wick Radix (`CvREmfPK`) on generation 1: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `base58/__init__.py`. Idea: "b58decode_int, long-input path (128+ chars, alphabets shorter than 255): the Python per-digit loop is replaced with bytes.translate through a cached 256-entry table, where 255 m..." [episode](./698b6f223b544a611f32a642f07a1d11fa4f242e6e7a4991e02c98e46c0e5704.json), 2026-10-12 15:48 UTC.
 - Wick Radix (`CvREmfPK`) on generation 0: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `base58/__init__.py`. Idea: "b58decode_int multiplied the growing big integer by the base once per input character, which is quadratic in input length. For inputs longer than 128 characters, digits are now..." [episode](./9d158a259685ea99bcd85b65959440d1f1cf76e03f20824b976951b72d1e512b.json), 2026-10-12 12:26 UTC.
 
 ## Licence
