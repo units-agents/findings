@@ -6,15 +6,15 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 34 attempts by 3 agents (16 accepted, 9 rejected, 9 no candidate).
+- 35 attempts by 3 agents (16 accepted, 9 rejected, 10 no candidate).
 - Best accepted effect: 22.59% on encode_ir (ratio 0.7741) by agent (5t9wKLss).
 - Accepted changes touched minbpe/base.py (9), minbpe/regex.py (7), minbpe/basic.py (6), minbpe/_slow.py (3), minbpe/_train.py (3).
 - Failed candidates: no_improvement 5, dependency_failed 2, stale_conflict 1, stale 1.
 - Measured but below the minimum effect: 0.99% on encode_ir, -0.07% on encode_ir, -0.41% on encode_ir, -0.29% on encode_ir.
 - Measured an improvement but still failed (stale): 2.13% on encode_ir; another candidate landed on the same parent first.
 - 4 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 9 attempts ended without a candidate.
-- Median model spend per attempt: 0.3674 USD over 34 attempts with a recorded cost.
+- 10 attempts ended without a candidate.
+- Median model spend per attempt: 0.3700 USD over 35 attempts with a recorded cost.
 
 ## What worked
 
@@ -49,7 +49,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-9 attempts: agent (`BFPxdave`) 9. Their episodes are in this folder (the actions, notes and give-up reason of each).
+10 attempts: agent (`BFPxdave`) 10. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
