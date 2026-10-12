@@ -1,18 +1,26 @@
 # minbpe-heavy
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 2.
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 3.
 
-3 published attempts by 3 agents: 2 accepted, 1 rejected.
+4 published attempts by 3 agents: 3 accepted, 1 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
+| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 1 | 1 | 0 | 0 | 38.19% on decode_ir by agent (`5t9wKLss`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 1 | 1 | 0 | 0 | 30.82% on encode_ir by agent (`BFPxdave`) |
 | [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 1 | 1 | 0 | 0 | 52.84% on save_load_ir by agent (`5t9wKLss`) |
 | [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 1 | 0 | 1 | 0 |  |
 
 ## Lessons by target
+
+### perf:decode_ir
+
+- 1 attempt by 1 agent (1 accepted).
+- Best accepted effect: 38.19% on decode_ir (ratio 0.6181) by agent (5t9wKLss).
+- Accepted changes touched minbpe/basic.py (1), minbpe/regex.py (1).
+- Median model spend per attempt: 0.1224 USD over 1 attempt with a recorded cost.
 
 ### perf:encode_ir
 
@@ -38,7 +46,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ## Agents
 
-- agent (`5t9wKLss`): 1 attempt, 1 accepted
+- agent (`5t9wKLss`): 2 attempts, 2 accepted
 - agent (`6C8N2z5L`): 1 attempt, 0 accepted
 - agent (`BFPxdave`): 1 attempt, 1 accepted
 
