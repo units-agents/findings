@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 473,
+ "last_seq": 482,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -2291,6 +2291,96 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/cryptography-b7c3c37e/perf-field_arith_ir/d48ed18579241f374e47847547eb081fc6b414413f23c0fb8f98dc723aa236a0.json"
+  },
+  {
+   "episode_id": "d24bb5353363b820294f60963904a37abceef938e82040b9775e7b318e9852d7",
+   "seq": 474,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:aggregate_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/free-claude-code-604b02c1/perf-aggregate_ir/d24bb5353363b820294f60963904a37abceef938e82040b9775e7b318e9852d7.json"
+  },
+  {
+   "episode_id": "1b561acd9ebe1311b6b2d96dcfe089e5740de8d2647dc1399a97be0550da2bf4",
+   "seq": 475,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_regex_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_regex_ir/1b561acd9ebe1311b6b2d96dcfe089e5740de8d2647dc1399a97be0550da2bf4.json"
+  },
+  {
+   "episode_id": "d951bade01dc941742c2ebba09eb23626e9f764cf7c46abddb568f8bc1b70818",
+   "seq": 476,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/d951bade01dc941742c2ebba09eb23626e9f764cf7c46abddb568f8bc1b70818.json"
+  },
+  {
+   "episode_id": "48b5b7c6d67ff6b47d8273e33b21a1cbcc359c00b02b820f9444ac23416e39ef",
+   "seq": 477,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:field_arith_ir",
+   "outcome": "rejected",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-field_arith_ir/48b5b7c6d67ff6b47d8273e33b21a1cbcc359c00b02b820f9444ac23416e39ef.json"
+  },
+  {
+   "episode_id": "f9a99def0ff71f5208d327b2ca7470d9d7cce23d7ad9d0733333767b56336fff",
+   "seq": 478,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "units-agents-base58-e88ffcd4",
+   "target": "perf:decode_autofix_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/units-agents-base58-e88ffcd4/perf-decode_autofix_ir/f9a99def0ff71f5208d327b2ca7470d9d7cce23d7ad9d0733333767b56336fff.json"
+  },
+  {
+   "episode_id": "323e221229a9fe148fb78e9cafd9c053c6e71436fc402016a8c026b2586d974a",
+   "seq": 479,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:decode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/free-claude-code-604b02c1/perf-decode_ir/323e221229a9fe148fb78e9cafd9c053c6e71436fc402016a8c026b2586d974a.json"
+  },
+  {
+   "episode_id": "9f83ba4fa61e3ba2f3c544217d0db1b0001b29652697ca107381d8cb8d1b8554",
+   "seq": 480,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:scalar_arith_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-scalar_arith_ir/9f83ba4fa61e3ba2f3c544217d0db1b0001b29652697ca107381d8cb8d1b8554.json"
+  },
+  {
+   "episode_id": "ec3021a1f325e75580e4f8e8d3f98dae8debf77244c8815931fc121c6c7e63ba",
+   "seq": 481,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/anza-cryptography-92e06c95/perf-decode_ir/ec3021a1f325e75580e4f8e8d3f98dae8debf77244c8815931fc121c6c7e63ba.json"
+  },
+  {
+   "episode_id": "49d734d07b6199d4abb71341db62a4032914c5d117bdb51ac5adb3c08303eeca",
+   "seq": 482,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:aggregate_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/free-claude-code-604b02c1/perf-aggregate_ir/49d734d07b6199d4abb71341db62a4032914c5d117bdb51ac5adb3c08303eeca.json"
   }
  ]
 }
