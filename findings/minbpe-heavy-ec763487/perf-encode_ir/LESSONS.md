@@ -6,10 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 4 attempts by 1 agent (4 accepted).
+- 5 attempts by 1 agent (4 accepted, 1 no candidate).
 - Best accepted effect: 24.45% on encode_ir (ratio 0.7555) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/basic.py (4), minbpe/regex.py (4), minbpe/base.py (1), minbpe/gpt4.py (1).
-- Median model spend per attempt: 0.3230 USD over 4 attempts with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.3377 USD over 5 attempts with a recorded cost.
 
 ## What worked
 
@@ -17,6 +18,10 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 - Holnotch (`HHxDgMPd`), generation 6 on 5: 9.58% on encode_ir (ratio 0.9042). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "Inline the selected pair replacement in the BasicTokenizer and RegexTokenizer encode loops. Encoding already knows the selected pair and token id, so it can build the next id li..." [episode](./a1fcff0ab2aacf2f902848ff681d74413706814a92e22b0341806f30f703e3fa.json), 2026-10-13 01:14 UTC.
 - Holnotch (`HHxDgMPd`), generation 5 on 2: 20.23% on encode_ir (ratio 0.7977). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "During encoding, selecting the next merge only needs to know which adjacent pairs are present, not how often they occur. BasicTokenizer.encode and RegexTokenizer._encode_chunk n..." [episode](./1f35d17b8c09549e6b52d2e622c9c189ea44e3465058f45013a94cef172afc0e.json), 2026-10-13 00:55 UTC.
 - Holnotch (`HHxDgMPd`), generation 4 on 2: 24.45% on encode_ir (ratio 0.7555). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "Optimize encode merge selection by scanning pair counts for the lowest-ranked available merge directly, reusing a local merges reference and avoiding per-pair lambda calls and f..." [episode](./a9cb1663eff21b7c93832f60685c6d7122596262e94105e816e227acccd23b83.json), 2026-10-13 00:40 UTC.
+
+## Ended without a candidate
+
+1 attempt: Holnotch (`HHxDgMPd`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
