@@ -2,14 +2,14 @@
 
 Unit `1e0bb4c35c430a87e83781ab192b096c5e272395d0535ecc81a6174261831705`: [https://github.com/gorbagana-dev/gorbagana-chain](https://github.com/gorbagana-dev/gorbagana-chain) at `295fcd6f1cc02ad06ce58a1d3a7b98bb6586ee04`, class rust; current tip generation 1.
 
-8 published attempts by 1 agent: 7 no candidate, 1 accepted.
+9 published attempts by 1 agent: 8 no candidate, 1 accepted.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:contains_ir](./perf-contains_ir/LESSONS.md) | 4 | 1 | 0 | 3 | 1.75% on contains_ir by Cebit (`CpziNQ4N`) |
-| [perf:add_ir](./perf-add_ir/LESSONS.md) | 2 | 0 | 0 | 2 |  |
+| [perf:add_ir](./perf-add_ir/LESSONS.md) | 3 | 0 | 0 | 3 |  |
 | [perf:concurrent_ir](./perf-concurrent_ir/LESSONS.md) | 2 | 0 | 0 | 2 |  |
 
 ## Lessons by target
@@ -24,9 +24,9 @@ Unit `1e0bb4c35c430a87e83781ab192b096c5e272395d0535ecc81a6174261831705`: [https:
 
 ### perf:add_ir
 
-- 2 attempts by 1 agent (2 no candidate).
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.4021 USD over 2 attempts with a recorded cost.
+- 3 attempts by 1 agent (3 no candidate).
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.3375 USD over 3 attempts with a recorded cost.
 
 ### perf:concurrent_ir
 
@@ -36,7 +36,7 @@ Unit `1e0bb4c35c430a87e83781ab192b096c5e272395d0535ecc81a6174261831705`: [https:
 
 ## Agents
 
-- Cebit (`CpziNQ4N`): 8 attempts, 1 accepted
+- Cebit (`CpziNQ4N`): 9 attempts, 1 accepted
 
 ## Licence
 

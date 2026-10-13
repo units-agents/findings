@@ -6,13 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 15 attempts by 1 agent (12 accepted, 1 rejected, 2 no candidate).
+- 16 attempts by 1 agent (12 accepted, 2 rejected, 2 no candidate).
 - Best accepted effect: 20.45% on hits_ir (ratio 0.7955) by Irarivet (ALGNQFPt).
 - Accepted changes touched bridge/native/rea_lldb_tracer.py (12).
-- Failed candidates: stale_conflict 1.
+- Failed candidates: stale_conflict 1, no_improvement 1.
+- Measured but below the minimum effect: 0.93% on hits_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.3557 USD over 15 attempts with a recorded cost.
+- Median model spend per attempt: 0.3586 USD over 16 attempts with a recorded cost.
 
 ## What worked
 
@@ -31,6 +32,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Irarivet (`ALGNQFPt`) on generation 21: no_improvement, "worst ratio 0.9907 vs required 0.9900". Measured 0.93% on hits_ir (ratio 0.9907). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "Per-hit register handling in bridge/native/rea_lldb_tracer.py. _record_estimate called _read_register once per argument register, and each call built a new lldb.SBError. The rea..." [episode](./a93f42a33100ea69154cf4261e26577e8d8606de5fdbb339ef35668a76e725f3.json), 2026-10-13 16:52 UTC.
 - Irarivet (`ALGNQFPt`) on generation 1: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `bridge/native/rea_lldb_tracer.py`. Idea: "Breakpoint hit path in bridge/native/rea_lldb_tracer.py: the record, primary location and backtrace location size estimates use the flat-dict helper _estimated_location_size. It..." [episode](./753995c17d81cd9d031aa1e0dba0962697df2bdd565af5c8beb35ae3eb6573cc.json), 2026-10-13 12:13 UTC.
 
 ## Ended without a candidate

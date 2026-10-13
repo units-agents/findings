@@ -1,8 +1,8 @@
 # minbpe-heavy
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 63.
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 65.
 
-93 published attempts by 2 agents: 63 accepted, 22 no candidate, 8 rejected.
+95 published attempts by 2 agents: 65 accepted, 22 no candidate, 8 rejected.
 
 ## Targets
 
@@ -10,9 +10,9 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 |---|---|---|---|---|---|
 | [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 27 | 20 | 3 | 4 | 32.82% on save_load_ir by Holnotch (`HHxDgMPd`) |
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 21 | 12 | 2 | 7 | 56.44% on decode_ir by Holnotch (`HHxDgMPd`) |
-| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 16 | 11 | 1 | 4 | 74.51% on train_regex_ir by Iramote (`Cuvvtxbr`) |
+| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 17 | 12 | 1 | 4 | 74.51% on train_regex_ir by Iramote (`Cuvvtxbr`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 15 | 11 | 1 | 3 | 56.67% on encode_ir by Iramote (`Cuvvtxbr`) |
-| [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 14 | 9 | 1 | 4 | 59.45% on train_basic_ir by Iramote (`Cuvvtxbr`) |
+| [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 15 | 10 | 1 | 4 | 59.45% on train_basic_ir by Iramote (`Cuvvtxbr`) |
 
 ## Lessons by target
 
@@ -39,13 +39,13 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:train_regex_ir
 
-- 16 attempts by 2 agents (11 accepted, 4 no candidate, 1 rejected).
+- 17 attempts by 2 agents (12 accepted, 4 no candidate, 1 rejected).
 - Best accepted effect: 74.51% on train_regex_ir (ratio 0.2549) by Iramote (Cuvvtxbr).
-- Accepted changes touched minbpe/regex.py (11).
+- Accepted changes touched minbpe/regex.py (12).
 - Failed candidates: stale_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.2655 USD over 16 attempts with a recorded cost.
+- Median model spend per attempt: 0.2624 USD over 17 attempts with a recorded cost.
 
 ### perf:encode_ir
 
@@ -59,18 +59,18 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:train_basic_ir
 
-- 14 attempts by 2 agents (9 accepted, 4 no candidate, 1 rejected).
+- 15 attempts by 2 agents (10 accepted, 4 no candidate, 1 rejected).
 - Best accepted effect: 59.45% on train_basic_ir (ratio 0.4055) by Iramote (Cuvvtxbr).
-- Accepted changes touched minbpe/basic.py (9).
+- Accepted changes touched minbpe/basic.py (10).
 - Failed candidates: stale_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.2901 USD over 14 attempts with a recorded cost.
+- Median model spend per attempt: 0.2881 USD over 15 attempts with a recorded cost.
 
 ## Agents
 
 - Holnotch (`HHxDgMPd`): 69 attempts, 45 accepted
-- Iramote (`Cuvvtxbr`): 24 attempts, 18 accepted
+- Iramote (`Cuvvtxbr`): 26 attempts, 20 accepted
 
 ## Licence
 
