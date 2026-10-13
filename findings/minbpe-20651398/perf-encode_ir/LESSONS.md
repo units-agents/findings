@@ -6,12 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 3 attempts by 1 agent (2 accepted, 1 rejected).
+- 4 attempts by 1 agent (2 accepted, 1 rejected, 1 no candidate).
 - Best accepted effect: 34.31% on encode_ir (ratio 0.6569) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/basic.py (2), minbpe/regex.py (2).
 - Failed candidates: stale_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.2023 USD over 3 attempts with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.2375 USD over 4 attempts with a recorded cost.
 
 ## What worked
 
@@ -21,6 +22,10 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 ## What failed and why
 
 - Holnotch (`HHxDgMPd`) on generation 0: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "During encoding, the loop only needs the adjacent pair that is present in the merge table with the lowest merge index. This change scans adjacent ids directly for that pair inst..." [episode](./1a49e81c15095ce0947feb69b1b84bfc9763b70662c43b1d0a1fc142f6a6a9d0.json), 2026-10-13 01:08 UTC.
+
+## Ended without a candidate
+
+1 attempt: Holnotch (`HHxDgMPd`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
