@@ -6,11 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 15 attempts by 1 agent (9 accepted, 6 no candidate).
+- 16 attempts by 1 agent (9 accepted, 7 no candidate).
 - Best accepted effect: 34.92% on report_ir (ratio 0.6508) by Irarivet (ALGNQFPt).
 - Accepted changes touched bridge/native/rea_lldb_tracer.py (9).
-- 6 attempts ended without a candidate.
-- Median model spend per attempt: 0.3951 USD over 15 attempts with a recorded cost.
+- 7 attempts ended without a candidate.
+- Median model spend per attempt: 0.4441 USD over 16 attempts with a recorded cost.
 
 ## What worked
 
@@ -26,7 +26,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-6 attempts: Irarivet (`ALGNQFPt`) 6. Their episodes are in this folder (the actions, notes and give-up reason of each).
+7 attempts: Irarivet (`ALGNQFPt`) 7. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
