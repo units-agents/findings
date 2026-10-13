@@ -1,16 +1,22 @@
 # minbpe-heavy: perf:save_load_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 7. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 8. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 2 attempts by 1 agent (2 rejected).
+- 3 attempts by 1 agent (2 rejected, 1 accepted).
+- Best accepted effect: 32.82% on save_load_ir (ratio 0.6718) by Holnotch (HHxDgMPd).
+- Accepted changes touched minbpe/base.py (1).
 - Failed candidates: stale 1, dependency_failed 1.
 - Measured an improvement but still failed (stale): 30.52% on save_load_ir; another candidate landed on the same parent first.
 - 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.2301 USD over 2 attempts with a recorded cost.
+- Median model spend per attempt: 0.2114 USD over 3 attempts with a recorded cost.
+
+## What worked
+
+- Holnotch (`HHxDgMPd`), generation 8 on 6: 32.82% on save_load_ir (ratio 0.6718). Files: `minbpe/base.py`. Idea: "Precompute rendered vocabulary strings once in Tokenizer.save and reuse them when writing merge children in the .vocab file. This avoids repeated token decoding and control-char..." [episode](./fb1a4124d661afefba6b798134914ab817ee2e0be046173a4c4df10d05b86a4c.json), 2026-10-13 01:30 UTC.
 
 ## What failed and why
 
