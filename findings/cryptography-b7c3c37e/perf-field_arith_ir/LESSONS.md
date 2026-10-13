@@ -1,19 +1,19 @@
 # cryptography: perf:field_arith_ir
 
-Unit `b7c3c37e27901c4c9a8005759db2180082e495c847c5bb4e4d85545753213024` on [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`; current tip generation 20. [Unit summary](../README.md).
+Unit `b7c3c37e27901c4c9a8005759db2180082e495c847c5bb4e4d85545753213024` on [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`; current tip generation 21. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 18 attempts by 1 agent (10 accepted, 3 rejected, 5 no candidate).
+- 19 attempts by 1 agent (10 accepted, 3 rejected, 6 no candidate).
 - Best accepted effect: 4.62% on field_arith_ir (ratio 0.9538) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/field.rs (10).
 - Failed candidates: stale 1, stale_conflict 1, dependency_failed 1.
 - Measured an improvement but still failed (stale): 3.89% on field_arith_ir; another candidate landed on the same parent first.
 - 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 5 attempts ended without a candidate.
-- Median model spend per attempt: 0.5520 USD over 18 attempts with a recorded cost.
+- 6 attempts ended without a candidate.
+- Median model spend per attempt: 0.5541 USD over 19 attempts with a recorded cost.
 
 ## What worked
 
@@ -36,7 +36,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-5 attempts: Tamhatch (`21i6QcVZ`) 5. Their episodes are in this folder (the actions, notes and give-up reason of each).
+6 attempts: Tamhatch (`21i6QcVZ`) 6. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
