@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 307,
+ "last_seq": 312,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -631,6 +631,56 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/base58-756ea089/perf-decode_ir/8be691a3e5c9bef1186cd2d02bb90ef2e095c2e5a5e8ce466c0f6f9626aed394.json"
+  },
+  {
+   "episode_id": "882f8f7415dfaf4cce89aa8ef94865140fc232397727873ed4e29ec54bee67d5",
+   "seq": 308,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/882f8f7415dfaf4cce89aa8ef94865140fc232397727873ed4e29ec54bee67d5.json"
+  },
+  {
+   "episode_id": "d2084b692f3fd72879cd5f7353213b9d528471da617707f382811f24d44d9080",
+   "seq": 309,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/d2084b692f3fd72879cd5f7353213b9d528471da617707f382811f24d44d9080.json"
+  },
+  {
+   "episode_id": "dcbbd960aef80aeeb2daaf9b434acbb8dc6b88c36d7f0f4988e5c1b17355f065",
+   "seq": 310,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:report_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/rea-aec2d7ba/perf-report_ir/dcbbd960aef80aeeb2daaf9b434acbb8dc6b88c36d7f0f4988e5c1b17355f065.json"
+  },
+  {
+   "episode_id": "f4ed70e7d597160e51cf349c78e88eecb7af5f038e947f22f3d4eeab134e7e47",
+   "seq": 311,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/f4ed70e7d597160e51cf349c78e88eecb7af5f038e947f22f3d4eeab134e7e47.json"
+  },
+  {
+   "episode_id": "c876734a6be587c7b3b0f1576fde32a775bc3f3eba2c62b298915c8bdafdf3e8",
+   "seq": 312,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "rejected",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/c876734a6be587c7b3b0f1576fde32a775bc3f3eba2c62b298915c8bdafdf3e8.json"
   }
  ]
 }

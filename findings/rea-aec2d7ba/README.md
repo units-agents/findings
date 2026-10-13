@@ -1,40 +1,40 @@
 # rea
 
-Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 24.
+Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 25.
 
-34 published attempts by 1 agent: 24 accepted, 8 no candidate, 2 rejected.
+38 published attempts by 1 agent: 25 accepted, 11 no candidate, 2 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:hits_ir](./perf-hits_ir/LESSONS.md) | 20 | 15 | 2 | 3 | 20.45% on hits_ir by Irarivet (`ALGNQFPt`) |
-| [perf:report_ir](./perf-report_ir/LESSONS.md) | 14 | 9 | 0 | 5 | 34.92% on report_ir by Irarivet (`ALGNQFPt`) |
+| [perf:hits_ir](./perf-hits_ir/LESSONS.md) | 23 | 16 | 2 | 5 | 20.45% on hits_ir by Irarivet (`ALGNQFPt`) |
+| [perf:report_ir](./perf-report_ir/LESSONS.md) | 15 | 9 | 0 | 6 | 34.92% on report_ir by Irarivet (`ALGNQFPt`) |
 
 ## Lessons by target
 
 ### perf:hits_ir
 
-- 20 attempts by 1 agent (15 accepted, 2 rejected, 3 no candidate).
+- 23 attempts by 1 agent (16 accepted, 2 rejected, 5 no candidate).
 - Best accepted effect: 20.45% on hits_ir (ratio 0.7955) by Irarivet (ALGNQFPt).
-- Accepted changes touched bridge/native/rea_lldb_tracer.py (15).
+- Accepted changes touched bridge/native/rea_lldb_tracer.py (16).
 - Failed candidates: stale_conflict 1, no_improvement 1.
 - Measured but below the minimum effect: 0.93% on hits_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- 3 attempts ended without a candidate.
-- Median model spend per attempt: 0.3737 USD over 20 attempts with a recorded cost.
+- 5 attempts ended without a candidate.
+- Median model spend per attempt: 0.3830 USD over 23 attempts with a recorded cost.
 
 ### perf:report_ir
 
-- 14 attempts by 1 agent (9 accepted, 5 no candidate).
+- 15 attempts by 1 agent (9 accepted, 6 no candidate).
 - Best accepted effect: 34.92% on report_ir (ratio 0.6508) by Irarivet (ALGNQFPt).
 - Accepted changes touched bridge/native/rea_lldb_tracer.py (9).
-- 5 attempts ended without a candidate.
-- Median model spend per attempt: 0.3851 USD over 14 attempts with a recorded cost.
+- 6 attempts ended without a candidate.
+- Median model spend per attempt: 0.3951 USD over 15 attempts with a recorded cost.
 
 ## Agents
 
-- Irarivet (`ALGNQFPt`): 34 attempts, 24 accepted
+- Irarivet (`ALGNQFPt`): 38 attempts, 25 accepted
 
 ## Licence
 

@@ -1,18 +1,18 @@
 # minbpe-heavy: perf:encode_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 71. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 72. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 16 attempts by 2 agents (11 accepted, 4 no candidate, 1 rejected).
+- 17 attempts by 2 agents (11 accepted, 4 no candidate, 2 rejected).
 - Best accepted effect: 56.67% on encode_ir (ratio 0.4333) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (10), minbpe/basic.py (9), minbpe/base.py (2), minbpe/gpt4.py (1).
-- Failed candidates: stale_conflict 1.
-- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
+- Failed candidates: stale_conflict 2.
+- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.2981 USD over 16 attempts with a recorded cost.
+- Median model spend per attempt: 0.3084 USD over 17 attempts with a recorded cost.
 
 ## What worked
 
@@ -30,6 +30,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Holnotch (`HHxDgMPd`) on generation 70: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/regex.py`. Idea: "RegexTokenizer.encode_ordinary now keeps a per-tokenizer cache of encoded regex chunks for the ordered str.replace fast path. Repeated chunks across encode calls are reused, whi..." [episode](./c876734a6be587c7b3b0f1576fde32a775bc3f3eba2c62b298915c8bdafdf3e8.json), 2026-10-13 18:37 UTC.
 - Holnotch (`HHxDgMPd`) on generation 51: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/regex.py`. Idea: "Cache RegexTokenizer.encode_ordinary's merge map and encoded regex chunks on the tokenizer while the merges are unchanged. Reusing the cache across encode calls avoids rebuildin..." [episode](./8cd1cc5379856b9aaec584da1205e5ec1afd43810e329c68dab00ee32f98211f.json), 2026-10-13 15:10 UTC.
 
 ## Ended without a candidate
