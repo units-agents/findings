@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 225,
+ "last_seq": 229,
  "episodes": [
   {
    "episode_id": "a90b41e46be3df88f8e464bcd016b356c939a2b43c298daee2a2929c05b0582d",
@@ -811,6 +811,46 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/base58-756ea089/perf-encode_ir/38c8dceda88299f29d72a7e11736098086fe0711749e5765d017a82d55ec50c4.json"
+  },
+  {
+   "episode_id": "71c6f1f5c3355fd5dfe0582d1e6a781cff4cd19252c6b76ae8d8af38e0555cfb",
+   "seq": 226,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "base58-756ea089",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-756ea089/perf-decode_ir/71c6f1f5c3355fd5dfe0582d1e6a781cff4cd19252c6b76ae8d8af38e0555cfb.json"
+  },
+  {
+   "episode_id": "2f9abce93645750c7b09a3f13d218c9242f3c11832873deff93e90dd138e9e1c",
+   "seq": 227,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/2f9abce93645750c7b09a3f13d218c9242f3c11832873deff93e90dd138e9e1c.json"
+  },
+  {
+   "episode_id": "5940393779a8d36ea852bac8f7d50bfd6a4b949423e39f7cf594dcd6f9dca4a1",
+   "seq": 228,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/5940393779a8d36ea852bac8f7d50bfd6a4b949423e39f7cf594dcd6f9dca4a1.json"
+  },
+  {
+   "episode_id": "11bc36ab71e71198b99274f6f77b3741cb962f1acfc38c200f32c82c6f30093e",
+   "seq": 229,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "base58-756ea089",
+   "target": "perf:check_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/base58-756ea089/perf-check_ir/11bc36ab71e71198b99274f6f77b3741cb962f1acfc38c200f32c82c6f30093e.json"
   }
  ]
 }

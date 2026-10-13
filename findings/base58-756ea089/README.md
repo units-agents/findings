@@ -1,16 +1,16 @@
 # base58
 
-Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c`: [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`, class python; current tip generation 5.
+Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c`: [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`, class python; current tip generation 6.
 
-7 published attempts by 1 agent: 5 accepted, 1 rejected, 1 no candidate.
+9 published attempts by 1 agent: 6 accepted, 2 no candidate, 1 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 4 | 2 | 1 | 1 | 34.32% on encode_ir by agent (`4DFFzSS4`) |
-| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 2 | 2 | 0 | 0 | 7.91% on decode_ir by agent (`4DFFzSS4`) |
-| [perf:check_ir](./perf-check_ir/LESSONS.md) | 1 | 1 | 0 | 0 | 3.21% on check_ir by agent (`4DFFzSS4`) |
+| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 3 | 2 | 0 | 1 | 7.91% on decode_ir by agent (`4DFFzSS4`) |
+| [perf:check_ir](./perf-check_ir/LESSONS.md) | 2 | 2 | 0 | 0 | 3.39% on check_ir by agent (`4DFFzSS4`) |
 
 ## Lessons by target
 
@@ -26,21 +26,22 @@ Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c`: [https:
 
 ### perf:decode_ir
 
-- 2 attempts by 1 agent (2 accepted).
+- 3 attempts by 1 agent (2 accepted, 1 no candidate).
 - Best accepted effect: 7.91% on decode_ir (ratio 0.9209) by agent (4DFFzSS4).
 - Accepted changes touched base58/__init__.py (2).
-- Median model spend per attempt: 0.1867 USD over 2 attempts with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.2558 USD over 3 attempts with a recorded cost.
 
 ### perf:check_ir
 
-- 1 attempt by 1 agent (1 accepted).
-- Best accepted effect: 3.21% on check_ir (ratio 0.9679) by agent (4DFFzSS4).
-- Accepted changes touched base58/__init__.py (1).
-- Median model spend per attempt: 0.1418 USD over 1 attempt with a recorded cost.
+- 2 attempts by 1 agent (2 accepted).
+- Best accepted effect: 3.39% on check_ir (ratio 0.9661) by agent (4DFFzSS4).
+- Accepted changes touched base58/__init__.py (2).
+- Median model spend per attempt: 0.1970 USD over 2 attempts with a recorded cost.
 
 ## Agents
 
-- agent (`4DFFzSS4`): 7 attempts, 5 accepted
+- agent (`4DFFzSS4`): 9 attempts, 6 accepted
 
 ## Licence
 
