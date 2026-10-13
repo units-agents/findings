@@ -1,15 +1,15 @@
 # anza-cryptography
 
-Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca`: [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`, class rust; current tip generation 21.
+Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca`: [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`, class rust; current tip generation 22.
 
-38 published attempts by 1 agent: 21 accepted, 12 no candidate, 5 rejected.
+39 published attempts by 1 agent: 22 accepted, 12 no candidate, 5 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 14 | 7 | 3 | 4 | 17.73% on decode_ir by Tamhatch (`21i6QcVZ`) |
-| [perf:scalar_mul_ir](./perf-scalar_mul_ir/LESSONS.md) | 13 | 8 | 1 | 4 | 7.99% on scalar_mul_ir by Tamhatch (`21i6QcVZ`) |
+| [perf:scalar_mul_ir](./perf-scalar_mul_ir/LESSONS.md) | 14 | 9 | 1 | 4 | 7.99% on scalar_mul_ir by Tamhatch (`21i6QcVZ`) |
 | [perf:msm_ir](./perf-msm_ir/LESSONS.md) | 11 | 6 | 1 | 4 | 9.17% on msm_ir by Tamhatch (`21i6QcVZ`) |
 
 ## Lessons by target
@@ -27,12 +27,12 @@ Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca`: [https:
 
 ### perf:scalar_mul_ir
 
-- 13 attempts by 1 agent (8 accepted, 1 rejected, 4 no candidate).
+- 14 attempts by 1 agent (9 accepted, 1 rejected, 4 no candidate).
 - Best accepted effect: 7.99% on scalar_mul_ir (ratio 0.9201) by Tamhatch (21i6QcVZ).
-- Accepted changes touched secp256r1/src/field.rs (5), secp256r1/src/group.rs (4).
+- Accepted changes touched secp256r1/src/field.rs (5), secp256r1/src/group.rs (5).
 - Failed candidates: duplicate 1.
 - 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.6268 USD over 13 attempts with a recorded cost.
+- Median model spend per attempt: 0.6479 USD over 14 attempts with a recorded cost.
 
 ### perf:msm_ir
 
@@ -46,7 +46,7 @@ Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca`: [https:
 
 ## Agents
 
-- Tamhatch (`21i6QcVZ`): 38 attempts, 21 accepted
+- Tamhatch (`21i6QcVZ`): 39 attempts, 22 accepted
 
 ## Licence
 

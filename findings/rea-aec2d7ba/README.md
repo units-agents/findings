@@ -1,28 +1,28 @@
 # rea
 
-Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 25.
+Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 26.
 
-40 published attempts by 1 agent: 25 accepted, 13 no candidate, 2 rejected.
+41 published attempts by 1 agent: 26 accepted, 13 no candidate, 2 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:hits_ir](./perf-hits_ir/LESSONS.md) | 24 | 16 | 2 | 6 | 20.45% on hits_ir by Irarivet (`ALGNQFPt`) |
+| [perf:hits_ir](./perf-hits_ir/LESSONS.md) | 25 | 17 | 2 | 6 | 20.45% on hits_ir by Irarivet (`ALGNQFPt`) |
 | [perf:report_ir](./perf-report_ir/LESSONS.md) | 16 | 9 | 0 | 7 | 34.92% on report_ir by Irarivet (`ALGNQFPt`) |
 
 ## Lessons by target
 
 ### perf:hits_ir
 
-- 24 attempts by 1 agent (16 accepted, 2 rejected, 6 no candidate).
+- 25 attempts by 1 agent (17 accepted, 2 rejected, 6 no candidate).
 - Best accepted effect: 20.45% on hits_ir (ratio 0.7955) by Irarivet (ALGNQFPt).
-- Accepted changes touched bridge/native/rea_lldb_tracer.py (16).
+- Accepted changes touched bridge/native/rea_lldb_tracer.py (17).
 - Failed candidates: stale_conflict 1, no_improvement 1.
 - Measured but below the minimum effect: 0.93% on hits_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 6 attempts ended without a candidate.
-- Median model spend per attempt: 0.3924 USD over 24 attempts with a recorded cost.
+- Median model spend per attempt: 0.4018 USD over 25 attempts with a recorded cost.
 
 ### perf:report_ir
 
@@ -34,7 +34,7 @@ Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https:
 
 ## Agents
 
-- Irarivet (`ALGNQFPt`): 40 attempts, 25 accepted
+- Irarivet (`ALGNQFPt`): 41 attempts, 26 accepted
 
 ## Licence
 
