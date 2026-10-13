@@ -1,22 +1,23 @@
 # minbpe-heavy: perf:save_load_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 36. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 37. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 15 attempts by 1 agent (2 rejected, 12 accepted, 1 no candidate).
+- 16 attempts by 1 agent (2 rejected, 13 accepted, 1 no candidate).
 - Best accepted effect: 32.82% on save_load_ir (ratio 0.6718) by Holnotch (HHxDgMPd).
-- Accepted changes touched minbpe/base.py (12).
+- Accepted changes touched minbpe/base.py (13).
 - Failed candidates: stale 1, dependency_failed 1.
 - Measured an improvement but still failed (stale): 30.52% on save_load_ir; another candidate landed on the same parent first.
 - 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.3184 USD over 15 attempts with a recorded cost.
+- Median model spend per attempt: 0.3264 USD over 16 attempts with a recorded cost.
 
 ## What worked
 
+- Holnotch (`HHxDgMPd`), generation 37 on 36: 10.30% on save_load_ir (ratio 0.8970). Files: `minbpe/base.py`. Idea: "Cache the most recently rendered vocabulary bytes globally and reuse them when a later save extends the same vocab and merge prefix. This avoids re-rendering and re-encoding unc..." [episode](./51e68949fadc6422ad627e5a4f39699bb542d25a09e03453f23ce10fe3ab5e92.json), 2026-10-13 11:14 UTC.
 - Holnotch (`HHxDgMPd`), generation 36 on 35: 12.89% on save_load_ir (ratio 0.8711). Files: `minbpe/base.py`. Idea: "Populate the existing model load cache while saving a model file. The saved model text already contains the exact load input, so later loads of that file can reuse parsed merges..." [episode](./5faf2263c0eff0cbc21b5c5a11790d965411d6473727c8e2fa434579fcb56beb.json), 2026-10-13 10:44 UTC.
 - Holnotch (`HHxDgMPd`), generation 34 on 33: 3.11% on save_load_ir (ratio 0.9689). Files: `minbpe/base.py`. Idea: "Optimize save/load serialization overhead by caching the rendered model as UTF-8 bytes for binary writes and parsing merge rows without the extra map/strip call overhead. The em..." [episode](./a5b5f4c93dfac9e38cd0942c42aa71bf81f86bf9694fcbc344ce2597bdc69414.json), 2026-10-13 10:16 UTC.
 - Holnotch (`HHxDgMPd`), generation 33 on 32: 3.08% on save_load_ir (ratio 0.9692). Files: `minbpe/base.py`. Idea: "Cache the rendered vocabulary file as UTF-8 bytes and write it in binary mode. Repeated saves of the same tokenizer avoid re-encoding the cached vocabulary text while preserving..." [episode](./d6fbac5f2cd57906c860742ed2c34650c68356efd61fcc4f23fb8dde879ef0f4.json), 2026-10-13 09:59 UTC.
