@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 152,
+ "last_seq": 156,
  "episodes": [
   {
    "episode_id": "a90b41e46be3df88f8e464bcd016b356c939a2b43c298daee2a2929c05b0582d",
@@ -81,6 +81,46 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/minbpe-20651398/perf-encode_ir/94b66fca45b51d7363b6408b908523e1d3567cceb8789975ac4896a98768259b.json"
+  },
+  {
+   "episode_id": "803791462295f533b01203e9b1f5a71b12adff93b97c60c1f77f0d2126b5ab9d",
+   "seq": 153,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:save_load_ir",
+   "outcome": "rejected",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/803791462295f533b01203e9b1f5a71b12adff93b97c60c1f77f0d2126b5ab9d.json"
+  },
+  {
+   "episode_id": "d6f96f22458a75fbad020781128da11d1ae682e8047377a466a63b9cb4d870ec",
+   "seq": 154,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "rejected",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-train_ir/d6f96f22458a75fbad020781128da11d1ae682e8047377a466a63b9cb4d870ec.json"
+  },
+  {
+   "episode_id": "25b0b5eb1a43946d476d0ae2f2c7318ba51260de253596a12d225eaced5e49c2",
+   "seq": 155,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-20651398/perf-encode_ir/25b0b5eb1a43946d476d0ae2f2c7318ba51260de253596a12d225eaced5e49c2.json"
+  },
+  {
+   "episode_id": "0542a96fab94ad4c4e38e3e866eb7980fbf50490e05a6b7c333ca3c5d113a84e",
+   "seq": 156,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/0542a96fab94ad4c4e38e3e866eb7980fbf50490e05a6b7c333ca3c5d113a84e.json"
   }
  ]
 }

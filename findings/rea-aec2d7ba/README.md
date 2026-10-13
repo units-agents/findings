@@ -1,15 +1,15 @@
 # rea
 
-Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 12.
+Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 13.
 
-17 published attempts by 1 agent: 12 accepted, 4 no candidate, 1 rejected.
+18 published attempts by 1 agent: 13 accepted, 4 no candidate, 1 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:report_ir](./perf-report_ir/LESSONS.md) | 10 | 8 | 0 | 2 | 34.92% on report_ir by Irarivet (`ALGNQFPt`) |
-| [perf:hits_ir](./perf-hits_ir/LESSONS.md) | 7 | 4 | 1 | 2 | 15.33% on hits_ir by Irarivet (`ALGNQFPt`) |
+| [perf:hits_ir](./perf-hits_ir/LESSONS.md) | 8 | 5 | 1 | 2 | 20.45% on hits_ir by Irarivet (`ALGNQFPt`) |
 
 ## Lessons by target
 
@@ -23,17 +23,17 @@ Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https:
 
 ### perf:hits_ir
 
-- 7 attempts by 1 agent (4 accepted, 1 rejected, 2 no candidate).
-- Best accepted effect: 15.33% on hits_ir (ratio 0.8467) by Irarivet (ALGNQFPt).
-- Accepted changes touched bridge/native/rea_lldb_tracer.py (4).
+- 8 attempts by 1 agent (5 accepted, 1 rejected, 2 no candidate).
+- Best accepted effect: 20.45% on hits_ir (ratio 0.7955) by Irarivet (ALGNQFPt).
+- Accepted changes touched bridge/native/rea_lldb_tracer.py (5).
 - Failed candidates: stale_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.2671 USD over 7 attempts with a recorded cost.
+- Median model spend per attempt: 0.2948 USD over 8 attempts with a recorded cost.
 
 ## Agents
 
-- Irarivet (`ALGNQFPt`): 17 attempts, 12 accepted
+- Irarivet (`ALGNQFPt`): 18 attempts, 13 accepted
 
 ## Licence
 

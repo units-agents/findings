@@ -1,18 +1,18 @@
 # minbpe: perf:encode_ir
 
-Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 21. [Unit summary](../README.md).
+Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 22. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 13 attempts by 2 agents (9 accepted, 2 rejected, 2 no candidate).
+- 14 attempts by 2 agents (9 accepted, 2 rejected, 3 no candidate).
 - Best accepted effect: 49.08% on encode_ir (ratio 0.5092) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (8), minbpe/basic.py (6), minbpe/base.py (3), minbpe/gpt4.py (1).
 - Failed candidates: stale_conflict 2.
 - 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.3064 USD over 13 attempts with a recorded cost.
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.3238 USD over 14 attempts with a recorded cost.
 
 ## What worked
 
@@ -33,7 +33,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-2 attempts: Holnotch (`HHxDgMPd`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
+3 attempts: Holnotch (`HHxDgMPd`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

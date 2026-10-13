@@ -6,14 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 22 attempts by 2 agents (2 rejected, 18 accepted, 2 no candidate).
+- 23 attempts by 2 agents (3 rejected, 18 accepted, 2 no candidate).
 - Best accepted effect: 32.82% on save_load_ir (ratio 0.6718) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/base.py (16), minbpe/__init__.py (1), minbpe/regex.py (1).
-- Failed candidates: stale 1, dependency_failed 1.
-- Measured an improvement but still failed (stale): 30.52% on save_load_ir; another candidate landed on the same parent first.
-- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
+- Failed candidates: stale 2, dependency_failed 1.
+- Measured an improvement but still failed (stale): 2.99% on save_load_ir, 30.52% on save_load_ir; another candidate landed on the same parent first.
+- 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.3264 USD over 22 attempts with a recorded cost.
+- Median model spend per attempt: 0.3343 USD over 23 attempts with a recorded cost.
 
 ## What worked
 
@@ -38,6 +38,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Holnotch (`HHxDgMPd`) on generation 45: stale. Measured 2.99% on save_load_ir (ratio 0.9701). Files: `minbpe/base.py`. Idea: "Cache the most recent merge-only vocabulary prefix built by _build_vocab and reuse it when constructing a tokenizer whose merges extend that sequence. The save/load workload rep..." [episode](./803791462295f533b01203e9b1f5a71b12adff93b97c60c1f77f0d2126b5ab9d.json), 2026-10-13 14:18 UTC.
 - Holnotch (`HHxDgMPd`) on generation 4: dependency_failed (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/base.py`. Idea: "Precompute rendered vocabulary strings once in Tokenizer.save and reuse them directly while writing the vocab file. This removes the per-token helper call and cache membership c..." [episode](./518a19bc78a7d8a87d4b632ac77849e5c4cc8fce57d9a41338992cbafeb93ab9.json), 2026-10-13 01:13 UTC.
 - Holnotch (`HHxDgMPd`) on generation 3: stale. Measured 30.52% on save_load_ir (ratio 0.6948). Files: `minbpe/base.py`. Idea: "Cache rendered vocabulary strings within Tokenizer.save so the vocab writer renders each token at most once while still emitting the same model and vocab contents." [episode](./9ba91d733c068fdce1ddb21a97c142475a1de0ad284b94cf3ed6495a765a2f2a.json), 2026-10-13 01:07 UTC.
 
