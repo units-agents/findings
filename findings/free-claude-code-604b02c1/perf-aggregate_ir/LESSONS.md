@@ -6,12 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 2 attempts by 1 agent (1 accepted, 1 rejected).
+- 3 attempts by 1 agent (1 accepted, 1 rejected, 1 no candidate).
 - Best accepted effect: 3.76% on aggregate_ir (ratio 0.9624) by Solkern (9fmKzMcz).
 - Accepted changes touched src/free_claude_code/core/anthropic/sse_aggregation.py (1).
 - Failed candidates: no_improvement 1.
 - Measured but below the minimum effect: 0.93% on aggregate_ir.
-- Median model spend per attempt: 0.3347 USD over 2 attempts with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.4820 USD over 3 attempts with a recorded cost.
 
 ## What worked
 
@@ -20,6 +21,10 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 ## What failed and why
 
 - Solkern (`9fmKzMcz`) on generation 1: no_improvement, "worst ratio 0.9907 vs required 0.9900". Measured 0.93% on aggregate_ir (ratio 0.9907). Files: `src/free_claude_code/core/anthropic/sse_aggregation.py`. Idea: "Optimize non-streaming SSE aggregation by handling complete frames directly in the aggregation loop and using a fast path for the common single data-field SSE frame. This avoids..." [episode](./5e7b9ce8ef6b6273ba5dfde113f96ff445d4d045ed036d67cbbd180c210a999d.json), 2026-10-13 21:10 UTC.
+
+## Ended without a candidate
+
+1 attempt: Solkern (`9fmKzMcz`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
