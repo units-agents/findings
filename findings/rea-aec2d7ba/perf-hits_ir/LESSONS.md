@@ -6,16 +6,17 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 13 attempts by 1 agent (10 accepted, 1 rejected, 2 no candidate).
+- 14 attempts by 1 agent (11 accepted, 1 rejected, 2 no candidate).
 - Best accepted effect: 20.45% on hits_ir (ratio 0.7955) by Irarivet (ALGNQFPt).
-- Accepted changes touched bridge/native/rea_lldb_tracer.py (10).
+- Accepted changes touched bridge/native/rea_lldb_tracer.py (11).
 - Failed candidates: stale_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.3364 USD over 13 attempts with a recorded cost.
+- Median model spend per attempt: 0.3489 USD over 14 attempts with a recorded cost.
 
 ## What worked
 
+- Irarivet (`ALGNQFPt`), generation 20 on 19: 1.19% on hits_ir (ratio 0.9881). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_handle_breakpoint already filters unwanted symbols with _wanted before calling _record_estimate, which repeated the same check on every hit. The check now lives in _record, the..." [episode](./8fea2998249b2373bbfe28ea7b385bb7d86efedf951b8bf5ddf2f4264bbf4464.json), 2026-10-13 16:13 UTC.
 - Irarivet (`ALGNQFPt`), generation 19 on 18: 2.20% on hits_ir (ratio 0.9780). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "Per-hit backtrace path in bridge/native/rea_lldb_tracer.py. _frame_location now caches each module's filename and path keyed by id(module) in a bounded _FRAME_MODULES dict, with..." [episode](./49a78338255d780d9b5dae1a624dc3e1453a29077d043c80a685cc84ad02e055.json), 2026-10-13 15:59 UTC.
 - Irarivet (`ALGNQFPt`), generation 17 on 16: 9.30% on hits_ir (ratio 0.9070). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_record_estimate computed the record's estimated size by calling _estimated_json_size on the whole record dict for every breakpoint hit. That walked all eight keys and recursed..." [episode](./bd144566d6c6b427d18d17c9c7856aeb1ce4c4ad92f932979d62f83147cf7caa.json), 2026-10-13 15:14 UTC.
 - Irarivet (`ALGNQFPt`), generation 16 on 15: 4.76% on hits_ir (ratio 0.9524). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_handle_breakpoint built the stopped PC's location with the uncached _location, then re-estimated it in _record, then ran _estimated_json_size over the whole record (base fields..." [episode](./c0a57942ce619304a73f739945c0fac3705356e94c0d6290fe00e3571cf30126.json), 2026-10-13 14:56 UTC.
