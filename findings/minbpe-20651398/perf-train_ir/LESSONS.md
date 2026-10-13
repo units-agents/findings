@@ -1,19 +1,19 @@
 # minbpe: perf:train_ir
 
-Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 23. [Unit summary](../README.md).
+Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 24. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 17 attempts by 2 agents (12 accepted, 3 rejected, 2 no candidate).
+- 18 attempts by 2 agents (12 accepted, 4 rejected, 2 no candidate).
 - Best accepted effect: 31.91% on train_ir (ratio 0.6809) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (9), minbpe/base.py (3), minbpe/basic.py (1).
-- Failed candidates: no_improvement 2, stale_conflict 1.
-- Measured but below the minimum effect: 0.50% on train_ir, 0.74% on train_ir.
+- Failed candidates: no_improvement 3, stale_conflict 1.
+- Measured but below the minimum effect: 0.97% on train_ir, 0.50% on train_ir, 0.74% on train_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.1853 USD over 17 attempts with a recorded cost.
+- Median model spend per attempt: 0.1885 USD over 18 attempts with a recorded cost.
 
 ## What worked
 
@@ -32,6 +32,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Iramote (`Cuvvtxbr`) on generation 22: no_improvement, "worst ratio 0.9903 vs required 0.9900". Measured 0.97% on train_ir (ratio 0.9903). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "Picking the most frequent pair no longer runs a Python-level key function or comprehension for every pair. In BasicTokenizer.train and RegexTokenizer.train, the counts are copie..." [episode](./ed64ff42b903403b466fd7ebe82b6a5e3560e3365f86abf828018f3fe85efee5.json), 2026-10-13 14:35 UTC.
 - Iramote (`Cuvvtxbr`) on generation 21: no_improvement, "worst ratio 0.9950 vs required 0.9900". Measured 0.50% on train_ir (ratio 0.9950). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train used to settle a tie between equally frequent pairs by scanning every chunk with a Python generator until it found a tied pair. The pair-to-chunks index `wh..." [episode](./708596c6c0954be9d839a5080cc6cdd076f519c06e44c7f20cd02a0d22fde7d5.json), 2026-10-13 14:28 UTC.
 - Holnotch (`HHxDgMPd`) on generation 19: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/basic.py`. Idea: "BasicTokenizer.train now uses a string representation for vocabularies whose token ids fit in Unicode code points. It counts adjacent token pairs as packed integer keys and appl..." [episode](./d6f96f22458a75fbad020781128da11d1ae682e8047377a466a63b9cb4d870ec.json), 2026-10-13 14:17 UTC.
 - Holnotch (`HHxDgMPd`) on generation 4: no_improvement, "worst ratio 0.9926 vs required 0.9900". Measured 0.74% on train_ir (ratio 0.9926). Files: `minbpe/regex.py`. Idea: "Skip regex-training chunks shorter than two tokens when collecting pair counts and applying a merge. Such chunks cannot contribute adjacent pairs or be changed by a pair merge,..." [episode](./eb1be42ef41313a9056dc9831243b91e02e682296923708c378945bbb77b02dc.json), 2026-10-13 02:02 UTC.
