@@ -1,19 +1,19 @@
 # minbpe-heavy: perf:train_basic_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 81. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 82. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 28 attempts by 2 agents (17 accepted, 9 no candidate, 2 rejected).
+- 29 attempts by 2 agents (17 accepted, 10 no candidate, 2 rejected).
 - Best accepted effect: 59.45% on train_basic_ir (ratio 0.4055) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/basic.py (17).
 - Failed candidates: stale_conflict 1, no_improvement 1.
 - Measured but below the minimum effect: 0.97% on train_basic_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- 9 attempts ended without a candidate.
-- Median model spend per attempt: 0.3179 USD over 28 attempts with a recorded cost.
+- 10 attempts ended without a candidate.
+- Median model spend per attempt: 0.3265 USD over 29 attempts with a recorded cost.
 
 ## What worked
 
@@ -42,7 +42,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-9 attempts: Holnotch (`HHxDgMPd`) 9. Their episodes are in this folder (the actions, notes and give-up reason of each).
+10 attempts: Holnotch (`HHxDgMPd`) 10. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
