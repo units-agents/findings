@@ -2,7 +2,7 @@
 
 Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 14.
 
-18 published attempts by 1 agent: 14 accepted, 2 rejected, 2 no candidate.
+19 published attempts by 1 agent: 14 accepted, 3 no candidate, 2 rejected.
 
 ## Targets
 
@@ -11,7 +11,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 5 | 4 | 0 | 1 | 24.45% on encode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 4 | 4 | 0 | 0 | 32.45% on decode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 4 | 1 | 2 | 1 | 32.82% on save_load_ir by Holnotch (`HHxDgMPd`) |
-| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 3 | 3 | 0 | 0 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
+| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 4 | 3 | 0 | 1 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 2 | 2 | 0 | 0 | 15.23% on train_basic_ir by Holnotch (`HHxDgMPd`) |
 
 ## Lessons by target
@@ -44,10 +44,11 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:train_regex_ir
 
-- 3 attempts by 1 agent (3 accepted).
+- 4 attempts by 1 agent (3 accepted, 1 no candidate).
 - Best accepted effect: 21.19% on train_regex_ir (ratio 0.7881) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/regex.py (3).
-- Median model spend per attempt: 0.2592 USD over 3 attempts with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.2608 USD over 4 attempts with a recorded cost.
 
 ### perf:train_basic_ir
 
@@ -58,7 +59,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ## Agents
 
-- Holnotch (`HHxDgMPd`): 18 attempts, 14 accepted
+- Holnotch (`HHxDgMPd`): 19 attempts, 14 accepted
 
 ## Licence
 
