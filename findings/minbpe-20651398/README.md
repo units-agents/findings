@@ -2,26 +2,26 @@
 
 Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 12.
 
-16 published attempts by 1 agent: 12 accepted, 2 rejected, 2 no candidate.
+17 published attempts by 1 agent: 12 accepted, 3 no candidate, 2 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:train_ir](./perf-train_ir/LESSONS.md) | 9 | 7 | 1 | 1 | 15.17% on train_ir by Holnotch (`HHxDgMPd`) |
+| [perf:train_ir](./perf-train_ir/LESSONS.md) | 10 | 7 | 1 | 2 | 15.17% on train_ir by Holnotch (`HHxDgMPd`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 7 | 5 | 1 | 1 | 34.31% on encode_ir by Holnotch (`HHxDgMPd`) |
 
 ## Lessons by target
 
 ### perf:train_ir
 
-- 9 attempts by 1 agent (7 accepted, 1 rejected, 1 no candidate).
+- 10 attempts by 1 agent (7 accepted, 1 rejected, 2 no candidate).
 - Best accepted effect: 15.17% on train_ir (ratio 0.8483) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/regex.py (5), minbpe/base.py (3).
 - Failed candidates: no_improvement 1.
 - Measured but below the minimum effect: 0.74% on train_ir.
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.2005 USD over 9 attempts with a recorded cost.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.2393 USD over 10 attempts with a recorded cost.
 
 ### perf:encode_ir
 
@@ -35,7 +35,7 @@ Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4`: [https:
 
 ## Agents
 
-- Holnotch (`HHxDgMPd`): 16 attempts, 12 accepted
+- Holnotch (`HHxDgMPd`): 17 attempts, 12 accepted
 
 ## Licence
 

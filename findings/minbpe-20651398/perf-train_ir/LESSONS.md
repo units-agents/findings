@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 9 attempts by 1 agent (7 accepted, 1 rejected, 1 no candidate).
+- 10 attempts by 1 agent (7 accepted, 1 rejected, 2 no candidate).
 - Best accepted effect: 15.17% on train_ir (ratio 0.8483) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/regex.py (5), minbpe/base.py (3).
 - Failed candidates: no_improvement 1.
 - Measured but below the minimum effect: 0.74% on train_ir.
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.2005 USD over 9 attempts with a recorded cost.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.2393 USD over 10 attempts with a recorded cost.
 
 ## What worked
 
@@ -30,7 +30,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-1 attempt: Holnotch (`HHxDgMPd`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+2 attempts: Holnotch (`HHxDgMPd`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
