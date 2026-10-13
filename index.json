@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 319,
+ "last_seq": 337,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -751,6 +751,186 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/rea-aec2d7ba/perf-report_ir/fea32001f1366b98963514911dacc65eb02fbb64f9b98352f04081e9e83e4987.json"
+  },
+  {
+   "episode_id": "dab14da01bedeabd769a25e878678a3e7de55a7ba76264409a1149e8c7f727c3",
+   "seq": 320,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_basic_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_basic_ir/dab14da01bedeabd769a25e878678a3e7de55a7ba76264409a1149e8c7f727c3.json"
+  },
+  {
+   "episode_id": "ee2cfd4cc74362678b4bc2c09bbb3a6cb9e52a2199910428a9b50eb2c5e306cc",
+   "seq": 321,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-train_ir/ee2cfd4cc74362678b4bc2c09bbb3a6cb9e52a2199910428a9b50eb2c5e306cc.json"
+  },
+  {
+   "episode_id": "49c7b8ea8f451b87aad828debe144c20086b62001b8e51d3ddfed7f04c7d6986",
+   "seq": 322,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-decode_ir/49c7b8ea8f451b87aad828debe144c20086b62001b8e51d3ddfed7f04c7d6986.json"
+  },
+  {
+   "episode_id": "218af3702fad2d5ba3db9f398e68114838a8e82f81aa5de3166076b7af505cae",
+   "seq": 323,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-encode_ir/218af3702fad2d5ba3db9f398e68114838a8e82f81aa5de3166076b7af505cae.json"
+  },
+  {
+   "episode_id": "dad3285bfd836ab0952bb430de688da6ee2296d248f9f736a863569c74872297",
+   "seq": 324,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/dad3285bfd836ab0952bb430de688da6ee2296d248f9f736a863569c74872297.json"
+  },
+  {
+   "episode_id": "399f16767d82ff7a21bcefaf79a70c4d6cac575183cb027a7009d2407a0ad42e",
+   "seq": 325,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/399f16767d82ff7a21bcefaf79a70c4d6cac575183cb027a7009d2407a0ad42e.json"
+  },
+  {
+   "episode_id": "9f93f67f0d6f906459939d166a3c241868b2cd06b45b65aebba9f55d54acf3b5",
+   "seq": 326,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:scalar_mul_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/anza-cryptography-92e06c95/perf-scalar_mul_ir/9f93f67f0d6f906459939d166a3c241868b2cd06b45b65aebba9f55d54acf3b5.json"
+  },
+  {
+   "episode_id": "6fe1a72645789454f360bb6f68dc78e64db72e0e93fda4d33e53c5a2068455ca",
+   "seq": 327,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:scalar_mul_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/anza-cryptography-92e06c95/perf-scalar_mul_ir/6fe1a72645789454f360bb6f68dc78e64db72e0e93fda4d33e53c5a2068455ca.json"
+  },
+  {
+   "episode_id": "1e54a7a994f70a1e1d913ff2d98d2ef453d0d968c89aedd0df8fc376bbb2d71d",
+   "seq": 328,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "units-agents-base58-e88ffcd4",
+   "target": "perf:int_codec_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/units-agents-base58-e88ffcd4/perf-int_codec_ir/1e54a7a994f70a1e1d913ff2d98d2ef453d0d968c89aedd0df8fc376bbb2d71d.json"
+  },
+  {
+   "episode_id": "0265b9f81418b0c5b8e035cd67f806e7d6f99bbac6fb329c83c7ea1ba2c5d8b5",
+   "seq": 329,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_regex_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_regex_ir/0265b9f81418b0c5b8e035cd67f806e7d6f99bbac6fb329c83c7ea1ba2c5d8b5.json"
+  },
+  {
+   "episode_id": "d2e04e107e89506b4738a343da2aaf9070232e7fb81b6a9500f336d490ca8fd9",
+   "seq": 330,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-train_ir/d2e04e107e89506b4738a343da2aaf9070232e7fb81b6a9500f336d490ca8fd9.json"
+  },
+  {
+   "episode_id": "67205593ca22092932837cd4f3ab5873920e8a65d66d24cf41d133de89cf448e",
+   "seq": 331,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_basic_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_basic_ir/67205593ca22092932837cd4f3ab5873920e8a65d66d24cf41d133de89cf448e.json"
+  },
+  {
+   "episode_id": "79d1037aac2ce9707d7cd4c0857c9398722f901317daa458a84cac660840c5bf",
+   "seq": 332,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_basic_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_basic_ir/79d1037aac2ce9707d7cd4c0857c9398722f901317daa458a84cac660840c5bf.json"
+  },
+  {
+   "episode_id": "fdfd0d7ad6ba9c2799b5497c439b88b6ce00b64617ca5980d5d8348336abc625",
+   "seq": 333,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-encode_ir/fdfd0d7ad6ba9c2799b5497c439b88b6ce00b64617ca5980d5d8348336abc625.json"
+  },
+  {
+   "episode_id": "c7ef87950785f659710b4fd5e79278c68ed5ff51e23adb0165ac90e6d6c8236b",
+   "seq": 334,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-20651398/perf-train_ir/c7ef87950785f659710b4fd5e79278c68ed5ff51e23adb0165ac90e6d6c8236b.json"
+  },
+  {
+   "episode_id": "f0074401a2663d6da33d24b3fdee5053b7d6d7bbcbc9154093103e09b473a46d",
+   "seq": 335,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:msm_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/anza-cryptography-92e06c95/perf-msm_ir/f0074401a2663d6da33d24b3fdee5053b7d6d7bbcbc9154093103e09b473a46d.json"
+  },
+  {
+   "episode_id": "ae80daca5e2c60c8bca0c4f957ffb66e37e668eb5cfd7f75a1ef545c3e3e49e1",
+   "seq": 336,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:msm_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/anza-cryptography-92e06c95/perf-msm_ir/ae80daca5e2c60c8bca0c4f957ffb66e37e668eb5cfd7f75a1ef545c3e3e49e1.json"
+  },
+  {
+   "episode_id": "86546b9a38e49be76d00962db2452b53abdeb79af76911f5d54fd41b70f572f7",
+   "seq": 337,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/anza-cryptography-92e06c95/perf-decode_ir/86546b9a38e49be76d00962db2452b53abdeb79af76911f5d54fd41b70f572f7.json"
   }
  ]
 }

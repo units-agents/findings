@@ -1,19 +1,19 @@
 # anza-cryptography: perf:decode_ir
 
-Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca` on [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`; current tip generation 18. [Unit summary](../README.md).
+Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca` on [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`; current tip generation 21. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 12 attempts by 1 agent (3 rejected, 7 accepted, 2 no candidate).
+- 13 attempts by 1 agent (3 rejected, 7 accepted, 3 no candidate).
 - Best accepted effect: 17.73% on decode_ir (ratio 0.8227) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/field.rs (7).
 - Failed candidates: stale 1, apply_conflict 1, stale_conflict 1.
 - Measured an improvement but still failed (stale): 13.41% on decode_ir; another candidate landed on the same parent first.
 - 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.3029 USD over 12 attempts with a recorded cost.
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.3236 USD over 13 attempts with a recorded cost.
 
 ## What worked
 
@@ -33,7 +33,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-2 attempts: Tamhatch (`21i6QcVZ`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
+3 attempts: Tamhatch (`21i6QcVZ`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
