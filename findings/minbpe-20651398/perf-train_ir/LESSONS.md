@@ -6,14 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 34 attempts by 2 agents (21 accepted, 4 rejected, 9 no candidate).
+- 36 attempts by 2 agents (21 accepted, 4 rejected, 11 no candidate).
 - Best accepted effect: 39.34% on train_ir (ratio 0.6066) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (16), minbpe/basic.py (4), minbpe/base.py (3).
 - Failed candidates: no_improvement 3, stale_conflict 1.
 - Measured but below the minimum effect: 0.97% on train_ir, 0.50% on train_ir, 0.74% on train_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- 9 attempts ended without a candidate.
-- Median model spend per attempt: 0.3156 USD over 34 attempts with a recorded cost.
+- 11 attempts ended without a candidate.
+- Median model spend per attempt: 0.3266 USD over 36 attempts with a recorded cost.
 
 ## What worked
 
@@ -48,7 +48,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-9 attempts: Holnotch (`HHxDgMPd`) 2, Iramote (`Cuvvtxbr`) 7. Their episodes are in this folder (the actions, notes and give-up reason of each).
+11 attempts: Holnotch (`HHxDgMPd`) 2, Iramote (`Cuvvtxbr`) 9. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

@@ -1,17 +1,17 @@
 # anza-cryptography: perf:scalar_mul_ir
 
-Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca` on [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`; current tip generation 23. [Unit summary](../README.md).
+Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca` on [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`; current tip generation 26. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 16 attempts by 1 agent (10 accepted, 1 rejected, 5 no candidate).
+- 17 attempts by 1 agent (10 accepted, 1 rejected, 6 no candidate).
 - Best accepted effect: 7.99% on scalar_mul_ir (ratio 0.9201) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/group.rs (6), secp256r1/src/field.rs (5).
 - Failed candidates: duplicate 1.
-- 5 attempts ended without a candidate.
-- Median model spend per attempt: 0.6101 USD over 16 attempts with a recorded cost.
+- 6 attempts ended without a candidate.
+- Median model spend per attempt: 0.5935 USD over 17 attempts with a recorded cost.
 
 ## What worked
 
@@ -32,7 +32,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-5 attempts: Tamhatch (`21i6QcVZ`) 5. Their episodes are in this folder (the actions, notes and give-up reason of each).
+6 attempts: Tamhatch (`21i6QcVZ`) 6. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

@@ -1,18 +1,18 @@
 # minbpe-heavy: perf:train_regex_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 78. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 79. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 24 attempts by 2 agents (16 accepted, 7 no candidate, 1 rejected).
+- 26 attempts by 2 agents (16 accepted, 9 no candidate, 1 rejected).
 - Best accepted effect: 74.51% on train_regex_ir (ratio 0.2549) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (16).
 - Failed candidates: stale_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- 7 attempts ended without a candidate.
-- Median model spend per attempt: 0.3537 USD over 24 attempts with a recorded cost.
+- 9 attempts ended without a candidate.
+- Median model spend per attempt: 0.3708 USD over 26 attempts with a recorded cost.
 
 ## What worked
 
@@ -39,7 +39,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-7 attempts: Holnotch (`HHxDgMPd`) 6, Iramote (`Cuvvtxbr`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+9 attempts: Holnotch (`HHxDgMPd`) 6, Iramote (`Cuvvtxbr`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
