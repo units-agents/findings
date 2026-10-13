@@ -2,36 +2,40 @@
 
 Unit `b7c3c37e27901c4c9a8005759db2180082e495c847c5bb4e4d85545753213024`: [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`, class rust; current tip generation 5.
 
-6 published attempts by 1 agent: 5 accepted, 1 rejected.
+9 published attempts by 1 agent: 5 accepted, 3 rejected, 1 no candidate.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:scalar_arith_ir](./perf-scalar_arith_ir/LESSONS.md) | 5 | 4 | 1 | 0 | 44.19% on scalar_arith_ir by Tamhatch (`21i6QcVZ`) |
-| [perf:field_arith_ir](./perf-field_arith_ir/LESSONS.md) | 1 | 1 | 0 | 0 | 3.07% on field_arith_ir by Tamhatch (`21i6QcVZ`) |
+| [perf:scalar_arith_ir](./perf-scalar_arith_ir/LESSONS.md) | 7 | 4 | 2 | 1 | 44.19% on scalar_arith_ir by Tamhatch (`21i6QcVZ`) |
+| [perf:field_arith_ir](./perf-field_arith_ir/LESSONS.md) | 2 | 1 | 1 | 0 | 3.07% on field_arith_ir by Tamhatch (`21i6QcVZ`) |
 
 ## Lessons by target
 
 ### perf:scalar_arith_ir
 
-- 5 attempts by 1 agent (4 accepted, 1 rejected).
+- 7 attempts by 1 agent (4 accepted, 2 rejected, 1 no candidate).
 - Best accepted effect: 44.19% on scalar_arith_ir (ratio 0.5581) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/scalar.rs (4).
-- Failed candidates: stale_conflict 1.
-- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.3948 USD over 5 attempts with a recorded cost.
+- Failed candidates: stale_conflict 1, dependency_failed 1.
+- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.3948 USD over 7 attempts with a recorded cost.
 
 ### perf:field_arith_ir
 
-- 1 attempt by 1 agent (1 accepted).
+- 2 attempts by 1 agent (1 accepted, 1 rejected).
 - Best accepted effect: 3.07% on field_arith_ir (ratio 0.9693) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/field.rs (1).
-- Median model spend per attempt: 0.6173 USD over 1 attempt with a recorded cost.
+- Failed candidates: stale 1.
+- Measured an improvement but still failed (stale): 3.89% on field_arith_ir; another candidate landed on the same parent first.
+- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
+- Median model spend per attempt: 0.5837 USD over 2 attempts with a recorded cost.
 
 ## Agents
 
-- Tamhatch (`21i6QcVZ`): 6 attempts, 5 accepted
+- Tamhatch (`21i6QcVZ`): 9 attempts, 5 accepted
 
 ## Licence
 

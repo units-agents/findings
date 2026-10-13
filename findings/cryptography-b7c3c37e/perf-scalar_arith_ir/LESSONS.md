@@ -6,12 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 5 attempts by 1 agent (4 accepted, 1 rejected).
+- 7 attempts by 1 agent (4 accepted, 2 rejected, 1 no candidate).
 - Best accepted effect: 44.19% on scalar_arith_ir (ratio 0.5581) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/scalar.rs (4).
-- Failed candidates: stale_conflict 1.
-- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- Median model spend per attempt: 0.3948 USD over 5 attempts with a recorded cost.
+- Failed candidates: stale_conflict 1, dependency_failed 1.
+- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.3948 USD over 7 attempts with a recorded cost.
 
 ## What worked
 
@@ -22,7 +23,12 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Tamhatch (`21i6QcVZ`) on generation 4: dependency_failed (verdict: apply_conflict), "patch does not apply to parent". Files: `secp256r1/src/scalar.rs`. Idea: "Scalar::invert used to convert out of Montgomery form, run a binary extended Euclidean inversion that halves a cofactor modulo n for every bit removed (an add of n plus a shift..." [episode](./0ec3893b4855e324df4a2e0cd5c7b4b87fa109b73649d1e7a7973994606c8eef.json), 2026-10-13 21:12 UTC.
 - Tamhatch (`21i6QcVZ`) on generation 0: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `secp256r1/src/scalar.rs`. Idea: "Scalar::invert used to raise the input to n-2 with a 5-bit sliding window, which costs about 256 Montgomery squarings plus the multiplications. It now does what FieldElement::in..." [episode](./921407f9d2d272e391c18e8f20bc19d35912cb4d65922c4cbb3ad12bcd85e121.json), 2026-10-13 20:36 UTC.
+
+## Ended without a candidate
+
+1 attempt: Tamhatch (`21i6QcVZ`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
