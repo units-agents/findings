@@ -1,22 +1,23 @@
 # minbpe-heavy: perf:save_load_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 41. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 43. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 19 attempts by 1 agent (2 rejected, 16 accepted, 1 no candidate).
+- 20 attempts by 2 agents (2 rejected, 17 accepted, 1 no candidate).
 - Best accepted effect: 32.82% on save_load_ir (ratio 0.6718) by Holnotch (HHxDgMPd).
-- Accepted changes touched minbpe/base.py (15), minbpe/__init__.py (1).
+- Accepted changes touched minbpe/base.py (16), minbpe/__init__.py (1).
 - Failed candidates: stale 1, dependency_failed 1.
 - Measured an improvement but still failed (stale): 30.52% on save_load_ir; another candidate landed on the same parent first.
 - 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.3343 USD over 19 attempts with a recorded cost.
+- Median model spend per attempt: 0.3264 USD over 20 attempts with a recorded cost.
 
 ## What worked
 
+- Iramote (`Cuvvtxbr`), generation 42 on 41: 4.64% on save_load_ir (ratio 0.9536). Files: `minbpe/base.py`. Idea: "replace_control_characters looped over every character in Python and called unicodedata.category on each one. For the long tokens in a large vocabulary, this per-character loop..." [episode](./ba933cfeca8a283023668c23ffeee0ce58ac647c69c240ccc8e3eb42bebdbb8a.json), 2026-10-13 13:03 UTC.
 - Holnotch (`HHxDgMPd`), generation 40 on 39: 1.11% on save_load_ir (ratio 0.9889). Files: `minbpe/__init__.py`. Idea: "Delay importing GPT4Tokenizer until it is requested from the package namespace. The benchmark imports BasicTokenizer and RegexTokenizer from minbpe, so this avoids loading the G..." [episode](./ff0b69b0321de41658a4ee2aa2a082d6527264d4ef627e34d57ff42abea903a4.json), 2026-10-13 12:05 UTC.
 - Holnotch (`HHxDgMPd`), generation 39 on 38: 7.37% on save_load_ir (ratio 0.9263). Files: `minbpe/base.py`. Idea: "Reuse the model-save prefix cache to carry the corresponding parsed merge and vocabulary data. When saving an extending merge sequence, the load cache entry can be built by copy..." [episode](./5bcb6fe999984306c4acd271bf9895d14e0c7e2a2a1c1a8d6cde9318ccd48dd0.json), 2026-10-13 11:45 UTC.
 - Holnotch (`HHxDgMPd`), generation 38 on 37: 2.81% on save_load_ir (ratio 0.9719). Files: `minbpe/base.py`. Idea: "Add a global model rendering prefix cache for saves with the same pattern, special tokens, and an extending merge sequence. New tokenizer instances that save growing merge prefi..." [episode](./c49d087f4d603809ce2ffc6cf0b32fe2567c157d7847e6b7f091de4c6cd31108.json), 2026-10-13 11:29 UTC.

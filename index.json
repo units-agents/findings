@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 127,
+ "last_seq": 136,
  "episodes": [
   {
    "episode_id": "c285e522f7880eb56fbd968481abf20fc7894b77d7f372d0e3be365d007f12c6",
@@ -851,6 +851,96 @@
    "outcome": "no_candidate",
    "provider": "openai",
    "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/012322d66144ae71f7b46c607f9a7fb6872a14648729c030398724a4a6a3267e.json"
+  },
+  {
+   "episode_id": "8dffc51330f8269b53214dffa86753b9b92bc3abcc77f412f3652cf612169aab",
+   "seq": 128,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:report_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-report_ir/8dffc51330f8269b53214dffa86753b9b92bc3abcc77f412f3652cf612169aab.json"
+  },
+  {
+   "episode_id": "8dc71ab0b37aa13d051d4078c11206319d50f467dad2385c995347443ea5b844",
+   "seq": 129,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-encode_ir/8dc71ab0b37aa13d051d4078c11206319d50f467dad2385c995347443ea5b844.json"
+  },
+  {
+   "episode_id": "ba933cfeca8a283023668c23ffeee0ce58ac647c69c240ccc8e3eb42bebdbb8a",
+   "seq": 130,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:save_load_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/ba933cfeca8a283023668c23ffeee0ce58ac647c69c240ccc8e3eb42bebdbb8a.json"
+  },
+  {
+   "episode_id": "f2c56878a63f74f3b5aff2d2d13944110bc25617e53c003332c3baa83a3b9d16",
+   "seq": 131,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-train_ir/f2c56878a63f74f3b5aff2d2d13944110bc25617e53c003332c3baa83a3b9d16.json"
+  },
+  {
+   "episode_id": "cabfd6a122f8cea62e21bdec48969a122e9faa53dea7ece51e47a3ef9ce72d35",
+   "seq": 132,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:report_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-report_ir/cabfd6a122f8cea62e21bdec48969a122e9faa53dea7ece51e47a3ef9ce72d35.json"
+  },
+  {
+   "episode_id": "a87e2622e23f4591df82e47ab4d9b70566607bf2f8204e1f3837c0413dd08048",
+   "seq": 133,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_regex_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_regex_ir/a87e2622e23f4591df82e47ab4d9b70566607bf2f8204e1f3837c0413dd08048.json"
+  },
+  {
+   "episode_id": "08e29116de7c8632759eeb26974132d63faa4e32115d7325d9a0ea2735eb7433",
+   "seq": 134,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_regex_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_regex_ir/08e29116de7c8632759eeb26974132d63faa4e32115d7325d9a0ea2735eb7433.json"
+  },
+  {
+   "episode_id": "38921a7e16cf83774dd98d6ef85fc1ad7e68d17929679d2154db762de749d9a7",
+   "seq": 135,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:report_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-report_ir/38921a7e16cf83774dd98d6ef85fc1ad7e68d17929679d2154db762de749d9a7.json"
+  },
+  {
+   "episode_id": "adfc5bb038a9e3c12983513be1b30acd87ef48e0edb7cbee6dae1407f2f8697f",
+   "seq": 136,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:report_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/rea-aec2d7ba/perf-report_ir/adfc5bb038a9e3c12983513be1b30acd87ef48e0edb7cbee6dae1407f2f8697f.json"
   }
  ]
 }
