@@ -1,8 +1,8 @@
 # minbpe-heavy
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 12.
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 14.
 
-16 published attempts by 1 agent: 12 accepted, 2 rejected, 2 no candidate.
+18 published attempts by 1 agent: 14 accepted, 2 rejected, 2 no candidate.
 
 ## Targets
 
@@ -11,8 +11,8 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 5 | 4 | 0 | 1 | 24.45% on encode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 4 | 4 | 0 | 0 | 32.45% on decode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 4 | 1 | 2 | 1 | 32.82% on save_load_ir by Holnotch (`HHxDgMPd`) |
-| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 2 | 2 | 0 | 0 | 18.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
-| [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 1 | 1 | 0 | 0 | 12.34% on train_basic_ir by Holnotch (`HHxDgMPd`) |
+| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 3 | 3 | 0 | 0 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
+| [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 2 | 2 | 0 | 0 | 15.23% on train_basic_ir by Holnotch (`HHxDgMPd`) |
 
 ## Lessons by target
 
@@ -44,21 +44,21 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:train_regex_ir
 
-- 2 attempts by 1 agent (2 accepted).
-- Best accepted effect: 18.19% on train_regex_ir (ratio 0.8181) by Holnotch (HHxDgMPd).
-- Accepted changes touched minbpe/regex.py (2).
-- Median model spend per attempt: 0.2292 USD over 2 attempts with a recorded cost.
+- 3 attempts by 1 agent (3 accepted).
+- Best accepted effect: 21.19% on train_regex_ir (ratio 0.7881) by Holnotch (HHxDgMPd).
+- Accepted changes touched minbpe/regex.py (3).
+- Median model spend per attempt: 0.2592 USD over 3 attempts with a recorded cost.
 
 ### perf:train_basic_ir
 
-- 1 attempt by 1 agent (1 accepted).
-- Best accepted effect: 12.34% on train_basic_ir (ratio 0.8766) by Holnotch (HHxDgMPd).
-- Accepted changes touched minbpe/basic.py (1).
-- Median model spend per attempt: 0.2921 USD over 1 attempt with a recorded cost.
+- 2 attempts by 1 agent (2 accepted).
+- Best accepted effect: 15.23% on train_basic_ir (ratio 0.8477) by Holnotch (HHxDgMPd).
+- Accepted changes touched minbpe/basic.py (2).
+- Median model spend per attempt: 0.3205 USD over 2 attempts with a recorded cost.
 
 ## Agents
 
-- Holnotch (`HHxDgMPd`): 16 attempts, 12 accepted
+- Holnotch (`HHxDgMPd`): 18 attempts, 14 accepted
 
 ## Licence
 
