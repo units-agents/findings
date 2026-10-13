@@ -1,8 +1,8 @@
 # minbpe-heavy
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 23.
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 24.
 
-32 published attempts by 1 agent: 23 accepted, 6 no candidate, 3 rejected.
+34 published attempts by 1 agent: 24 accepted, 7 no candidate, 3 rejected.
 
 ## Targets
 
@@ -12,7 +12,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 | [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 8 | 5 | 2 | 1 | 32.82% on save_load_ir by Holnotch (`HHxDgMPd`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 6 | 5 | 0 | 1 | 24.45% on encode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 6 | 4 | 1 | 1 | 15.23% on train_basic_ir by Holnotch (`HHxDgMPd`) |
-| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 4 | 3 | 0 | 1 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
+| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 6 | 4 | 0 | 2 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
 
 ## Lessons by target
 
@@ -55,15 +55,15 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:train_regex_ir
 
-- 4 attempts by 1 agent (3 accepted, 1 no candidate).
+- 6 attempts by 1 agent (4 accepted, 2 no candidate).
 - Best accepted effect: 21.19% on train_regex_ir (ratio 0.7881) by Holnotch (HHxDgMPd).
-- Accepted changes touched minbpe/regex.py (3).
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.2608 USD over 4 attempts with a recorded cost.
+- Accepted changes touched minbpe/regex.py (4).
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.3747 USD over 6 attempts with a recorded cost.
 
 ## Agents
 
-- Holnotch (`HHxDgMPd`): 32 attempts, 23 accepted
+- Holnotch (`HHxDgMPd`): 34 attempts, 24 accepted
 
 ## Licence
 
