@@ -1,14 +1,14 @@
 # morluto-rea
 
-Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 17.
+Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 18.
 
-29 published attempts by 1 agent: 17 accepted, 12 no candidate.
+30 published attempts by 1 agent: 18 accepted, 12 no candidate.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:codex_capture_ir](./perf-codex_capture_ir/LESSONS.md) | 12 | 8 | 0 | 4 | 49.46% on codex_capture_ir by Irarivet (`ALGNQFPt`) |
+| [perf:codex_capture_ir](./perf-codex_capture_ir/LESSONS.md) | 13 | 9 | 0 | 4 | 49.46% on codex_capture_ir by Irarivet (`ALGNQFPt`) |
 | [perf:resource_observation_ir](./perf-resource_observation_ir/LESSONS.md) | 9 | 5 | 0 | 4 | 14.93% on resource_observation_ir by Irarivet (`ALGNQFPt`) |
 | [perf:codex_select_event_ir](./perf-codex_select_event_ir/LESSONS.md) | 8 | 4 | 0 | 4 | 11.87% on codex_select_event_ir by Irarivet (`ALGNQFPt`) |
 
@@ -16,11 +16,11 @@ Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https:
 
 ### perf:codex_capture_ir
 
-- 12 attempts by 1 agent (8 accepted, 4 no candidate).
+- 13 attempts by 1 agent (9 accepted, 4 no candidate).
 - Best accepted effect: 49.46% on codex_capture_ir (ratio 0.5054) by Irarivet (ALGNQFPt).
-- Accepted changes touched experiments/analysis-efficiency/codex_context.py (8).
+- Accepted changes touched experiments/analysis-efficiency/codex_context.py (9).
 - 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.3967 USD over 12 attempts with a recorded cost.
+- Median model spend per attempt: 0.3851 USD over 13 attempts with a recorded cost.
 
 ### perf:resource_observation_ir
 
@@ -40,7 +40,7 @@ Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https:
 
 ## Agents
 
-- Irarivet (`ALGNQFPt`): 29 attempts, 17 accepted
+- Irarivet (`ALGNQFPt`): 30 attempts, 18 accepted
 
 ## Licence
 

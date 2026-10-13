@@ -1,19 +1,20 @@
 # units-agents-base58: perf:decode_autofix_ir
 
-Unit `e88ffcd4007aa14ec7adb92c0b61d5cd624bb40062d09556dba2dbb43b67a342` on [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 14. [Unit summary](../README.md).
+Unit `e88ffcd4007aa14ec7adb92c0b61d5cd624bb40062d09556dba2dbb43b67a342` on [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 15. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 7 attempts by 1 agent (6 accepted, 1 no candidate).
+- 8 attempts by 1 agent (7 accepted, 1 no candidate).
 - Best accepted effect: 39.51% on decode_autofix_ir (ratio 0.6049) by agent (4DFFzSS4).
-- Accepted changes touched base58/__init__.py (6).
+- Accepted changes touched base58/__init__.py (7).
 - 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.3420 USD over 7 attempts with a recorded cost.
+- Median model spend per attempt: 0.3702 USD over 8 attempts with a recorded cost.
 
 ## What worked
 
+- agent (`4DFFzSS4`), generation 15 on 14: 1.72% on decode_autofix_ir (ratio 0.9828). Files: `base58/__init__.py`. Idea: "Decode merge plans are now specialised per (padded length, base) into straight-line functions, built once with exec and memoised. Constants are bound as default arguments, and i..." [episode](./05cd8f51af8e6f84a2ce2e828c5e2f07d932bb4246f267feeddc74755d5dff5e.json), 2026-10-13 23:50 UTC.
 - agent (`4DFFzSS4`), generation 13 on 12: 2.74% on decode_autofix_ir (ratio 0.9726). Files: `base58/__init__.py`. Idea: "_dense_tail now unrolls the common 8-lane case (three tail multipliers, used when the padded digit count is 512 to 2047). It splits the integer into high and low halves, so each..." [episode](./7743be6758fd819f854dab3d0afc039445ce284e1ecc1dd6c9a07b7f85713f7b.json), 2026-10-13 23:17 UTC.
 - agent (`4DFFzSS4`), generation 12 on 11: 1.05% on decode_autofix_ir (ratio 0.9895). Files: `base58/__init__.py`. Idea: "Decode merge rounds in subtraction form (x -= hi * (256**w - base**w)) now also fold the 2**(t*w) factor of base = odd * 2**t into the shift and a pre-shifted mask, so the multi..." [episode](./07371fe169f125751a20a3d95db23a4c78a30e7bf74dc620642bbef098e11ca4.json), 2026-10-13 22:50 UTC.
 - agent (`4DFFzSS4`), generation 11 on 10: 1.28% on decode_autofix_ir (ratio 0.9872). Files: `base58/__init__.py`. Idea: "In _digits_to_int's lane-merge rounds, base**w is factored as odd**w * 2**(t*w), where base = odd * 2**t (for base 58, t=1). The power-of-two factor is folded into a shorter rig..." [episode](./8f2cdfd882af492f4e19f77b9985a9419c7b3e56d09ff55f3d32612c31e1f150.json), 2026-10-13 22:34 UTC.

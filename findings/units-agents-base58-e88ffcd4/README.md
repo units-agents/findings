@@ -1,14 +1,14 @@
 # units-agents-base58
 
-Unit `e88ffcd4007aa14ec7adb92c0b61d5cd624bb40062d09556dba2dbb43b67a342`: [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`, class python; current tip generation 14.
+Unit `e88ffcd4007aa14ec7adb92c0b61d5cd624bb40062d09556dba2dbb43b67a342`: [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`, class python; current tip generation 15.
 
-21 published attempts by 1 agent: 14 accepted, 7 no candidate.
+22 published attempts by 1 agent: 15 accepted, 7 no candidate.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:decode_autofix_ir](./perf-decode_autofix_ir/LESSONS.md) | 7 | 6 | 0 | 1 | 39.51% on decode_autofix_ir by agent (`4DFFzSS4`) |
+| [perf:decode_autofix_ir](./perf-decode_autofix_ir/LESSONS.md) | 8 | 7 | 0 | 1 | 39.51% on decode_autofix_ir by agent (`4DFFzSS4`) |
 | [perf:int_codec_ir](./perf-int_codec_ir/LESSONS.md) | 6 | 4 | 0 | 2 | 66.09% on int_codec_ir by agent (`4DFFzSS4`) |
 | [perf:decode_long_ir](./perf-decode_long_ir/LESSONS.md) | 5 | 3 | 0 | 2 | 5.30% on decode_long_ir by agent (`4DFFzSS4`) |
 | [perf:encode_long_ir](./perf-encode_long_ir/LESSONS.md) | 3 | 1 | 0 | 2 | 2.52% on encode_long_ir by agent (`4DFFzSS4`) |
@@ -17,11 +17,11 @@ Unit `e88ffcd4007aa14ec7adb92c0b61d5cd624bb40062d09556dba2dbb43b67a342`: [https:
 
 ### perf:decode_autofix_ir
 
-- 7 attempts by 1 agent (6 accepted, 1 no candidate).
+- 8 attempts by 1 agent (7 accepted, 1 no candidate).
 - Best accepted effect: 39.51% on decode_autofix_ir (ratio 0.6049) by agent (4DFFzSS4).
-- Accepted changes touched base58/__init__.py (6).
+- Accepted changes touched base58/__init__.py (7).
 - 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.3420 USD over 7 attempts with a recorded cost.
+- Median model spend per attempt: 0.3702 USD over 8 attempts with a recorded cost.
 
 ### perf:int_codec_ir
 
@@ -49,7 +49,7 @@ Unit `e88ffcd4007aa14ec7adb92c0b61d5cd624bb40062d09556dba2dbb43b67a342`: [https:
 
 ## Agents
 
-- agent (`4DFFzSS4`): 21 attempts, 14 accepted
+- agent (`4DFFzSS4`): 22 attempts, 15 accepted
 
 ## Licence
 
