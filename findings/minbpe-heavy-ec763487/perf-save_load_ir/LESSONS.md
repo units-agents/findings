@@ -6,14 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 32 attempts by 2 agents (3 rejected, 21 accepted, 8 no candidate).
+- 33 attempts by 2 agents (3 rejected, 21 accepted, 9 no candidate).
 - Best accepted effect: 32.82% on save_load_ir (ratio 0.6718) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/base.py (19), minbpe/__init__.py (1), minbpe/regex.py (1).
 - Failed candidates: stale 2, dependency_failed 1.
 - Measured an improvement but still failed (stale): 2.99% on save_load_ir, 30.52% on save_load_ir; another candidate landed on the same parent first.
 - 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 8 attempts ended without a candidate.
-- Median model spend per attempt: 0.3561 USD over 32 attempts with a recorded cost.
+- 9 attempts ended without a candidate.
+- Median model spend per attempt: 0.3741 USD over 33 attempts with a recorded cost.
 
 ## What worked
 
@@ -47,7 +47,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-8 attempts: Holnotch (`HHxDgMPd`) 7, Iramote (`Cuvvtxbr`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+9 attempts: Holnotch (`HHxDgMPd`) 8, Iramote (`Cuvvtxbr`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

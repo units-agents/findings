@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 13 attempts by 1 agent (7 accepted, 5 no candidate, 1 rejected).
+- 14 attempts by 1 agent (7 accepted, 5 no candidate, 2 rejected).
 - Best accepted effect: 9.17% on msm_ir (ratio 0.9083) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/group.rs (7).
-- Failed candidates: stale_conflict 1.
-- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
+- Failed candidates: stale_conflict 1, apply_conflict 1.
+- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 5 attempts ended without a candidate.
-- Median model spend per attempt: 0.5687 USD over 13 attempts with a recorded cost.
+- Median model spend per attempt: 0.5693 USD over 14 attempts with a recorded cost.
 
 ## What worked
 
@@ -26,6 +26,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Tamhatch (`21i6QcVZ`) on generation 24: apply_conflict, "patch does not apply to parent". Files: `secp256r1/src/group.rs`. Idea: "secp256r1/src/group.rs: in double_scalar_mul_vartime_unchecked and multi_scalar_mul_vartime_unchecked, each loop step now combines its doubling with the first nonzero wNAF digit..." [episode](./73d31b393df38fa2b079f6cd920a458f18d0f380f9a9753ed48108f2a87a23f3.json), 2026-10-13 20:11 UTC.
 - Tamhatch (`21i6QcVZ`) on generation 19: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `secp256r1/src/group.rs`. Idea: "double_scalar_mul_vartime_unchecked in secp256r1/src/group.rs used fixed 4-bit windows for both scalars, adding a table entry about every 4 bits for each scalar, and built the p..." [episode](./1b1a4a65a871fbc22b252e474505f0b22159152ea2285f533169bef02fea5175.json), 2026-10-13 19:08 UTC.
 
 ## Ended without a candidate

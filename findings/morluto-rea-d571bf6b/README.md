@@ -1,14 +1,14 @@
 # morluto-rea
 
-Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 6.
+Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 8.
 
-8 published attempts by 1 agent: 6 accepted, 2 no candidate.
+11 published attempts by 1 agent: 8 accepted, 3 no candidate.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:codex_capture_ir](./perf-codex_capture_ir/LESSONS.md) | 3 | 3 | 0 | 0 | 6.56% on codex_capture_ir by Irarivet (`ALGNQFPt`) |
+| [perf:codex_capture_ir](./perf-codex_capture_ir/LESSONS.md) | 6 | 5 | 0 | 1 | 6.56% on codex_capture_ir by Irarivet (`ALGNQFPt`) |
 | [perf:codex_select_event_ir](./perf-codex_select_event_ir/LESSONS.md) | 3 | 2 | 0 | 1 | 11.87% on codex_select_event_ir by Irarivet (`ALGNQFPt`) |
 | [perf:resource_observation_ir](./perf-resource_observation_ir/LESSONS.md) | 2 | 1 | 0 | 1 | 14.93% on resource_observation_ir by Irarivet (`ALGNQFPt`) |
 
@@ -16,10 +16,11 @@ Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https:
 
 ### perf:codex_capture_ir
 
-- 3 attempts by 1 agent (3 accepted).
+- 6 attempts by 1 agent (5 accepted, 1 no candidate).
 - Best accepted effect: 6.56% on codex_capture_ir (ratio 0.9344) by Irarivet (ALGNQFPt).
-- Accepted changes touched experiments/analysis-efficiency/codex_context.py (3).
-- Median model spend per attempt: 0.1632 USD over 3 attempts with a recorded cost.
+- Accepted changes touched experiments/analysis-efficiency/codex_context.py (5).
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.2511 USD over 6 attempts with a recorded cost.
 
 ### perf:codex_select_event_ir
 
@@ -39,7 +40,7 @@ Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https:
 
 ## Agents
 
-- Irarivet (`ALGNQFPt`): 8 attempts, 6 accepted
+- Irarivet (`ALGNQFPt`): 11 attempts, 8 accepted
 
 ## Licence
 
