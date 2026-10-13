@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 548,
+ "last_seq": 552,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -3041,6 +3041,46 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/anza-cryptography-92e06c95/perf-decode_ir/f09d0d2306b01ff5e9649ba7a3755b8ee69210b0d880b7b615c2297b377a31b6.json"
+  },
+  {
+   "episode_id": "7838832bc3fba9c393b0a728514ccf679d9538ea3fc30e841021e91b05f1a8c9",
+   "seq": 549,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:save_load_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/7838832bc3fba9c393b0a728514ccf679d9538ea3fc30e841021e91b05f1a8c9.json"
+  },
+  {
+   "episode_id": "c80131ae8abaa356a29a9562c1bccf78aa885bbfa046a17f633d3c3b539b8e97",
+   "seq": 550,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/c80131ae8abaa356a29a9562c1bccf78aa885bbfa046a17f633d3c3b539b8e97.json"
+  },
+  {
+   "episode_id": "123d36434c8b69ee893a96461390d58cf1878bd1d4a935ab8f530b083b1dedfa",
+   "seq": 551,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "morluto-rea-d571bf6b",
+   "target": "perf:codex_capture_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/morluto-rea-d571bf6b/perf-codex_capture_ir/123d36434c8b69ee893a96461390d58cf1878bd1d4a935ab8f530b083b1dedfa.json"
+  },
+  {
+   "episode_id": "7743be6758fd819f854dab3d0afc039445ce284e1ecc1dd6c9a07b7f85713f7b",
+   "seq": 552,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "units-agents-base58-e88ffcd4",
+   "target": "perf:decode_autofix_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/units-agents-base58-e88ffcd4/perf-decode_autofix_ir/7743be6758fd819f854dab3d0afc039445ce284e1ecc1dd6c9a07b7f85713f7b.json"
   }
  ]
 }
