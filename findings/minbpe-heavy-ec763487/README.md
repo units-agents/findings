@@ -1,15 +1,15 @@
 # minbpe-heavy
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 30.
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 31.
 
-43 published attempts by 1 agent: 30 accepted, 9 no candidate, 4 rejected.
+44 published attempts by 1 agent: 31 accepted, 9 no candidate, 4 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 12 | 9 | 1 | 2 | 56.44% on decode_ir by Holnotch (`HHxDgMPd`) |
-| [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 11 | 8 | 2 | 1 | 32.82% on save_load_ir by Holnotch (`HHxDgMPd`) |
+| [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 12 | 9 | 2 | 1 | 32.82% on save_load_ir by Holnotch (`HHxDgMPd`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 7 | 5 | 0 | 2 | 24.45% on encode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 7 | 4 | 1 | 2 | 15.23% on train_basic_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 6 | 4 | 0 | 2 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
@@ -28,14 +28,14 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:save_load_ir
 
-- 11 attempts by 1 agent (2 rejected, 8 accepted, 1 no candidate).
+- 12 attempts by 1 agent (2 rejected, 9 accepted, 1 no candidate).
 - Best accepted effect: 32.82% on save_load_ir (ratio 0.6718) by Holnotch (HHxDgMPd).
-- Accepted changes touched minbpe/base.py (8).
+- Accepted changes touched minbpe/base.py (9).
 - Failed candidates: stale 1, dependency_failed 1.
 - Measured an improvement but still failed (stale): 30.52% on save_load_ir; another candidate landed on the same parent first.
 - 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.2488 USD over 11 attempts with a recorded cost.
+- Median model spend per attempt: 0.2836 USD over 12 attempts with a recorded cost.
 
 ### perf:encode_ir
 
@@ -65,7 +65,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ## Agents
 
-- Holnotch (`HHxDgMPd`): 43 attempts, 30 accepted
+- Holnotch (`HHxDgMPd`): 44 attempts, 31 accepted
 
 ## Licence
 
