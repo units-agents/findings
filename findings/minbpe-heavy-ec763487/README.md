@@ -1,20 +1,30 @@
 # minbpe-heavy
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 26.
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 27.
 
-39 published attempts by 1 agent: 26 accepted, 9 no candidate, 4 rejected.
+40 published attempts by 1 agent: 27 accepted, 9 no candidate, 4 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
+| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 10 | 7 | 1 | 2 | 32.45% on decode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 10 | 7 | 2 | 1 | 32.82% on save_load_ir by Holnotch (`HHxDgMPd`) |
-| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 9 | 6 | 1 | 2 | 32.45% on decode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 7 | 5 | 0 | 2 | 24.45% on encode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 7 | 4 | 1 | 2 | 15.23% on train_basic_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 6 | 4 | 0 | 2 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
 
 ## Lessons by target
+
+### perf:decode_ir
+
+- 10 attempts by 1 agent (7 accepted, 2 no candidate, 1 rejected).
+- Best accepted effect: 32.45% on decode_ir (ratio 0.6755) by Holnotch (HHxDgMPd).
+- Accepted changes touched minbpe/basic.py (5), minbpe/regex.py (4).
+- Failed candidates: no_improvement 1.
+- Measured but below the minimum effect: 0.52% on decode_ir.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.4316 USD over 10 attempts with a recorded cost.
 
 ### perf:save_load_ir
 
@@ -26,16 +36,6 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 - 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 1 attempt ended without a candidate.
 - Median model spend per attempt: 0.2485 USD over 10 attempts with a recorded cost.
-
-### perf:decode_ir
-
-- 9 attempts by 1 agent (6 accepted, 2 no candidate, 1 rejected).
-- Best accepted effect: 32.45% on decode_ir (ratio 0.6755) by Holnotch (HHxDgMPd).
-- Accepted changes touched minbpe/basic.py (4), minbpe/regex.py (3).
-- Failed candidates: no_improvement 1.
-- Measured but below the minimum effect: 0.52% on decode_ir.
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.4412 USD over 9 attempts with a recorded cost.
 
 ### perf:encode_ir
 
@@ -65,7 +65,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ## Agents
 
-- Holnotch (`HHxDgMPd`): 39 attempts, 26 accepted
+- Holnotch (`HHxDgMPd`): 40 attempts, 27 accepted
 
 ## Licence
 
