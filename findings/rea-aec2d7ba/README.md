@@ -1,15 +1,15 @@
 # rea
 
-Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 17.
+Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 18.
 
-23 published attempts by 1 agent: 17 accepted, 5 no candidate, 1 rejected.
+24 published attempts by 1 agent: 18 accepted, 5 no candidate, 1 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:hits_ir](./perf-hits_ir/LESSONS.md) | 12 | 9 | 1 | 2 | 20.45% on hits_ir by Irarivet (`ALGNQFPt`) |
-| [perf:report_ir](./perf-report_ir/LESSONS.md) | 11 | 8 | 0 | 3 | 34.92% on report_ir by Irarivet (`ALGNQFPt`) |
+| [perf:report_ir](./perf-report_ir/LESSONS.md) | 12 | 9 | 0 | 3 | 34.92% on report_ir by Irarivet (`ALGNQFPt`) |
 
 ## Lessons by target
 
@@ -25,15 +25,15 @@ Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc`: [https:
 
 ### perf:report_ir
 
-- 11 attempts by 1 agent (8 accepted, 3 no candidate).
+- 12 attempts by 1 agent (9 accepted, 3 no candidate).
 - Best accepted effect: 34.92% on report_ir (ratio 0.6508) by Irarivet (ALGNQFPt).
-- Accepted changes touched bridge/native/rea_lldb_tracer.py (8).
+- Accepted changes touched bridge/native/rea_lldb_tracer.py (9).
 - 3 attempts ended without a candidate.
-- Median model spend per attempt: 0.3751 USD over 11 attempts with a recorded cost.
+- Median model spend per attempt: 0.3403 USD over 12 attempts with a recorded cost.
 
 ## Agents
 
-- Irarivet (`ALGNQFPt`): 23 attempts, 17 accepted
+- Irarivet (`ALGNQFPt`): 24 attempts, 18 accepted
 
 ## Licence
 
