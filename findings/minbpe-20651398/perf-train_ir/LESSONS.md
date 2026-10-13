@@ -6,17 +6,18 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 38 attempts by 2 agents (21 accepted, 4 rejected, 13 no candidate).
+- 39 attempts by 2 agents (22 accepted, 4 rejected, 13 no candidate).
 - Best accepted effect: 39.34% on train_ir (ratio 0.6066) by Iramote (Cuvvtxbr).
-- Accepted changes touched minbpe/regex.py (16), minbpe/basic.py (4), minbpe/base.py (3).
+- Accepted changes touched minbpe/regex.py (17), minbpe/basic.py (4), minbpe/base.py (3).
 - Failed candidates: no_improvement 3, stale_conflict 1.
 - Measured but below the minimum effect: 0.97% on train_ir, 0.50% on train_ir, 0.74% on train_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 13 attempts ended without a candidate.
-- Median model spend per attempt: 0.3557 USD over 38 attempts with a recorded cost.
+- Median model spend per attempt: 0.3782 USD over 39 attempts with a recorded cost.
 
 ## What worked
 
+- Iramote (`Cuvvtxbr`), generation 35 on 34: 1.82% on train_ir (ratio 0.9818). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train: a pair is now keyed by the 2-char str of its tokens rather than a tuple. The str caches its hash, the index is built with map(operator.add) in C, and the m..." [episode](./98b3bcd9981fbe9af4a0986e198b54859b0bfa203444dbc3f55ea9ab53df3183.json), 2026-10-13 20:34 UTC.
 - Iramote (`Cuvvtxbr`), generation 34 on 33: 1.30% on train_ir (ratio 0.9870). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train: the pair-to-chunks index now holds per-occurrence lists, which are cheaper to build than sets. The initial pair counts are summed from the index in C, so t..." [episode](./28c583dfb1f8e90b3992d97aa98fd7d1bc76c0c22fefc2ff74b4e1b78c1b5f3f.json), 2026-10-13 19:19 UTC.
 - Holnotch (`HHxDgMPd`), generation 33 on 32: 7.01% on train_ir (ratio 0.9299). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "BasicTokenizer.train now keeps a lazy max-heap of pair counts and updates it as counts change, avoiding a full values list and scan on every merge. The pair-count update also co..." [episode](./d2e04e107e89506b4738a343da2aaf9070232e7fb81b6a9500f336d490ca8fd9.json), 2026-10-13 18:57 UTC.
 - Iramote (`Cuvvtxbr`), generation 32 on 31: 1.29% on train_ir (ratio 0.9871). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train: the per-merge update no longer collects added pairs in a temporary list per chunk. Each removed or added pair count goes straight into the delta dict, and..." [episode](./1b82d35e195196113ae50dd6c39488d91c5139f18b158bbb12aead4ea5bbcd5f.json), 2026-10-13 18:20 UTC.
