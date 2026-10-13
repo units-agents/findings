@@ -2,7 +2,7 @@
 
 Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 25.
 
-35 published attempts by 1 agent: 25 accepted, 7 no candidate, 3 rejected.
+36 published attempts by 1 agent: 25 accepted, 8 no candidate, 3 rejected.
 
 ## Targets
 
@@ -10,7 +10,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 |---|---|---|---|---|---|
 | [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 9 | 6 | 2 | 1 | 32.82% on save_load_ir by Holnotch (`HHxDgMPd`) |
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 8 | 6 | 0 | 2 | 32.45% on decode_ir by Holnotch (`HHxDgMPd`) |
-| [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 6 | 5 | 0 | 1 | 24.45% on encode_ir by Holnotch (`HHxDgMPd`) |
+| [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 7 | 5 | 0 | 2 | 24.45% on encode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 6 | 4 | 1 | 1 | 15.23% on train_basic_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 6 | 4 | 0 | 2 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
 
@@ -37,11 +37,11 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:encode_ir
 
-- 6 attempts by 1 agent (5 accepted, 1 no candidate).
+- 7 attempts by 1 agent (5 accepted, 2 no candidate).
 - Best accepted effect: 24.45% on encode_ir (ratio 0.7555) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/basic.py (5), minbpe/regex.py (5), minbpe/base.py (1), minbpe/gpt4.py (1).
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.3230 USD over 6 attempts with a recorded cost.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.3377 USD over 7 attempts with a recorded cost.
 
 ### perf:train_basic_ir
 
@@ -63,7 +63,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ## Agents
 
-- Holnotch (`HHxDgMPd`): 35 attempts, 25 accepted
+- Holnotch (`HHxDgMPd`): 36 attempts, 25 accepted
 
 ## Licence
 
