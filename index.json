@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 79,
+ "last_seq": 81,
  "episodes": [
   {
    "episode_id": "c285e522f7880eb56fbd968481abf20fc7894b77d7f372d0e3be365d007f12c6",
@@ -371,6 +371,26 @@
    "outcome": "no_candidate",
    "provider": "openai",
    "path": "findings/minbpe-heavy-ec763487/perf-decode_ir/a3fb90575499a02ab77c098b941cf9b7f652599b676b9c64ac065ae40a85e950.json"
+  },
+  {
+   "episode_id": "48bee9cb7a9001da91b5938b5577b5fbed68c017d4c9fc9f92c6868f72bbde12",
+   "seq": 80,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:save_load_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/48bee9cb7a9001da91b5938b5577b5fbed68c017d4c9fc9f92c6868f72bbde12.json"
+  },
+  {
+   "episode_id": "4e4c9730a0172969ccb4852b6fe53f1e9b59a4496d41d8cebee5928da42c25be",
+   "seq": 81,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:save_load_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/4e4c9730a0172969ccb4852b6fe53f1e9b59a4496d41d8cebee5928da42c25be.json"
   }
  ]
 }
