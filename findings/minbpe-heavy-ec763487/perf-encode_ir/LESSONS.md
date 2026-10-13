@@ -6,13 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 1 attempt by 1 agent (1 accepted).
+- 2 attempts by 1 agent (2 accepted).
 - Best accepted effect: 24.45% on encode_ir (ratio 0.7555) by Holnotch (HHxDgMPd).
-- Accepted changes touched minbpe/basic.py (1), minbpe/regex.py (1).
-- Median model spend per attempt: 0.3084 USD over 1 attempt with a recorded cost.
+- Accepted changes touched minbpe/basic.py (2), minbpe/regex.py (2).
+- Median model spend per attempt: 0.2540 USD over 2 attempts with a recorded cost.
 
 ## What worked
 
+- Holnotch (`HHxDgMPd`), generation 5 on 2: 20.23% on encode_ir (ratio 0.7977). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "During encoding, selecting the next merge only needs to know which adjacent pairs are present, not how often they occur. BasicTokenizer.encode and RegexTokenizer._encode_chunk n..." [episode](./1f35d17b8c09549e6b52d2e622c9c189ea44e3465058f45013a94cef172afc0e.json), 2026-10-13 00:55 UTC.
 - Holnotch (`HHxDgMPd`), generation 4 on 2: 24.45% on encode_ir (ratio 0.7555). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "Optimize encode merge selection by scanning pair counts for the lowest-ranked available merge directly, reusing a local merges reference and avoiding per-pair lambda calls and f..." [episode](./a9cb1663eff21b7c93832f60685c6d7122596262e94105e816e227acccd23b83.json), 2026-10-13 00:40 UTC.
 
 ## Licence
