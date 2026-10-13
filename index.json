@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 58,
+ "last_seq": 61,
  "episodes": [
   {
    "episode_id": "c285e522f7880eb56fbd968481abf20fc7894b77d7f372d0e3be365d007f12c6",
@@ -161,6 +161,36 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/minbpe-heavy-ec763487/perf-train_basic_ir/0f2bb1bd86d7272ce7354e6164db52142e121cfdc0fce2bfc4c335f4c6477822.json"
+  },
+  {
+   "episode_id": "22e0b8b3a2d46980efbb9eb1cc3d089e69ec2bbd7cd1fc7c41d9617c4834e915",
+   "seq": 59,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:decode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-decode_ir/22e0b8b3a2d46980efbb9eb1cc3d089e69ec2bbd7cd1fc7c41d9617c4834e915.json"
+  },
+  {
+   "episode_id": "c1db67aad05aeefaa7d1fc4611c38a5eb6a749ee3b6852a2d8be88451fa8b37f",
+   "seq": 60,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:decode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-decode_ir/c1db67aad05aeefaa7d1fc4611c38a5eb6a749ee3b6852a2d8be88451fa8b37f.json"
+  },
+  {
+   "episode_id": "4c423c477fd8fa10df7de0a7ba324a68b197045df79b3a221404b59285d3c85d",
+   "seq": 61,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:save_load_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/4c423c477fd8fa10df7de0a7ba324a68b197045df79b3a221404b59285d3c85d.json"
   }
  ]
 }
