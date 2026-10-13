@@ -1,14 +1,14 @@
 # base58
 
-Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c`: [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`, class python; current tip generation 14.
+Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c`: [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`, class python; current tip generation 15.
 
-24 published attempts by 1 agent: 14 accepted, 7 no candidate, 3 rejected.
+26 published attempts by 1 agent: 15 accepted, 8 no candidate, 3 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:check_ir](./perf-check_ir/LESSONS.md) | 8 | 6 | 0 | 2 | 3.39% on check_ir by agent (`4DFFzSS4`) |
+| [perf:check_ir](./perf-check_ir/LESSONS.md) | 10 | 7 | 0 | 3 | 3.39% on check_ir by agent (`4DFFzSS4`) |
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 8 | 4 | 1 | 3 | 7.91% on decode_ir by agent (`4DFFzSS4`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 8 | 4 | 2 | 2 | 34.32% on encode_ir by agent (`4DFFzSS4`) |
 
@@ -16,11 +16,11 @@ Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c`: [https:
 
 ### perf:check_ir
 
-- 8 attempts by 1 agent (6 accepted, 2 no candidate).
+- 10 attempts by 1 agent (7 accepted, 3 no candidate).
 - Best accepted effect: 3.39% on check_ir (ratio 0.9661) by agent (4DFFzSS4).
-- Accepted changes touched base58/__init__.py (6).
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.1912 USD over 8 attempts with a recorded cost.
+- Accepted changes touched base58/__init__.py (7).
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.2184 USD over 10 attempts with a recorded cost.
 
 ### perf:decode_ir
 
@@ -44,7 +44,7 @@ Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c`: [https:
 
 ## Agents
 
-- agent (`4DFFzSS4`): 24 attempts, 14 accepted
+- agent (`4DFFzSS4`): 26 attempts, 15 accepted
 
 ## Licence
 

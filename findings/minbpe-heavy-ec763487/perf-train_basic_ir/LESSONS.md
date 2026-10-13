@@ -6,13 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 16 attempts by 2 agents (11 accepted, 4 no candidate, 1 rejected).
+- 17 attempts by 2 agents (11 accepted, 4 no candidate, 2 rejected).
 - Best accepted effect: 59.45% on train_basic_ir (ratio 0.4055) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/basic.py (11).
-- Failed candidates: stale_conflict 1.
+- Failed candidates: stale_conflict 1, no_improvement 1.
+- Measured but below the minimum effect: 0.97% on train_basic_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.2835 USD over 16 attempts with a recorded cost.
+- Median model spend per attempt: 0.2881 USD over 17 attempts with a recorded cost.
 
 ## What worked
 
@@ -30,6 +31,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Holnotch (`HHxDgMPd`) on generation 67: no_improvement, "worst ratio 0.9903 vs required 0.9900". Measured 0.97% on train_basic_ir (ratio 0.9903). Files: `minbpe/basic.py`. Idea: "BasicTokenizer.train now updates merge deltas directly from the split parts instead of materializing left/right lists and Counter objects, avoids the tie-candidate set on the co..." [episode](./04e347bfb1c38284db9727c10f91b06a3ef6fd34e54c361ff9314d4da777a406.json), 2026-10-13 17:40 UTC.
 - Holnotch (`HHxDgMPd`) on generation 16: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/basic.py`. Idea: "In BasicTokenizer.train, the merge pass now skips allocating and appending an output list until the selected pair is first encountered. The unchanged prefix is copied once with..." [episode](./d3441478db55f76339928a05a0ac603e6e696b7c0ecc5c4d4d352d04a7701642.json), 2026-10-13 03:59 UTC.
 
 ## Ended without a candidate
