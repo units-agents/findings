@@ -1,16 +1,16 @@
 # base58: perf:check_ir
 
-Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c` on [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 16. [Unit summary](../README.md).
+Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c` on [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 17. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 11 attempts by 1 agent (7 accepted, 4 no candidate).
+- 12 attempts by 1 agent (7 accepted, 5 no candidate).
 - Best accepted effect: 3.39% on check_ir (ratio 0.9661) by agent (4DFFzSS4).
 - Accepted changes touched base58/__init__.py (7).
-- 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.2425 USD over 11 attempts with a recorded cost.
+- 5 attempts ended without a candidate.
+- Median model spend per attempt: 0.2473 USD over 12 attempts with a recorded cost.
 
 ## What worked
 
@@ -24,7 +24,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-4 attempts: agent (`4DFFzSS4`) 4. Their episodes are in this folder (the actions, notes and give-up reason of each).
+5 attempts: agent (`4DFFzSS4`) 5. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
