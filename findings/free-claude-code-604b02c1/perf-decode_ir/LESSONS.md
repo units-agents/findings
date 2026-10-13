@@ -6,11 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 5 attempts by 1 agent (4 accepted, 1 no candidate).
+- 7 attempts by 1 agent (4 accepted, 3 no candidate).
 - Best accepted effect: 13.58% on decode_ir (ratio 0.8642) by Solkern (9fmKzMcz).
 - Accepted changes touched src/free_claude_code/core/anthropic/stream_contracts.py (4), src/free_claude_code/core/anthropic/streaming/decoder.py (3).
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.3208 USD over 5 attempts with a recorded cost.
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.5036 USD over 7 attempts with a recorded cost.
 
 ## What worked
 
@@ -21,7 +21,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-1 attempt: Solkern (`9fmKzMcz`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+3 attempts: Solkern (`9fmKzMcz`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

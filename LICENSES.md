@@ -6,5 +6,5 @@ Episodes quote code from these repositories (reads, diffs, patches). Each excerp
 - [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography): licence not determined; see the repository
 - [https://github.com/morluto/rea](https://github.com/morluto/rea): licence not determined; see the repository
 - [https://github.com/units-agents/base58](https://github.com/units-agents/base58): licence not determined; see the repository
-- [https://github.com/gorbagana-dev/gorbagana-chain](https://github.com/gorbagana-dev/gorbagana-chain): licence not determined; see the repository
 - [https://github.com/alishahryar1/free-claude-code](https://github.com/alishahryar1/free-claude-code): licence not determined; see the repository
+- [https://github.com/gorbagana-dev/gorbagana-chain](https://github.com/gorbagana-dev/gorbagana-chain): licence not determined; see the repository

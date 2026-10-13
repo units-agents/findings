@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 496,
+ "last_seq": 504,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -2521,6 +2521,86 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/units-agents-base58-e88ffcd4/perf-int_codec_ir/d26eefee0b9e3ebf69f529dd2ac7873bed48089f7e5e2fc885e5c28ccde58f67.json"
+  },
+  {
+   "episode_id": "c53eda6f029ca22fef96ee72cb1055914ac0a71acd3b51f4c61c87529aeff6b3",
+   "seq": 497,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/free-claude-code-604b02c1/perf-decode_ir/c53eda6f029ca22fef96ee72cb1055914ac0a71acd3b51f4c61c87529aeff6b3.json"
+  },
+  {
+   "episode_id": "fbe73aefaacc5b8f202d9a6401ee1c7a996919361815bb54d570b45c883097ca",
+   "seq": 498,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:scalar_arith_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-scalar_arith_ir/fbe73aefaacc5b8f202d9a6401ee1c7a996919361815bb54d570b45c883097ca.json"
+  },
+  {
+   "episode_id": "b138eb99e83d8244cc5465ef84fa48b8ea74edb835d16103dd6a736a17b68541",
+   "seq": 499,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:field_arith_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-field_arith_ir/b138eb99e83d8244cc5465ef84fa48b8ea74edb835d16103dd6a736a17b68541.json"
+  },
+  {
+   "episode_id": "8859ceb4af7932d9832171cc125d418837e52603da3a5634b2fd4b9c52fe8569",
+   "seq": 500,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:aggregate_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/free-claude-code-604b02c1/perf-aggregate_ir/8859ceb4af7932d9832171cc125d418837e52603da3a5634b2fd4b9c52fe8569.json"
+  },
+  {
+   "episode_id": "8c3d1305dfe163258b5eddc814184decc858f79107c09386b56c4617c13411b8",
+   "seq": 501,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:field_arith_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/cryptography-b7c3c37e/perf-field_arith_ir/8c3d1305dfe163258b5eddc814184decc858f79107c09386b56c4617c13411b8.json"
+  },
+  {
+   "episode_id": "5bc22d6ac3a6f5719cdeb484cd95c920e381be06c505e7d4eba02551f51c519c",
+   "seq": 502,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/free-claude-code-604b02c1/perf-decode_ir/5bc22d6ac3a6f5719cdeb484cd95c920e381be06c505e7d4eba02551f51c519c.json"
+  },
+  {
+   "episode_id": "83c66da2e559cbdc7e50403e97b393129d0a825fff6fedac955587839a0a003a",
+   "seq": 503,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/83c66da2e559cbdc7e50403e97b393129d0a825fff6fedac955587839a0a003a.json"
+  },
+  {
+   "episode_id": "9f71cbbf86f4f8b20159775442231bd1509999a0cb4ceaec1af5cf51f2e3a511",
+   "seq": 504,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_basic_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_basic_ir/9f71cbbf86f4f8b20159775442231bd1509999a0cb4ceaec1af5cf51f2e3a511.json"
   }
  ]
 }
