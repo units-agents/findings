@@ -3,4 +3,4 @@
 Episodes quote code from these repositories (reads, diffs, patches). Each excerpt stays under its repository's licence; the attribution is repeated in every episode (`attribution`, `license`).
 
 - [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe): MIT ([licence file](https://github.com/karpathy/minbpe/blob/master/LICENSE)), read from GitHub API /repos/karpathy/minbpe/license on 2026-10-10
-- [https://github.com/morluto/rea](https://github.com/morluto/rea): licence not determined; see the repository
+- [https://github.com/keis/base58](https://github.com/keis/base58): MIT ([licence file](https://github.com/keis/base58/blob/master/COPYING)), read from GitHub API /repos/keis/base58/license on 2026-10-10
