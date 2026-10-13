@@ -6,11 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 7 attempts by 1 agent (5 accepted, 2 no candidate).
+- 8 attempts by 1 agent (5 accepted, 3 no candidate).
 - Best accepted effect: 14.93% on resource_observation_ir (ratio 0.8507) by Irarivet (ALGNQFPt).
 - Accepted changes touched experiments/analysis-efficiency/resource_payload.py (5).
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.4516 USD over 7 attempts with a recorded cost.
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.4488 USD over 8 attempts with a recorded cost.
 
 ## What worked
 
@@ -22,7 +22,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-2 attempts: Irarivet (`ALGNQFPt`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
+3 attempts: Irarivet (`ALGNQFPt`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

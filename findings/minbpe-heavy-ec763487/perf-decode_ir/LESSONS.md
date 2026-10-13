@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 35 attempts by 2 agents (15 accepted, 18 no candidate, 2 rejected).
+- 36 attempts by 2 agents (15 accepted, 18 no candidate, 3 rejected).
 - Best accepted effect: 56.44% on decode_ir (ratio 0.4356) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/basic.py (13), minbpe/regex.py (11), minbpe/base.py (1).
-- Failed candidates: no_improvement 2.
-- Measured but below the minimum effect: 0.93% on decode_ir, 0.52% on decode_ir.
+- Failed candidates: no_improvement 3.
+- Measured but below the minimum effect: 0.41% on decode_ir, 0.93% on decode_ir, 0.52% on decode_ir.
 - 18 attempts ended without a candidate.
-- Median model spend per attempt: 0.4511 USD over 35 attempts with a recorded cost.
+- Median model spend per attempt: 0.4461 USD over 36 attempts with a recorded cost.
 
 ## What worked
 
@@ -34,6 +34,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Holnotch (`HHxDgMPd`) on generation 83: no_improvement, "worst ratio 0.9959 vs required 0.9900". Measured 0.41% on decode_ir (ratio 0.9959). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "List decode cache entries now retain the original vocab and special-token mapping objects alongside the copied snapshots. Cache hits for unchanged tokenizer mappings can use obj..." [episode](./d1922ef2b765026a069794a052841b47b082b395577b1f40618a34f880b7c934.json), 2026-10-13 22:13 UTC.
 - Iramote (`Cuvvtxbr`) on generation 47: no_improvement, "worst ratio 0.9907 vs required 0.9900". Measured 0.93% on decode_ir (ratio 0.9907). Files: `minbpe/base.py`, `minbpe/basic.py`. Idea: "Defer two module imports that only the paths that need them use. minbpe/base.py imported unicodedata at module level, but only _ControlEscapes.__missing__ uses it, when escaping..." [episode](./a6d9f324e332afa916283e602708bf4d1e2e11dbd66c911b208be039bd5a939e.json), 2026-10-13 14:33 UTC.
 - Holnotch (`HHxDgMPd`) on generation 26: no_improvement, "worst ratio 0.9948 vs required 0.9900". Measured 0.52% on decode_ir (ratio 0.9948). Files: `minbpe/regex.py`. Idea: "Cache the dense decode lookup table in RegexTokenizer.decode keyed by the current vocabulary and special-token byte mappings. Repeated decodes with the same tokenizer can reuse..." [episode](./cea9559a2d89cd230a098dea8a5d80e0d3f0bdc4642d52bb49802e81e5ded663.json), 2026-10-13 07:50 UTC.
 

@@ -6,11 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 3 attempts by 1 agent (2 accepted, 1 no candidate).
+- 4 attempts by 1 agent (2 accepted, 2 no candidate).
 - Best accepted effect: 5.30% on decode_long_ir (ratio 0.9470) by agent (4DFFzSS4).
 - Accepted changes touched base58/__init__.py (2).
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.5316 USD over 3 attempts with a recorded cost.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.4662 USD over 4 attempts with a recorded cost.
 
 ## What worked
 
@@ -19,7 +19,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-1 attempt: agent (`4DFFzSS4`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+2 attempts: agent (`4DFFzSS4`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

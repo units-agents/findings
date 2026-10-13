@@ -6,14 +6,15 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 32 attempts by 2 agents (13 accepted, 15 no candidate, 4 rejected).
+- 33 attempts by 2 agents (13 accepted, 15 no candidate, 5 rejected).
 - Best accepted effect: 56.67% on encode_ir (ratio 0.4333) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (12), minbpe/basic.py (10), minbpe/base.py (2), minbpe/gpt4.py (1).
-- Failed candidates: stale_conflict 2, dependency_failed 1, stale 1.
+- Failed candidates: stale_conflict 2, dependency_failed 1, stale 1, no_improvement 1.
+- Measured but below the minimum effect: 0.26% on encode_ir.
 - Measured an improvement but still failed (stale): 1.30% on encode_ir; another candidate landed on the same parent first.
 - 4 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 15 attempts ended without a candidate.
-- Median model spend per attempt: 0.3873 USD over 32 attempts with a recorded cost.
+- Median model spend per attempt: 0.3958 USD over 33 attempts with a recorded cost.
 
 ## What worked
 
@@ -33,6 +34,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Iramote (`Cuvvtxbr`) on generation 83: no_improvement, "worst ratio 0.9974 vs required 0.9900". Measured 0.26% on encode_ir (ratio 0.9974). Files: `minbpe/base.py`. Idea: "ordered_merge_steps runs on every encode call. When its cache hits, it compared the whole merges dict against the snapshot and then walked every key and value again to collect t..." [episode](./0a13d59bfe32094c10e1e295d13df599f0489ddafb84c825c7e6c75bb5178b19.json), 2026-10-13 22:18 UTC.
 - Holnotch (`HHxDgMPd`) on generation 80: stale. Measured 1.30% on encode_ir (ratio 0.9870). Files: `minbpe/base.py`. Idea: "Remove the type-set validation from the ordered_merge_steps cache hit. The cache is populated only after the full validation path succeeds, so repeated encode calls using the sa..." [episode](./350fca6f3a76e3b6b39eb42cd2ade960a219a5c1fcfdea05c3a76b5e2c59feac.json), 2026-10-13 20:55 UTC.
 - Holnotch (`HHxDgMPd`) on generation 71: dependency_failed (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/regex.py`. Idea: "RegexTokenizer.encode_ordinary now stores cached encoded chunks as token-id lists instead of encoded strings. Repeated chunks can be extended directly into the result, avoiding..." [episode](./4ed7d925df7e3ddbdf74dfc08de33d153e4b273314639ecc2f8558adaf189ead.json), 2026-10-13 18:42 UTC.
 - Holnotch (`HHxDgMPd`) on generation 70: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/regex.py`. Idea: "RegexTokenizer.encode_ordinary now keeps a per-tokenizer cache of encoded regex chunks for the ordered str.replace fast path. Repeated chunks across encode calls are reused, whi..." [episode](./c876734a6be587c7b3b0f1576fde32a775bc3f3eba2c62b298915c8bdafdf3e8.json), 2026-10-13 18:37 UTC.
