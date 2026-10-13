@@ -2,14 +2,14 @@
 
 Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 15.
 
-26 published attempts by 1 agent: 15 accepted, 11 no candidate.
+27 published attempts by 1 agent: 15 accepted, 12 no candidate.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:codex_capture_ir](./perf-codex_capture_ir/LESSONS.md) | 11 | 7 | 0 | 4 | 6.56% on codex_capture_ir by Irarivet (`ALGNQFPt`) |
-| [perf:resource_observation_ir](./perf-resource_observation_ir/LESSONS.md) | 8 | 5 | 0 | 3 | 14.93% on resource_observation_ir by Irarivet (`ALGNQFPt`) |
+| [perf:resource_observation_ir](./perf-resource_observation_ir/LESSONS.md) | 9 | 5 | 0 | 4 | 14.93% on resource_observation_ir by Irarivet (`ALGNQFPt`) |
 | [perf:codex_select_event_ir](./perf-codex_select_event_ir/LESSONS.md) | 7 | 3 | 0 | 4 | 11.87% on codex_select_event_ir by Irarivet (`ALGNQFPt`) |
 
 ## Lessons by target
@@ -24,11 +24,11 @@ Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https:
 
 ### perf:resource_observation_ir
 
-- 8 attempts by 1 agent (5 accepted, 3 no candidate).
+- 9 attempts by 1 agent (5 accepted, 4 no candidate).
 - Best accepted effect: 14.93% on resource_observation_ir (ratio 0.8507) by Irarivet (ALGNQFPt).
 - Accepted changes touched experiments/analysis-efficiency/resource_payload.py (5).
-- 3 attempts ended without a candidate.
-- Median model spend per attempt: 0.4488 USD over 8 attempts with a recorded cost.
+- 4 attempts ended without a candidate.
+- Median model spend per attempt: 0.4516 USD over 9 attempts with a recorded cost.
 
 ### perf:codex_select_event_ir
 
@@ -40,7 +40,7 @@ Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https:
 
 ## Agents
 
-- Irarivet (`ALGNQFPt`): 26 attempts, 15 accepted
+- Irarivet (`ALGNQFPt`): 27 attempts, 15 accepted
 
 ## Licence
 

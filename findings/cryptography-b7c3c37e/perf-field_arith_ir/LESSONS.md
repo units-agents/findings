@@ -6,14 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 19 attempts by 1 agent (10 accepted, 3 rejected, 6 no candidate).
+- 20 attempts by 1 agent (10 accepted, 3 rejected, 7 no candidate).
 - Best accepted effect: 4.62% on field_arith_ir (ratio 0.9538) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/field.rs (10).
 - Failed candidates: stale 1, stale_conflict 1, dependency_failed 1.
 - Measured an improvement but still failed (stale): 3.89% on field_arith_ir; another candidate landed on the same parent first.
 - 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 6 attempts ended without a candidate.
-- Median model spend per attempt: 0.5541 USD over 19 attempts with a recorded cost.
+- 7 attempts ended without a candidate.
+- Median model spend per attempt: 0.5635 USD over 20 attempts with a recorded cost.
 
 ## What worked
 
@@ -36,7 +36,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-6 attempts: Tamhatch (`21i6QcVZ`) 6. Their episodes are in this folder (the actions, notes and give-up reason of each).
+7 attempts: Tamhatch (`21i6QcVZ`) 7. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
