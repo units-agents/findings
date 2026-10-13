@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 14 attempts by 1 agent (11 accepted, 2 no candidate, 1 rejected).
+- 15 attempts by 1 agent (11 accepted, 3 no candidate, 1 rejected).
 - Best accepted effect: 56.44% on decode_ir (ratio 0.4356) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/basic.py (9), minbpe/regex.py (8).
 - Failed candidates: no_improvement 1.
 - Measured but below the minimum effect: 0.52% on decode_ir.
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.4316 USD over 14 attempts with a recorded cost.
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.4412 USD over 15 attempts with a recorded cost.
 
 ## What worked
 
@@ -34,7 +34,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-2 attempts: Holnotch (`HHxDgMPd`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
+3 attempts: Holnotch (`HHxDgMPd`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

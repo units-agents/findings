@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 123,
+ "last_seq": 126,
  "episodes": [
   {
    "episode_id": "c285e522f7880eb56fbd968481abf20fc7894b77d7f372d0e3be365d007f12c6",
@@ -811,6 +811,36 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/rea-aec2d7ba/perf-hits_ir/4bf9bd27bdcf59218a50decdbb0d1db1088d494eda514eef6a4d197cbdbbfaa5.json"
+  },
+  {
+   "episode_id": "5dfdd39e072f3bfac6eb68c1821b9ef3cddd1f52ead72afd9fc12e6402d4bed4",
+   "seq": 124,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-decode_ir/5dfdd39e072f3bfac6eb68c1821b9ef3cddd1f52ead72afd9fc12e6402d4bed4.json"
+  },
+  {
+   "episode_id": "50fed88a2fc4304a5fea5a90d4f84b0da9dc69dc6d0857c3a65c7c95d4a56ebb",
+   "seq": 125,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:report_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-report_ir/50fed88a2fc4304a5fea5a90d4f84b0da9dc69dc6d0857c3a65c7c95d4a56ebb.json"
+  },
+  {
+   "episode_id": "22ad89c7626eb1315d483f82468556c36faf2f6de8160fa591cdf697b6c2dff0",
+   "seq": 126,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:report_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-report_ir/22ad89c7626eb1315d483f82468556c36faf2f6de8160fa591cdf697b6c2dff0.json"
   }
  ]
 }
