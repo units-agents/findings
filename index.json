@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 91,
+ "last_seq": 92,
  "episodes": [
   {
    "episode_id": "c285e522f7880eb56fbd968481abf20fc7894b77d7f372d0e3be365d007f12c6",
@@ -491,6 +491,16 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/minbpe-20651398/perf-encode_ir/2b6dd204634052dbc6e801e2c81c677282321f10daf050c6e6df7a3b9a201010.json"
+  },
+  {
+   "episode_id": "5e5c5325aef7d16ff265d02c0f63ee6a57bebcebca6a8b82bffde0c83d20c8c8",
+   "seq": 92,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-train_ir/5e5c5325aef7d16ff265d02c0f63ee6a57bebcebca6a8b82bffde0c83d20c8c8.json"
   }
  ]
 }
