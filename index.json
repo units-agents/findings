@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 425,
+ "last_seq": 433,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -1811,6 +1811,86 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/cryptography-b7c3c37e/perf-scalar_arith_ir/793797762f6088217f158fcc000edd8b3e2f2e619cf28da24f2c5d67e40dfdb0.json"
+  },
+  {
+   "episode_id": "46af209938e7fa41c0d3217d4a50ff3dd008846ace9aeaa6601b472def756a9c",
+   "seq": 426,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:decode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-decode_ir/46af209938e7fa41c0d3217d4a50ff3dd008846ace9aeaa6601b472def756a9c.json"
+  },
+  {
+   "episode_id": "a15a4693c2ac110b72c2e7c474a8236640ae05a033fea33a06c7186cd09a22ea",
+   "seq": 427,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "morluto-rea-d571bf6b",
+   "target": "perf:codex_select_event_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/morluto-rea-d571bf6b/perf-codex_select_event_ir/a15a4693c2ac110b72c2e7c474a8236640ae05a033fea33a06c7186cd09a22ea.json"
+  },
+  {
+   "episode_id": "befd3f915b49333c8e918dfb8336730e98be20af8984aba66579236ef1da4173",
+   "seq": 428,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-decode_ir/befd3f915b49333c8e918dfb8336730e98be20af8984aba66579236ef1da4173.json"
+  },
+  {
+   "episode_id": "8c88d13d5f8fb7dff7f4bb0cce0ef33e2f6c9139dcf8b0185395caccb82c3bce",
+   "seq": 429,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "units-agents-base58-e88ffcd4",
+   "target": "perf:encode_long_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/units-agents-base58-e88ffcd4/perf-encode_long_ir/8c88d13d5f8fb7dff7f4bb0cce0ef33e2f6c9139dcf8b0185395caccb82c3bce.json"
+  },
+  {
+   "episode_id": "5ed23cc9b7a225715d4b9b9cfe02a137b20e545c5efedfbfb99a796f3ddfd403",
+   "seq": 430,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:scalar_arith_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-scalar_arith_ir/5ed23cc9b7a225715d4b9b9cfe02a137b20e545c5efedfbfb99a796f3ddfd403.json"
+  },
+  {
+   "episode_id": "33f355457b768fce88f221ba79a1c4f14226b8a2205db46bffcb492bb6d4e3ca",
+   "seq": 431,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:save_load_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/33f355457b768fce88f221ba79a1c4f14226b8a2205db46bffcb492bb6d4e3ca.json"
+  },
+  {
+   "episode_id": "921407f9d2d272e391c18e8f20bc19d35912cb4d65922c4cbb3ad12bcd85e121",
+   "seq": 432,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:scalar_arith_ir",
+   "outcome": "rejected",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-scalar_arith_ir/921407f9d2d272e391c18e8f20bc19d35912cb4d65922c4cbb3ad12bcd85e121.json"
+  },
+  {
+   "episode_id": "99bf6fec52353f01a2c8680d0a2b46a71cc16d89cb65ec943e9592b695fb8046",
+   "seq": 433,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "morluto-rea-d571bf6b",
+   "target": "perf:codex_capture_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/morluto-rea-d571bf6b/perf-codex_capture_ir/99bf6fec52353f01a2c8680d0a2b46a71cc16d89cb65ec943e9592b695fb8046.json"
   }
  ]
 }

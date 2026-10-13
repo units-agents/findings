@@ -6,14 +6,19 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 1 attempt by 1 agent (1 accepted).
+- 2 attempts by 1 agent (1 accepted, 1 no candidate).
 - Best accepted effect: 2.52% on encode_long_ir (ratio 0.9748) by agent (4DFFzSS4).
 - Accepted changes touched base58/__init__.py (1).
-- Median model spend per attempt: 0.4119 USD over 1 attempt with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.4650 USD over 2 attempts with a recorded cost.
 
 ## What worked
 
 - agent (`4DFFzSS4`), generation 2 on 0: 2.52% on encode_long_ir (ratio 0.9748). Files: `base58/__init__.py`. Idea: "b58encode_int: for very large integers (above 16384 bits) the cost is dominated by repeated whole-number single-limb division. The loop now divides by base**5 instead of base**4..." [episode](./863e8d7148fbae106a0e7017be264133e6b79b709019742a327aa0a8a0a7df10.json), 2026-10-13 19:15 UTC.
+
+## Ended without a candidate
+
+1 attempt: agent (`4DFFzSS4`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

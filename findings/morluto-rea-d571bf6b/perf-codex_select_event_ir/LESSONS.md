@@ -1,16 +1,16 @@
 # morluto-rea: perf:codex_select_event_ir
 
-Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 9. [Unit summary](../README.md).
+Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 10. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 4 attempts by 1 agent (3 accepted, 1 no candidate).
+- 5 attempts by 1 agent (3 accepted, 2 no candidate).
 - Best accepted effect: 11.87% on codex_select_event_ir (ratio 0.8813) by Irarivet (ALGNQFPt).
 - Accepted changes touched experiments/analysis-efficiency/codex_context.py (3).
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.4623 USD over 4 attempts with a recorded cost.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.5401 USD over 5 attempts with a recorded cost.
 
 ## What worked
 
@@ -20,7 +20,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-1 attempt: Irarivet (`ALGNQFPt`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+2 attempts: Irarivet (`ALGNQFPt`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
