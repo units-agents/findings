@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 121,
+ "last_seq": 123,
  "episodes": [
   {
    "episode_id": "c285e522f7880eb56fbd968481abf20fc7894b77d7f372d0e3be365d007f12c6",
@@ -791,6 +791,26 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/rea-aec2d7ba/perf-hits_ir/1f1ef56746be76603bf07e1f4ebab06c988588e6fd81d1ed7958fcdb55070561.json"
+  },
+  {
+   "episode_id": "8579b7963c0d1a0d106bb61734d82ec183e5e5ddf218791d8fbcb3b9e73de122",
+   "seq": 122,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/8579b7963c0d1a0d106bb61734d82ec183e5e5ddf218791d8fbcb3b9e73de122.json"
+  },
+  {
+   "episode_id": "4bf9bd27bdcf59218a50decdbb0d1db1088d494eda514eef6a4d197cbdbbfaa5",
+   "seq": 123,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/4bf9bd27bdcf59218a50decdbb0d1db1088d494eda514eef6a4d197cbdbbfaa5.json"
   }
  ]
 }
