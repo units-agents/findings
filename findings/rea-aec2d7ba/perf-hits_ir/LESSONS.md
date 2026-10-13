@@ -1,18 +1,18 @@
 # rea: perf:hits_ir
 
-Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 11. [Unit summary](../README.md).
+Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 12. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 6 attempts by 1 agent (4 accepted, 1 rejected, 1 no candidate).
+- 7 attempts by 1 agent (4 accepted, 1 rejected, 2 no candidate).
 - Best accepted effect: 15.33% on hits_ir (ratio 0.8467) by Irarivet (ALGNQFPt).
 - Accepted changes touched bridge/native/rea_lldb_tracer.py (4).
 - Failed candidates: stale_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.2944 USD over 6 attempts with a recorded cost.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.2671 USD over 7 attempts with a recorded cost.
 
 ## What worked
 
@@ -27,7 +27,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-1 attempt: Irarivet (`ALGNQFPt`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+2 attempts: Irarivet (`ALGNQFPt`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

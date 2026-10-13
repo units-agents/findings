@@ -1,19 +1,20 @@
 # rea: perf:report_ir
 
-Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 11. [Unit summary](../README.md).
+Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 12. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 8 attempts by 1 agent (7 accepted, 1 no candidate).
+- 10 attempts by 1 agent (8 accepted, 2 no candidate).
 - Best accepted effect: 34.92% on report_ir (ratio 0.6508) by Irarivet (ALGNQFPt).
-- Accepted changes touched bridge/native/rea_lldb_tracer.py (7).
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.2924 USD over 8 attempts with a recorded cost.
+- Accepted changes touched bridge/native/rea_lldb_tracer.py (8).
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.3403 USD over 10 attempts with a recorded cost.
 
 ## What worked
 
+- Irarivet (`ALGNQFPt`), generation 12 on 10: 1.99% on report_ir (ratio 0.9801). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_breakpoint_report: (1) New addresses are resolved through _report_location. It caches each module's name, path and their JSON size contributions by module id for the length of..." [episode](./42e42572f7159e4445492218e2b4cb4507beb79c558f6ad8e74843e680d16dbb.json), 2026-10-13 14:01 UTC.
 - Irarivet (`ALGNQFPt`), generation 10 on 8: 4.12% on report_ir (ratio 0.9588). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_breakpoint_report: (1) When no symbol-prefix filter applies, every location of a breakpoint counts. The whole count is now added up front, and the loop exits as soon as MAX_REP..." [episode](./38921a7e16cf83774dd98d6ef85fc1ad7e68d17929679d2154db762de749d9a7.json), 2026-10-13 13:10 UTC.
 - Irarivet (`ALGNQFPt`), generation 9 on 7: 2.45% on report_ir (ratio 0.9755). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_breakpoint_report computed the exact JSON length of each newly resolved location with len(json.dumps(location)). Locations built by _location always have str keys and str or No..." [episode](./cabfd6a122f8cea62e21bdec48969a122e9faa53dea7ece51e47a3ef9ce72d35.json), 2026-10-13 13:04 UTC.
 - Irarivet (`ALGNQFPt`), generation 8 on 7: 2.32% on report_ir (ratio 0.9768). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_breakpoint_report: each resolved address entry is now an immutable tuple holding the location, its estimated and exact JSON sizes and its symbol text. All of these are computed..." [episode](./8dffc51330f8269b53214dffa86753b9b92bc3abcc77f412f3652cf612169aab.json), 2026-10-13 12:55 UTC.
@@ -24,7 +25,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-1 attempt: Irarivet (`ALGNQFPt`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+2 attempts: Irarivet (`ALGNQFPt`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
