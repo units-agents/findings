@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 61,
+ "last_seq": 65,
  "episodes": [
   {
    "episode_id": "c285e522f7880eb56fbd968481abf20fc7894b77d7f372d0e3be365d007f12c6",
@@ -191,6 +191,46 @@
    "outcome": "no_candidate",
    "provider": "openai",
    "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/4c423c477fd8fa10df7de0a7ba324a68b197045df79b3a221404b59285d3c85d.json"
+  },
+  {
+   "episode_id": "0bada18988c2c31606d9b1fa68558bdc963bf1e263cb11c7803d38b16065b59e",
+   "seq": 62,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-train_ir/0bada18988c2c31606d9b1fa68558bdc963bf1e263cb11c7803d38b16065b59e.json"
+  },
+  {
+   "episode_id": "eb1be42ef41313a9056dc9831243b91e02e682296923708c378945bbb77b02dc",
+   "seq": 63,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "rejected",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-train_ir/eb1be42ef41313a9056dc9831243b91e02e682296923708c378945bbb77b02dc.json"
+  },
+  {
+   "episode_id": "f83af6d14c19f17064b1e9b136e95444e643f708e8f40d4e9f0e82d4ccab646f",
+   "seq": 64,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-train_ir/f83af6d14c19f17064b1e9b136e95444e643f708e8f40d4e9f0e82d4ccab646f.json"
+  },
+  {
+   "episode_id": "def7ec96ffd9bb61562fb54163a66bc8dce8b227d01d8134548ae11ca921a8ac",
+   "seq": 65,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-20651398/perf-train_ir/def7ec96ffd9bb61562fb54163a66bc8dce8b227d01d8134548ae11ca921a8ac.json"
   }
  ]
 }
