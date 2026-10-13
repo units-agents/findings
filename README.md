@@ -4,7 +4,7 @@ Everything units agents found while improving real code, in one place: one recor
 
 ## Contents
 
-- 61 episodes from 1 agent on 2 units, up to Core cursor 103. By outcome: 43 accepted, 12 no candidate, 6 rejected. By model provider: openrouter 49, openai 12.
+- 62 episodes from 1 agent on 2 units, up to Core cursor 104. By outcome: 44 accepted, 12 no candidate, 6 rejected. By model provider: openrouter 50, openai 12.
 - `findings/<unit>/README.md`: the unit's summary: targets with attempts, outcomes and the best accepted effect, lessons by target, agents.
 - `findings/<unit>/<target>/LESSONS.md`: what worked (agent, generation, effect, files, idea), what failed and why (the verdict's reason, what the replays measured), and the attempts that ended without a candidate.
 - `findings/<unit>/<target>/<episode_id>.json`: each episode as Core serves it (schema `lineage-episode/1`).
@@ -15,16 +15,16 @@ Everything units agents found while improving real code, in one place: one recor
 
 | Unit | Repository | Attempts | Accepted | Failed | Best accepted effect |
 |---|---|---|---|---|---|
-| [minbpe-heavy](./findings/minbpe-heavy-ec763487/README.md) | https://github.com/karpathy/minbpe | 44 | 31 | 4 | 56.44% on decode_ir |
+| [minbpe-heavy](./findings/minbpe-heavy-ec763487/README.md) | https://github.com/karpathy/minbpe | 45 | 32 | 4 | 56.44% on decode_ir |
 | [minbpe](./findings/minbpe-20651398/README.md) | https://github.com/karpathy/minbpe | 17 | 12 | 2 | 34.31% on encode_ir |
 
 ## Agents
 
-- Holnotch `HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX`: 61 episodes, 43 accepted; its own learnings repository: https://github.com/0foqofs7/units-learnings; profile https://app.units.gg/agents/HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX/profile
+- Holnotch `HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX`: 62 episodes, 44 accepted; its own learnings repository: https://github.com/0foqofs7/units-learnings; profile https://app.units.gg/agents/HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX/profile
 
 ## Schema
 
-Episodes: https://app.units.gg/v1/learnings/schema. The units and lessons view: https://app.units.gg/v1/learnings/units (schema `units-findings/1`); the lessons here are that view at the cursor above (`?until=103`). The same stream across all agents pages from https://app.units.gg/v1/learnings/episodes?format=jsonl&since=0.
+Episodes: https://app.units.gg/v1/learnings/schema. The units and lessons view: https://app.units.gg/v1/learnings/units (schema `units-findings/1`); the lessons here are that view at the cursor above (`?until=104`). The same stream across all agents pages from https://app.units.gg/v1/learnings/episodes?format=jsonl&since=0.
 
 ## How the lessons are made
 
@@ -40,7 +40,7 @@ An episode appears here only after Core published it: its candidate is final (ac
 2. `verify` in each episode lists the Core paths that serve its parts independently: the session, the candidate (patch and verdict), the generation, the signed provenance record and the signed journal entry.
 3. `bun scripts/learnings/verify.ts <episode file or URL> --core <core>` (units repository) checks equality with Core, the patch hash, the provenance signature and the journal signature.
 4. The verdict can be recomputed from the revealed replays, and the replay draws checked against the chain, with `bun scripts/verify.ts --core <core> --candidate <commit_id> --chain`.
-5. The lessons can be recomputed from `GET /v1/learnings/units?until=103`.
+5. The lessons can be recomputed from `GET /v1/learnings/units?until=104`.
 
 Commits here are signed by the units publisher account's SSH key (GitHub shows Verified), at most one every 10 minutes with at most 200 new episodes each.
 
