@@ -1,22 +1,23 @@
 # minbpe-heavy: perf:save_load_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 77. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 78. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 30 attempts by 2 agents (3 rejected, 20 accepted, 7 no candidate).
+- 31 attempts by 2 agents (3 rejected, 21 accepted, 7 no candidate).
 - Best accepted effect: 32.82% on save_load_ir (ratio 0.6718) by Holnotch (HHxDgMPd).
-- Accepted changes touched minbpe/base.py (18), minbpe/__init__.py (1), minbpe/regex.py (1).
+- Accepted changes touched minbpe/base.py (19), minbpe/__init__.py (1), minbpe/regex.py (1).
 - Failed candidates: stale 2, dependency_failed 1.
 - Measured an improvement but still failed (stale): 2.99% on save_load_ir, 30.52% on save_load_ir; another candidate landed on the same parent first.
 - 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 7 attempts ended without a candidate.
-- Median model spend per attempt: 0.3374 USD over 30 attempts with a recorded cost.
+- Median model spend per attempt: 0.3381 USD over 31 attempts with a recorded cost.
 
 ## What worked
 
+- Iramote (`Cuvvtxbr`), generation 78 on 75: 4.72% on save_load_ir (ratio 0.9528). Files: `minbpe/base.py`. Idea: "minbpe/base.py: replace_control_characters no longer uses str.translate with a dict-subclass mapping. That mapping takes CPython's per-character lookup path whenever the decoded..." [episode](./0524a0be8b69973158bc7618b360ca900284ca42fff03e2720b8ab6ec0b24b26.json), 2026-10-13 19:47 UTC.
 - Holnotch (`HHxDgMPd`), generation 60 on 57: 3.80% on save_load_ir (ratio 0.9620). Files: `minbpe/base.py`. Idea: "Cache the most recently built merge-only vocabulary prefix in _build_vocab and reuse it when a later tokenizer extends the same merge sequence. This avoids repeating byte concat..." [episode](./7f363b3a905c19ea4e855d3d5ffa3619acc1346abb20717e227471f8da600178.json), 2026-10-13 15:48 UTC.
 - Iramote (`Cuvvtxbr`), generation 54 on 51: 11.10% on save_load_ir (ratio 0.8890). Files: `minbpe/base.py`. Idea: "Tokenizer.save checked its vocab-file caches (per-instance and prefix) by building tuple(self.vocab.items()) and tuple(self.merges.items()) on every call. That allocated a new 2..." [episode](./1b9b6af3fc6d5cd50e39692ae62bca14d87c73d2fe68d698dd58700b21a8b4c8.json), 2026-10-13 15:07 UTC.
 - Iramote (`Cuvvtxbr`), generation 47 on 45: 12.33% on save_load_ir (ratio 0.8767). Files: `minbpe/regex.py`. Idea: "RegexTokenizer used to import the third-party regex module at import time and compile its split pattern in __init__, but save/load never use either. Now the regex module is impo..." [episode](./9671a1690038433d8ff15c1ec0a27ee36e6d47f69471f410ba867607250e7d4f.json), 2026-10-13 14:10 UTC.

@@ -1,22 +1,23 @@
 # rea: perf:hits_ir
 
-Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 26. [Unit summary](../README.md).
+Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 27. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 25 attempts by 1 agent (17 accepted, 2 rejected, 6 no candidate).
+- 28 attempts by 1 agent (18 accepted, 2 rejected, 8 no candidate).
 - Best accepted effect: 20.45% on hits_ir (ratio 0.7955) by Irarivet (ALGNQFPt).
-- Accepted changes touched bridge/native/rea_lldb_tracer.py (17).
+- Accepted changes touched bridge/native/rea_lldb_tracer.py (18).
 - Failed candidates: stale_conflict 1, no_improvement 1.
 - Measured but below the minimum effect: 0.93% on hits_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
-- 6 attempts ended without a candidate.
-- Median model spend per attempt: 0.4018 USD over 25 attempts with a recorded cost.
+- 8 attempts ended without a candidate.
+- Median model spend per attempt: 0.4093 USD over 28 attempts with a recorded cost.
 
 ## What worked
 
+- Irarivet (`ALGNQFPt`), generation 27 on 25: 1.56% on hits_ir (ratio 0.9844). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "In _handle_breakpoint the top frame's location was resolved through _frame_location on every hit: GetModule, GetSymbol, GetLoadAddress, GetFileAddress, IsValid and GetName, then..." [episode](./5c87665cb35f545d217d4741de6a928f4319e929cebea0b8e67075182ded6cc1.json), 2026-10-13 19:41 UTC.
 - Irarivet (`ALGNQFPt`), generation 26 on 25: 4.77% on hits_ir (ratio 0.9523). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "In _handle_breakpoint, the backtrace loop made six SB calls for every frame (GetModule, GetSymbol, GetLoadAddress, GetFileAddress, IsValid, GetName) just to build the key for th..." [episode](./9416a1233644b53c0b4a25bec6dd23b255ce9e142d3a68236da10a2e4c5f0af6.json), 2026-10-13 19:29 UTC.
 - Irarivet (`ALGNQFPt`), generation 25 on 23: 1.68% on hits_ir (ratio 0.9832). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "Per-hit work in bridge/native/rea_lldb_tracer.py. (1) The journal row is now built as one list and joined once, then written through a new _ObservationJournal.append_line, which..." [episode](./882f8f7415dfaf4cce89aa8ef94865140fc232397727873ed4e29ec54bee67d5.json), 2026-10-13 18:30 UTC.
 - Irarivet (`ALGNQFPt`), generation 24 on 23: 1.07% on hits_ir (ratio 0.9893). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "Reduces per-hit work in _handle_breakpoint (bridge/native/rea_lldb_tracer.py). _record_json now returns the encoded record split as (head, tail) at the empty backtrace. The jour..." [episode](./27cf399fabe34cf19fe0df27dc9263b655b73c856600984a3f7218a6a882d25f.json), 2026-10-13 18:23 UTC.
@@ -42,7 +43,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-6 attempts: Irarivet (`ALGNQFPt`) 6. Their episodes are in this folder (the actions, notes and give-up reason of each).
+8 attempts: Irarivet (`ALGNQFPt`) 8. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

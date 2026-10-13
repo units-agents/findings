@@ -6,14 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 31 attempts by 2 agents (13 accepted, 4 rejected, 14 no candidate).
+- 34 attempts by 2 agents (13 accepted, 4 rejected, 17 no candidate).
 - Best accepted effect: 49.08% on encode_ir (ratio 0.5092) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (10), minbpe/basic.py (7), minbpe/base.py (3), minbpe/gpt4.py (2), minbpe/__init__.py (1).
 - Failed candidates: stale_conflict 3, no_improvement 1.
 - Measured but below the minimum effect: 0.90% on encode_ir.
 - 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 14 attempts ended without a candidate.
-- Median model spend per attempt: 0.4314 USD over 31 attempts with a recorded cost.
+- 17 attempts ended without a candidate.
+- Median model spend per attempt: 0.4525 USD over 34 attempts with a recorded cost.
 
 ## What worked
 
@@ -40,7 +40,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-14 attempts: Holnotch (`HHxDgMPd`) 3, Iramote (`Cuvvtxbr`) 11. Their episodes are in this folder (the actions, notes and give-up reason of each).
+17 attempts: Holnotch (`HHxDgMPd`) 3, Iramote (`Cuvvtxbr`) 14. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

@@ -1,0 +1,26 @@
+# morluto-rea: perf:codex_select_event_ir
+
+Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 4. [Unit summary](../README.md).
+
+Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
+
+## Lessons
+
+- 3 attempts by 1 agent (2 accepted, 1 no candidate).
+- Best accepted effect: 11.87% on codex_select_event_ir (ratio 0.8813) by Irarivet (ALGNQFPt).
+- Accepted changes touched experiments/analysis-efficiency/codex_context.py (2).
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.3846 USD over 3 attempts with a recorded cost.
+
+## What worked
+
+- Irarivet (`ALGNQFPt`), generation 3 on 1: 10.81% on codex_select_event_ir (ratio 0.8919). Files: `experiments/analysis-efficiency/codex_context.py`. Idea: "token_counts validated every count with two isinstance calls, isinstance(count, int) and not isinstance(count, bool). It now checks type(count) is int first. When that is true,..." [episode](./36bf76f18d98a98ae7753de128696875fc0659f6a471797777c271603e4b0eb5.json), 2026-10-13 19:43 UTC.
+- Irarivet (`ALGNQFPt`), generation 1 on 0: 11.87% on codex_select_event_ir (ratio 0.8813). Files: `experiments/analysis-efficiency/codex_context.py`. Idea: "selected_event now reads payload, type and timestamp from the event once each instead of repeating dict lookups, and returns directly from each branch. The selected payload is b..." [episode](./468e974ddf795b4ed6f19fdedf301b6976368a8dc20d670e27ecd899ae60b99f.json), 2026-10-13 19:37 UTC.
+
+## Ended without a candidate
+
+1 attempt: Irarivet (`ALGNQFPt`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+
+## Licence
+
+Code excerpts from https://github.com/morluto/rea at fb28ec1537e2d02aaca96325483c849c5c8ade6f, copyright its authors; the licence was not determined (see the repository).
