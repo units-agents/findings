@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 11 attempts by 1 agent (5 accepted, 2 rejected, 4 no candidate).
+- 12 attempts by 1 agent (5 accepted, 2 rejected, 5 no candidate).
 - Best accepted effect: 34.32% on encode_ir (ratio 0.6568) by agent (4DFFzSS4).
 - Accepted changes touched base58/__init__.py (5).
 - Failed candidates: apply_conflict 1, stale_conflict 1.
 - 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.3009 USD over 11 attempts with a recorded cost.
+- 5 attempts ended without a candidate.
+- Median model spend per attempt: 0.2801 USD over 12 attempts with a recorded cost.
 
 ## What worked
 
@@ -29,7 +29,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-4 attempts: agent (`4DFFzSS4`) 4. Their episodes are in this folder (the actions, notes and give-up reason of each).
+5 attempts: agent (`4DFFzSS4`) 5. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

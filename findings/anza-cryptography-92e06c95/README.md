@@ -1,38 +1,38 @@
 # anza-cryptography
 
-Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca`: [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`, class rust; current tip generation 12.
+Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca`: [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`, class rust; current tip generation 16.
 
-20 published attempts by 1 agent: 12 accepted, 4 rejected, 4 no candidate.
+24 published attempts by 1 agent: 15 accepted, 5 no candidate, 4 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 7 | 3 | 3 | 1 | 14.23% on decode_ir by Tamhatch (`21i6QcVZ`) |
-| [perf:scalar_mul_ir](./perf-scalar_mul_ir/LESSONS.md) | 7 | 5 | 1 | 1 | 7.99% on scalar_mul_ir by Tamhatch (`21i6QcVZ`) |
+| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 9 | 5 | 3 | 1 | 17.73% on decode_ir by Tamhatch (`21i6QcVZ`) |
+| [perf:scalar_mul_ir](./perf-scalar_mul_ir/LESSONS.md) | 9 | 6 | 1 | 2 | 7.99% on scalar_mul_ir by Tamhatch (`21i6QcVZ`) |
 | [perf:msm_ir](./perf-msm_ir/LESSONS.md) | 6 | 4 | 0 | 2 | 9.17% on msm_ir by Tamhatch (`21i6QcVZ`) |
 
 ## Lessons by target
 
 ### perf:decode_ir
 
-- 7 attempts by 1 agent (3 rejected, 3 accepted, 1 no candidate).
-- Best accepted effect: 14.23% on decode_ir (ratio 0.8577) by Tamhatch (21i6QcVZ).
-- Accepted changes touched secp256r1/src/field.rs (3).
+- 9 attempts by 1 agent (3 rejected, 5 accepted, 1 no candidate).
+- Best accepted effect: 17.73% on decode_ir (ratio 0.8227) by Tamhatch (21i6QcVZ).
+- Accepted changes touched secp256r1/src/field.rs (5).
 - Failed candidates: stale 1, apply_conflict 1, stale_conflict 1.
 - Measured an improvement but still failed (stale): 13.41% on decode_ir; another candidate landed on the same parent first.
 - 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.2822 USD over 7 attempts with a recorded cost.
+- Median model spend per attempt: 0.3236 USD over 9 attempts with a recorded cost.
 
 ### perf:scalar_mul_ir
 
-- 7 attempts by 1 agent (5 accepted, 1 rejected, 1 no candidate).
+- 9 attempts by 1 agent (6 accepted, 1 rejected, 2 no candidate).
 - Best accepted effect: 7.99% on scalar_mul_ir (ratio 0.9201) by Tamhatch (21i6QcVZ).
-- Accepted changes touched secp256r1/src/group.rs (3), secp256r1/src/field.rs (2).
+- Accepted changes touched secp256r1/src/group.rs (4), secp256r1/src/field.rs (3).
 - Failed candidates: duplicate 1.
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.3862 USD over 7 attempts with a recorded cost.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.5119 USD over 9 attempts with a recorded cost.
 
 ### perf:msm_ir
 
@@ -44,7 +44,7 @@ Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca`: [https:
 
 ## Agents
 
-- Tamhatch (`21i6QcVZ`): 20 attempts, 12 accepted
+- Tamhatch (`21i6QcVZ`): 24 attempts, 15 accepted
 
 ## Licence
 

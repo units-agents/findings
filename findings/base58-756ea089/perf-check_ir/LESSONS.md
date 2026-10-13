@@ -6,11 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 10 attempts by 1 agent (7 accepted, 3 no candidate).
+- 11 attempts by 1 agent (7 accepted, 4 no candidate).
 - Best accepted effect: 3.39% on check_ir (ratio 0.9661) by agent (4DFFzSS4).
 - Accepted changes touched base58/__init__.py (7).
-- 3 attempts ended without a candidate.
-- Median model spend per attempt: 0.2184 USD over 10 attempts with a recorded cost.
+- 4 attempts ended without a candidate.
+- Median model spend per attempt: 0.2425 USD over 11 attempts with a recorded cost.
 
 ## What worked
 
@@ -24,7 +24,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-3 attempts: agent (`4DFFzSS4`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
+4 attempts: agent (`4DFFzSS4`) 4. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
