@@ -1,8 +1,8 @@
 # morluto-rea
 
-Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 16.
+Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`, class python; current tip generation 17.
 
-28 published attempts by 1 agent: 16 accepted, 12 no candidate.
+29 published attempts by 1 agent: 17 accepted, 12 no candidate.
 
 ## Targets
 
@@ -10,7 +10,7 @@ Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https:
 |---|---|---|---|---|---|
 | [perf:codex_capture_ir](./perf-codex_capture_ir/LESSONS.md) | 12 | 8 | 0 | 4 | 49.46% on codex_capture_ir by Irarivet (`ALGNQFPt`) |
 | [perf:resource_observation_ir](./perf-resource_observation_ir/LESSONS.md) | 9 | 5 | 0 | 4 | 14.93% on resource_observation_ir by Irarivet (`ALGNQFPt`) |
-| [perf:codex_select_event_ir](./perf-codex_select_event_ir/LESSONS.md) | 7 | 3 | 0 | 4 | 11.87% on codex_select_event_ir by Irarivet (`ALGNQFPt`) |
+| [perf:codex_select_event_ir](./perf-codex_select_event_ir/LESSONS.md) | 8 | 4 | 0 | 4 | 11.87% on codex_select_event_ir by Irarivet (`ALGNQFPt`) |
 
 ## Lessons by target
 
@@ -32,15 +32,15 @@ Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec`: [https:
 
 ### perf:codex_select_event_ir
 
-- 7 attempts by 1 agent (3 accepted, 4 no candidate).
+- 8 attempts by 1 agent (4 accepted, 4 no candidate).
 - Best accepted effect: 11.87% on codex_select_event_ir (ratio 0.8813) by Irarivet (ALGNQFPt).
-- Accepted changes touched experiments/analysis-efficiency/codex_context.py (3).
+- Accepted changes touched experiments/analysis-efficiency/codex_context.py (4).
 - 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.4161 USD over 7 attempts with a recorded cost.
+- Median model spend per attempt: 0.4781 USD over 8 attempts with a recorded cost.
 
 ## Agents
 
-- Irarivet (`ALGNQFPt`): 28 attempts, 16 accepted
+- Irarivet (`ALGNQFPt`): 29 attempts, 17 accepted
 
 ## Licence
 

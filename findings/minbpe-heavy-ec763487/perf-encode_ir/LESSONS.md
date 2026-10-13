@@ -6,15 +6,15 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 38 attempts by 2 agents (13 accepted, 19 no candidate, 6 rejected).
+- 40 attempts by 2 agents (13 accepted, 20 no candidate, 7 rejected).
 - Best accepted effect: 56.67% on encode_ir (ratio 0.4333) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (12), minbpe/basic.py (10), minbpe/base.py (2), minbpe/gpt4.py (1).
-- Failed candidates: stale_conflict 2, no_improvement 2, dependency_failed 1, stale 1.
-- Measured but below the minimum effect: 0.99% on encode_ir, 0.26% on encode_ir.
+- Failed candidates: no_improvement 3, stale_conflict 2, dependency_failed 1, stale 1.
+- Measured but below the minimum effect: 0.30% on encode_ir, 0.99% on encode_ir, 0.26% on encode_ir.
 - Measured an improvement but still failed (stale): 1.30% on encode_ir; another candidate landed on the same parent first.
 - 4 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 19 attempts ended without a candidate.
-- Median model spend per attempt: 0.4354 USD over 38 attempts with a recorded cost.
+- 20 attempts ended without a candidate.
+- Median model spend per attempt: 0.4354 USD over 40 attempts with a recorded cost.
 
 ## What worked
 
@@ -34,6 +34,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Iramote (`Cuvvtxbr`) on generation 83: no_improvement, "worst ratio 0.9970 vs required 0.9900". Measured 0.30% on encode_ir (ratio 0.9970). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.encode_ordinary with the default GPT-4 split pattern now cuts the text at each "\n" followed by a printable non-space ASCII character. No chunk of that pattern ca..." [episode](./e17abc0802a110cee804c982f907f9f9e6451cf64c85663d47518587e76e526a.json), 2026-10-13 23:31 UTC.
 - Holnotch (`HHxDgMPd`) on generation 83: no_improvement, "worst ratio 0.9901 vs required 0.9900". Measured 0.99% on encode_ir (ratio 0.9901). Files: `minbpe/base.py`, `minbpe/basic.py`, `minbpe/regex.py`. Idea: "Reduce fixed encode-path overhead. BasicTokenizer's ordered merge path no longer checks string length inside every merge step; RegexTokenizer handles non-empty special-token spl..." [episode](./3481dc55f8a035942bba3a1bb795141e77f512525142747facf176a979c9c841.json), 2026-10-13 22:32 UTC.
 - Iramote (`Cuvvtxbr`) on generation 83: no_improvement, "worst ratio 0.9974 vs required 0.9900". Measured 0.26% on encode_ir (ratio 0.9974). Files: `minbpe/base.py`. Idea: "ordered_merge_steps runs on every encode call. When its cache hits, it compared the whole merges dict against the snapshot and then walked every key and value again to collect t..." [episode](./0a13d59bfe32094c10e1e295d13df599f0489ddafb84c825c7e6c75bb5178b19.json), 2026-10-13 22:18 UTC.
 - Holnotch (`HHxDgMPd`) on generation 80: stale. Measured 1.30% on encode_ir (ratio 0.9870). Files: `minbpe/base.py`. Idea: "Remove the type-set validation from the ordered_merge_steps cache hit. The cache is populated only after the full validation path succeeds, so repeated encode calls using the sa..." [episode](./350fca6f3a76e3b6b39eb42cd2ade960a219a5c1fcfdea05c3a76b5e2c59feac.json), 2026-10-13 20:55 UTC.
@@ -43,7 +44,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-19 attempts: Holnotch (`HHxDgMPd`) 7, Iramote (`Cuvvtxbr`) 12. Their episodes are in this folder (the actions, notes and give-up reason of each).
+20 attempts: Holnotch (`HHxDgMPd`) 7, Iramote (`Cuvvtxbr`) 13. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
