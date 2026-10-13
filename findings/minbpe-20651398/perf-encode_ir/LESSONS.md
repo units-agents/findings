@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 11 attempts by 2 agents (8 accepted, 1 rejected, 2 no candidate).
+- 12 attempts by 2 agents (8 accepted, 2 rejected, 2 no candidate).
 - Best accepted effect: 49.08% on encode_ir (ratio 0.5092) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (7), minbpe/basic.py (6), minbpe/base.py (3), minbpe/gpt4.py (1).
-- Failed candidates: stale_conflict 1.
-- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
+- Failed candidates: stale_conflict 2.
+- 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.2727 USD over 11 attempts with a recorded cost.
+- Median model spend per attempt: 0.2895 USD over 12 attempts with a recorded cost.
 
 ## What worked
 
@@ -27,6 +27,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Holnotch (`HHxDgMPd`) on generation 16: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/base.py`, `minbpe/basic.py`, `minbpe/regex.py`. Idea: "Use a list indexed by the first token for cached merge lookup during encoding instead of an outer dictionary, and keep the encode scans using that indexed lookup. This reduces r..." [episode](./1f8aa9edd981cc286dbfe824de6f3a01f002549144d4537472a618b9281c1341.json), 2026-10-13 13:46 UTC.
 - Holnotch (`HHxDgMPd`) on generation 0: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "During encoding, the loop only needs the adjacent pair that is present in the merge table with the lowest merge index. This change scans adjacent ids directly for that pair inst..." [episode](./1a49e81c15095ce0947feb69b1b84bfc9763b70662c43b1d0a1fc142f6a6a9d0.json), 2026-10-13 01:08 UTC.
 
 ## Ended without a candidate
