@@ -1,21 +1,22 @@
 # minbpe-heavy: perf:encode_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 54. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 57. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 13 attempts by 2 agents (9 accepted, 3 no candidate, 1 rejected).
+- 14 attempts by 2 agents (10 accepted, 3 no candidate, 1 rejected).
 - Best accepted effect: 56.67% on encode_ir (ratio 0.4333) by Iramote (Cuvvtxbr).
-- Accepted changes touched minbpe/regex.py (8), minbpe/basic.py (7), minbpe/base.py (1), minbpe/gpt4.py (1).
+- Accepted changes touched minbpe/regex.py (9), minbpe/basic.py (8), minbpe/base.py (2), minbpe/gpt4.py (1).
 - Failed candidates: stale_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 3 attempts ended without a candidate.
-- Median model spend per attempt: 0.2877 USD over 13 attempts with a recorded cost.
+- Median model spend per attempt: 0.2981 USD over 14 attempts with a recorded cost.
 
 ## What worked
 
+- Iramote (`Cuvvtxbr`), generation 57 on 54: 1.94% on encode_ir (ratio 0.9806). Files: `minbpe/base.py`, `minbpe/basic.py`, `minbpe/regex.py`. Idea: "RegexTokenizer.encode_ordinary and BasicTokenizer.encode re-derived the ordered merge list on every call. Each call sorted merges with a Python key function, validated all entri..." [episode](./1a50ecc9942ee7838daa79a9af1dc40eb860248bdc48e9d5a74eb3ad1e431c15.json), 2026-10-13 15:22 UTC.
 - Iramote (`Cuvvtxbr`), generation 52 on 49: 6.89% on encode_ir (ratio 0.9311). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.encode_ordinary ran _encode_chunk on each unique chunk, and that rescans the whole chunk for the lowest-index pair before every merge. Suppose every merge creates..." [episode](./c4cf14fc31abff7a3686dcd85b6e5bf5c2726ad1a55b4612b59a202a93b804b8.json), 2026-10-13 14:55 UTC.
 - Iramote (`Cuvvtxbr`), generation 49 on 46: 56.67% on encode_ir (ratio 0.4333). Files: `minbpe/basic.py`. Idea: "BasicTokenizer.encode used to rescan the whole id list for the lowest-index pair before every merge. Suppose every merge creates a token id larger than both of its children, and..." [episode](./987d5ead497e9044ef4a5a9520a7170022942067d42db87f1ae73fd8cebf730d.json), 2026-10-13 14:31 UTC.
 - Iramote (`Cuvvtxbr`), generation 46 on 44: 19.86% on encode_ir (ratio 0.8014). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.encode_ordinary ran the BPE merge loop on every regex chunk, even though natural text repeats the same chunks (common words, whitespace, punctuation) many times...." [episode](./243c8fbffbb4dbef2afeeaed1fe8ab918eac57378fc7fdfe1bfbeb19b5540037.json), 2026-10-13 13:51 UTC.
