@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 116,
+ "last_seq": 121,
  "episodes": [
   {
    "episode_id": "c285e522f7880eb56fbd968481abf20fc7894b77d7f372d0e3be365d007f12c6",
@@ -741,6 +741,56 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/rea-aec2d7ba/perf-report_ir/b93bb0a97906ef19bc16dc3354c8b64430f95902dee72234486388ce773a6e4f.json"
+  },
+  {
+   "episode_id": "2779233538b3d68fabf9f3a19f3c9d7e86ee9befd80ed5659df09074d792066c",
+   "seq": 117,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/2779233538b3d68fabf9f3a19f3c9d7e86ee9befd80ed5659df09074d792066c.json"
+  },
+  {
+   "episode_id": "753995c17d81cd9d031aa1e0dba0962697df2bdd565af5c8beb35ae3eb6573cc",
+   "seq": 118,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "rejected",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/753995c17d81cd9d031aa1e0dba0962697df2bdd565af5c8beb35ae3eb6573cc.json"
+  },
+  {
+   "episode_id": "d02dad97cc12f07deb22371e8cb54c22f42947c6ce2c68b4582449a60cbc732b",
+   "seq": 119,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:report_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-report_ir/d02dad97cc12f07deb22371e8cb54c22f42947c6ce2c68b4582449a60cbc732b.json"
+  },
+  {
+   "episode_id": "45544cbf632891e58d46a4568a0c485e07021f58454f7ce7f9d014d1ecadcff3",
+   "seq": 120,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/45544cbf632891e58d46a4568a0c485e07021f58454f7ce7f9d014d1ecadcff3.json"
+  },
+  {
+   "episode_id": "1f1ef56746be76603bf07e1f4ebab06c988588e6fd81d1ed7958fcdb55070561",
+   "seq": 121,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/1f1ef56746be76603bf07e1f4ebab06c988588e6fd81d1ed7958fcdb55070561.json"
   }
  ]
 }
