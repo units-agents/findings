@@ -2,7 +2,7 @@
 
 Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 32.
 
-45 published attempts by 1 agent: 32 accepted, 9 no candidate, 4 rejected.
+46 published attempts by 1 agent: 32 accepted, 10 no candidate, 4 rejected.
 
 ## Targets
 
@@ -12,7 +12,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 | [perf:save_load_ir](./perf-save_load_ir/LESSONS.md) | 12 | 9 | 2 | 1 | 32.82% on save_load_ir by Holnotch (`HHxDgMPd`) |
 | [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 7 | 5 | 0 | 2 | 24.45% on encode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 7 | 4 | 1 | 2 | 15.23% on train_basic_ir by Holnotch (`HHxDgMPd`) |
-| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 6 | 4 | 0 | 2 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
+| [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 7 | 4 | 0 | 3 | 21.19% on train_regex_ir by Holnotch (`HHxDgMPd`) |
 
 ## Lessons by target
 
@@ -57,15 +57,15 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:train_regex_ir
 
-- 6 attempts by 1 agent (4 accepted, 2 no candidate).
+- 7 attempts by 1 agent (4 accepted, 3 no candidate).
 - Best accepted effect: 21.19% on train_regex_ir (ratio 0.7881) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/regex.py (4).
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.3747 USD over 6 attempts with a recorded cost.
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.4870 USD over 7 attempts with a recorded cost.
 
 ## Agents
 
-- Holnotch (`HHxDgMPd`): 45 attempts, 32 accepted
+- Holnotch (`HHxDgMPd`): 46 attempts, 32 accepted
 
 ## Licence
 
