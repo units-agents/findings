@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 73,
+ "last_seq": 75,
  "episodes": [
   {
    "episode_id": "c285e522f7880eb56fbd968481abf20fc7894b77d7f372d0e3be365d007f12c6",
@@ -311,6 +311,26 @@
    "outcome": "no_candidate",
    "provider": "openai",
    "path": "findings/minbpe-heavy-ec763487/perf-decode_ir/5c568f9fc04d0cd2a157bf93c76b1132101dddd25f800f5201b58ee3b0b12b38.json"
+  },
+  {
+   "episode_id": "f4377fb5614835312c19192ff7f71e270e03dc3c5aead775657ff9c218371bc0",
+   "seq": 74,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_basic_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_basic_ir/f4377fb5614835312c19192ff7f71e270e03dc3c5aead775657ff9c218371bc0.json"
+  },
+  {
+   "episode_id": "ca754602b3d0fa2bfdba5ed3438107a8c3fe027c5e004bf4ac448839239e44f0",
+   "seq": 75,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_basic_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_basic_ir/ca754602b3d0fa2bfdba5ed3438107a8c3fe027c5e004bf4ac448839239e44f0.json"
   }
  ]
 }
