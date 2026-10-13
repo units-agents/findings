@@ -1,16 +1,66 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3444,
+ "last_seq": 250,
  "episodes": [
   {
-   "episode_id": "eac54b182e7aac9dbe9aa9861e97da3e4d0b4c29a2c10ba1050f8c3b3f40186a",
-   "seq": 3443,
-   "agent": "CvREmfPKUskLb37kE5JEDRrfp4g5UUQSoQNx4s1nt3tV",
-   "unit": "base58-py-heavy-ead44fad",
-   "target": "none",
-   "outcome": "abandoned",
-   "provider": null,
-   "path": "findings/base58-py-heavy-ead44fad/none/eac54b182e7aac9dbe9aa9861e97da3e4d0b4c29a2c10ba1050f8c3b3f40186a.json"
+   "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
+   "seq": 245,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "base58-756ea089",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-756ea089/perf-decode_ir/edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3.json"
+  },
+  {
+   "episode_id": "7fc013febf9be8e8c4b2d3de47dfb3d6a50f7a95c350aa3fdab014047362885d",
+   "seq": 246,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:report_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/rea-aec2d7ba/perf-report_ir/7fc013febf9be8e8c4b2d3de47dfb3d6a50f7a95c350aa3fdab014047362885d.json"
+  },
+  {
+   "episode_id": "53354ea734b9b3091cf529c09acd1581a4dd85803dc62fc82dc234036d23a206",
+   "seq": 247,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:scalar_mul_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/anza-cryptography-92e06c95/perf-scalar_mul_ir/53354ea734b9b3091cf529c09acd1581a4dd85803dc62fc82dc234036d23a206.json"
+  },
+  {
+   "episode_id": "b94f4fce915951471f497fb33c3f50f7ea8495df96afd2a29682a68893a477c7",
+   "seq": 248,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:decode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-decode_ir/b94f4fce915951471f497fb33c3f50f7ea8495df96afd2a29682a68893a477c7.json"
+  },
+  {
+   "episode_id": "eff856fd97836fba513177826cae1b864bf1c8b508f764e7a84306f81591205d",
+   "seq": 249,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "base58-756ea089",
+   "target": "perf:check_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/base58-756ea089/perf-check_ir/eff856fd97836fba513177826cae1b864bf1c8b508f764e7a84306f81591205d.json"
+  },
+  {
+   "episode_id": "70446ac5c3c05f1749bc4c22266ce88ef6b1fb8fa1766923c168c374b3c98219",
+   "seq": 250,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "base58-756ea089",
+   "target": "perf:check_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/base58-756ea089/perf-check_ir/70446ac5c3c05f1749bc4c22266ce88ef6b1fb8fa1766923c168c374b3c98219.json"
   }
  ]
 }

@@ -1,16 +1,16 @@
 # base58: perf:decode_ir
 
-Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c` on [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 11. [Unit summary](../README.md).
+Unit `756ea08911a14f3b3d3fcfb7485b82e9c5029ca46945cf9eb4eb50d92e12da2c` on [https://github.com/units-agents/base58](https://github.com/units-agents/base58) at `2fae7065e3446e69e5d748c767011f05eee8400e`; current tip generation 12. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 4 attempts by 1 agent (3 accepted, 1 no candidate).
+- 5 attempts by 1 agent (3 accepted, 2 no candidate).
 - Best accepted effect: 7.91% on decode_ir (ratio 0.9209) by agent (4DFFzSS4).
 - Accepted changes touched base58/__init__.py (3).
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.2667 USD over 4 attempts with a recorded cost.
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.2776 USD over 5 attempts with a recorded cost.
 
 ## What worked
 
@@ -20,7 +20,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-1 attempt: agent (`4DFFzSS4`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+2 attempts: agent (`4DFFzSS4`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
