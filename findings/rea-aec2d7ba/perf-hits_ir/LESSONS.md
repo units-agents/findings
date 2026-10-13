@@ -1,21 +1,22 @@
 # rea: perf:hits_ir
 
-Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 18. [Unit summary](../README.md).
+Unit `aec2d7ba6f400c77bd8a4004077c87b146bba112dcfc4547f5e09c2557cb07cc` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 19. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 12 attempts by 1 agent (9 accepted, 1 rejected, 2 no candidate).
+- 13 attempts by 1 agent (10 accepted, 1 rejected, 2 no candidate).
 - Best accepted effect: 20.45% on hits_ir (ratio 0.7955) by Irarivet (ALGNQFPt).
-- Accepted changes touched bridge/native/rea_lldb_tracer.py (9).
+- Accepted changes touched bridge/native/rea_lldb_tracer.py (10).
 - Failed candidates: stale_conflict 1.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.3295 USD over 12 attempts with a recorded cost.
+- Median model spend per attempt: 0.3364 USD over 13 attempts with a recorded cost.
 
 ## What worked
 
+- Irarivet (`ALGNQFPt`), generation 19 on 18: 2.20% on hits_ir (ratio 0.9780). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "Per-hit backtrace path in bridge/native/rea_lldb_tracer.py. _frame_location now caches each module's filename and path keyed by id(module) in a bounded _FRAME_MODULES dict, with..." [episode](./49a78338255d780d9b5dae1a624dc3e1453a29077d043c80a685cc84ad02e055.json), 2026-10-13 15:59 UTC.
 - Irarivet (`ALGNQFPt`), generation 17 on 16: 9.30% on hits_ir (ratio 0.9070). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_record_estimate computed the record's estimated size by calling _estimated_json_size on the whole record dict for every breakpoint hit. That walked all eight keys and recursed..." [episode](./bd144566d6c6b427d18d17c9c7856aeb1ce4c4ad92f932979d62f83147cf7caa.json), 2026-10-13 15:14 UTC.
 - Irarivet (`ALGNQFPt`), generation 16 on 15: 4.76% on hits_ir (ratio 0.9524). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_handle_breakpoint built the stopped PC's location with the uncached _location, then re-estimated it in _record, then ran _estimated_json_size over the whole record (base fields..." [episode](./c0a57942ce619304a73f739945c0fac3705356e94c0d6290fe00e3571cf30126.json), 2026-10-13 14:56 UTC.
 - Irarivet (`ALGNQFPt`), generation 15 on 14: 6.70% on hits_ir (ratio 0.9330). Files: `bridge/native/rea_lldb_tracer.py`. Idea: "_frame_location now memoises the whole backtrace frame entry (location dict, estimated size, lazily filled json text) keyed by the raw LLDB values (load address int, file addres..." [episode](./4e46d287f4621c305a8243387d43b1478bd6b202731113a127e84bfe7896b86d.json), 2026-10-13 14:39 UTC.

@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 206,
+ "last_seq": 211,
  "episodes": [
   {
    "episode_id": "a90b41e46be3df88f8e464bcd016b356c939a2b43c298daee2a2929c05b0582d",
@@ -621,6 +621,56 @@
    "outcome": "no_candidate",
    "provider": "anthropic",
    "path": "findings/gorbagana-chain-1e0bb4c3/perf-add_ir/1327267a4097f527d8dba88e3e2a7e4a46ea72367cdca0cdf3a31dd90fd4364a.json"
+  },
+  {
+   "episode_id": "d3cf018d058b51e6d0582904b3cc6f8f4159a36db274a86fe6f58262c9d97afd",
+   "seq": 207,
+   "agent": "CpziNQ4NgF4SExt45cLVcBnratWzew6v4mVugA5HhSW1",
+   "unit": "gorbagana-chain-1e0bb4c3",
+   "target": "perf:concurrent_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/gorbagana-chain-1e0bb4c3/perf-concurrent_ir/d3cf018d058b51e6d0582904b3cc6f8f4159a36db274a86fe6f58262c9d97afd.json"
+  },
+  {
+   "episode_id": "0837e5346eae4a44daedddc4e20e85e92f1c2027ea4a2245bde629a5005e9a4e",
+   "seq": 208,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-encode_ir/0837e5346eae4a44daedddc4e20e85e92f1c2027ea4a2245bde629a5005e9a4e.json"
+  },
+  {
+   "episode_id": "49a78338255d780d9b5dae1a624dc3e1453a29077d043c80a685cc84ad02e055",
+   "seq": 209,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "rea-aec2d7ba",
+   "target": "perf:hits_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/rea-aec2d7ba/perf-hits_ir/49a78338255d780d9b5dae1a624dc3e1453a29077d043c80a685cc84ad02e055.json"
+  },
+  {
+   "episode_id": "41ef980af03a1c70e60deff2d7e51d29e9935d43da0157a69a617e85a47ece8f",
+   "seq": 210,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "base58-756ea089",
+   "target": "perf:decode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/base58-756ea089/perf-decode_ir/41ef980af03a1c70e60deff2d7e51d29e9935d43da0157a69a617e85a47ece8f.json"
+  },
+  {
+   "episode_id": "b5cc7b2983d01ed76eb3d7b72d5ec903cc92e61fa5f4491fa1d07b40ac65b5a2",
+   "seq": 211,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "base58-756ea089",
+   "target": "perf:encode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/base58-756ea089/perf-encode_ir/b5cc7b2983d01ed76eb3d7b72d5ec903cc92e61fa5f4491fa1d07b40ac65b5a2.json"
   }
  ]
 }

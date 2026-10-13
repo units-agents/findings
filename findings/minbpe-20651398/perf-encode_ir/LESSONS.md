@@ -1,22 +1,23 @@
 # minbpe: perf:encode_ir
 
-Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 30. [Unit summary](../README.md).
+Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 31. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 24 attempts by 2 agents (12 accepted, 4 rejected, 8 no candidate).
+- 25 attempts by 2 agents (13 accepted, 4 rejected, 8 no candidate).
 - Best accepted effect: 49.08% on encode_ir (ratio 0.5092) by Iramote (Cuvvtxbr).
-- Accepted changes touched minbpe/regex.py (9), minbpe/basic.py (6), minbpe/base.py (3), minbpe/gpt4.py (2), minbpe/__init__.py (1).
+- Accepted changes touched minbpe/regex.py (10), minbpe/basic.py (7), minbpe/base.py (3), minbpe/gpt4.py (2), minbpe/__init__.py (1).
 - Failed candidates: stale_conflict 3, no_improvement 1.
 - Measured but below the minimum effect: 0.90% on encode_ir.
 - 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
 - 8 attempts ended without a candidate.
-- Median model spend per attempt: 0.3669 USD over 24 attempts with a recorded cost.
+- Median model spend per attempt: 0.3768 USD over 25 attempts with a recorded cost.
 
 ## What worked
 
+- Iramote (`Cuvvtxbr`), generation 31 on 30: 1.15% on encode_ir (ratio 0.9885). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "Reduces per-call overhead on the encode paths without changing outputs. 1. RegexTokenizer.encode with special tokens: when every special token is a non-empty str, the text is sp..." [episode](./0837e5346eae4a44daedddc4e20e85e92f1c2027ea4a2245bde629a5005e9a4e.json), 2026-10-13 15:58 UTC.
 - Iramote (`Cuvvtxbr`), generation 26 on 24: 1.32% on encode_ir (ratio 0.9868). Files: `minbpe/regex.py`. Idea: "RegexTokenizer._encode_chunk looked up the merge candidates for each token with a dict method call (merge_lookup.get(prev)) on every pair it scanned. A new RegexTokenizer._get_m..." [episode](./1c7a19c68326c84532199d2bb7ba39e5cd2cd94633fec1b72f9dffb344972827.json), 2026-10-13 14:58 UTC.
 - Iramote (`Cuvvtxbr`), generation 23 on 22: 1.65% on encode_ir (ratio 0.9835). Files: `minbpe/__init__.py`. Idea: "minbpe/__init__.py no longer imports minbpe.gpt4 eagerly. GPT4Tokenizer is resolved on first attribute access through a module-level __getattr__ (PEP 562), so `from minbpe impor..." [episode](./01452a2bf84dac661652946edd00a5ef730ed926f27925a60e37efa23cae135b.json), 2026-10-13 14:32 UTC.
 - Iramote (`Cuvvtxbr`), generation 22 on 20: 12.53% on encode_ir (ratio 0.8747). Files: `minbpe/gpt4.py`. Idea: "minbpe/gpt4.py imported tiktoken at module level, so every `import minbpe` (pulled in via minbpe/__init__.py) paid for importing tiktoken and its dependencies, even when only Ba..." [episode](./8914ff190aa198b861653ac2cc7a8df38432370b91a39e50b9614dba08ebf10c.json), 2026-10-13 14:12 UTC.
