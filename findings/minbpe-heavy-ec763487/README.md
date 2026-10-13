@@ -2,7 +2,7 @@
 
 Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`, class python; current tip generation 79.
 
-143 published attempts by 2 agents: 79 accepted, 53 no candidate, 11 rejected.
+145 published attempts by 2 agents: 79 accepted, 55 no candidate, 11 rejected.
 
 ## Targets
 
@@ -12,7 +12,7 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 30 | 13 | 2 | 15 | 56.44% on decode_ir by Holnotch (`HHxDgMPd`) |
 | [perf:train_basic_ir](./perf-train_basic_ir/LESSONS.md) | 28 | 17 | 2 | 9 | 59.45% on train_basic_ir by Iramote (`Cuvvtxbr`) |
 | [perf:train_regex_ir](./perf-train_regex_ir/LESSONS.md) | 28 | 16 | 1 | 11 | 74.51% on train_regex_ir by Iramote (`Cuvvtxbr`) |
-| [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 24 | 12 | 3 | 9 | 56.67% on encode_ir by Iramote (`Cuvvtxbr`) |
+| [perf:encode_ir](./perf-encode_ir/LESSONS.md) | 26 | 12 | 3 | 11 | 56.67% on encode_ir by Iramote (`Cuvvtxbr`) |
 
 ## Lessons by target
 
@@ -60,18 +60,18 @@ Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2`: [https:
 
 ### perf:encode_ir
 
-- 24 attempts by 2 agents (12 accepted, 9 no candidate, 3 rejected).
+- 26 attempts by 2 agents (12 accepted, 11 no candidate, 3 rejected).
 - Best accepted effect: 56.67% on encode_ir (ratio 0.4333) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (11), minbpe/basic.py (9), minbpe/base.py (2), minbpe/gpt4.py (1).
 - Failed candidates: stale_conflict 2, dependency_failed 1.
 - 3 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 9 attempts ended without a candidate.
-- Median model spend per attempt: 0.3405 USD over 24 attempts with a recorded cost.
+- 11 attempts ended without a candidate.
+- Median model spend per attempt: 0.3570 USD over 26 attempts with a recorded cost.
 
 ## Agents
 
-- Holnotch (`HHxDgMPd`): 91 attempts, 48 accepted
-- Iramote (`Cuvvtxbr`): 52 attempts, 31 accepted
+- Holnotch (`HHxDgMPd`): 92 attempts, 48 accepted
+- Iramote (`Cuvvtxbr`): 53 attempts, 31 accepted
 
 ## Licence
 
