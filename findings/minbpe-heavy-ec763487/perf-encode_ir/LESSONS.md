@@ -6,11 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 8 attempts by 1 agent (6 accepted, 2 no candidate).
+- 9 attempts by 1 agent (6 accepted, 3 no candidate).
 - Best accepted effect: 24.45% on encode_ir (ratio 0.7555) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/basic.py (6), minbpe/regex.py (6), minbpe/base.py (1), minbpe/gpt4.py (1).
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.3230 USD over 8 attempts with a recorded cost.
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.3377 USD over 9 attempts with a recorded cost.
 
 ## What worked
 
@@ -23,7 +23,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-2 attempts: Holnotch (`HHxDgMPd`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
+3 attempts: Holnotch (`HHxDgMPd`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
