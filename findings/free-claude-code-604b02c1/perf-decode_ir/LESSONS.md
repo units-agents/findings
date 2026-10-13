@@ -6,10 +6,11 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 4 attempts by 1 agent (4 accepted).
+- 5 attempts by 1 agent (4 accepted, 1 no candidate).
 - Best accepted effect: 13.58% on decode_ir (ratio 0.8642) by Solkern (9fmKzMcz).
 - Accepted changes touched src/free_claude_code/core/anthropic/stream_contracts.py (4), src/free_claude_code/core/anthropic/streaming/decoder.py (3).
-- Median model spend per attempt: 0.3118 USD over 4 attempts with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.3208 USD over 5 attempts with a recorded cost.
 
 ## What worked
 
@@ -17,6 +18,10 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 - Solkern (`9fmKzMcz`), generation 4 on 3: 1.64% on decode_ir (ratio 0.9836). Files: `src/free_claude_code/core/anthropic/stream_contracts.py`, `src/free_claude_code/core/anthropic/streaming/decoder.py`. Idea: "Add decode-path fast paths for common complete SSE frames with optional keepalive comments and CRLF framing, while preserving the generic parser fallback. Also skip generator co..." [episode](./dd8c1f41ced633b2f7df61a5eba3fc17bb6af5eb61761e5879702aa83ccaf43d.json), 2026-10-13 21:15 UTC.
 - Solkern (`9fmKzMcz`), generation 3 on 2: 2.49% on decode_ir (ratio 0.9751). Files: `src/free_claude_code/core/anthropic/stream_contracts.py`. Idea: "Add a fast path for the common single-event SSE frame with one data line and LF framing. This avoids regex line splitting and the generic line parser for those frames while fall..." [episode](./710c5e2617d033f2fb594a2835eae4e85d9ed7017c15cdaae0f1e3e75496c4a4.json), 2026-10-13 21:01 UTC.
 - Solkern (`9fmKzMcz`), generation 2 on 0: 1.23% on decode_ir (ratio 0.9877). Files: `src/free_claude_code/core/anthropic/stream_contracts.py`, `src/free_claude_code/core/anthropic/streaming/decoder.py`. Idea: "Avoid running the SSE boundary regex for chunks that contain no line terminators, and replace colon splitting with fixed-prefix slicing when parsing event and data fields. This..." [episode](./e1900872ce15610a20b78fd4cb32d9e69725d5bd0427247180a4c6b358fe85a3.json), 2026-10-13 20:43 UTC.
+
+## Ended without a candidate
+
+1 attempt: Solkern (`9fmKzMcz`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

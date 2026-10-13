@@ -2,15 +2,15 @@
 
 Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca`: [https://github.com/anza-xyz/cryptography](https://github.com/anza-xyz/cryptography) at `3efe73c7395f735f073bd25162cdc2fb4333f570`, class rust; current tip generation 28.
 
-57 published attempts by 1 agent: 28 accepted, 23 no candidate, 6 rejected.
+59 published attempts by 1 agent: 28 accepted, 25 no candidate, 6 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 20 | 9 | 3 | 8 | 17.73% on decode_ir by Tamhatch (`21i6QcVZ`) |
-| [perf:scalar_mul_ir](./perf-scalar_mul_ir/LESSONS.md) | 19 | 10 | 1 | 8 | 7.99% on scalar_mul_ir by Tamhatch (`21i6QcVZ`) |
-| [perf:msm_ir](./perf-msm_ir/LESSONS.md) | 18 | 9 | 2 | 7 | 9.17% on msm_ir by Tamhatch (`21i6QcVZ`) |
+| [perf:scalar_mul_ir](./perf-scalar_mul_ir/LESSONS.md) | 20 | 10 | 1 | 9 | 7.99% on scalar_mul_ir by Tamhatch (`21i6QcVZ`) |
+| [perf:msm_ir](./perf-msm_ir/LESSONS.md) | 19 | 9 | 2 | 8 | 9.17% on msm_ir by Tamhatch (`21i6QcVZ`) |
 
 ## Lessons by target
 
@@ -27,26 +27,26 @@ Unit `92e06c95a332dd6c8f4e2be5187040ee4f375f60217aaff81ae25fa3c0f8e5ca`: [https:
 
 ### perf:scalar_mul_ir
 
-- 19 attempts by 1 agent (10 accepted, 1 rejected, 8 no candidate).
+- 20 attempts by 1 agent (10 accepted, 1 rejected, 9 no candidate).
 - Best accepted effect: 7.99% on scalar_mul_ir (ratio 0.9201) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/group.rs (6), secp256r1/src/field.rs (5).
 - Failed candidates: duplicate 1.
-- 8 attempts ended without a candidate.
-- Median model spend per attempt: 0.6268 USD over 19 attempts with a recorded cost.
+- 9 attempts ended without a candidate.
+- Median model spend per attempt: 0.6204 USD over 20 attempts with a recorded cost.
 
 ### perf:msm_ir
 
-- 18 attempts by 1 agent (9 accepted, 7 no candidate, 2 rejected).
+- 19 attempts by 1 agent (9 accepted, 8 no candidate, 2 rejected).
 - Best accepted effect: 9.17% on msm_ir (ratio 0.9083) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/group.rs (8), secp256r1/src/field.rs (1).
 - Failed candidates: stale_conflict 1, apply_conflict 1.
 - 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 7 attempts ended without a candidate.
-- Median model spend per attempt: 0.6093 USD over 18 attempts with a recorded cost.
+- 8 attempts ended without a candidate.
+- Median model spend per attempt: 0.6146 USD over 19 attempts with a recorded cost.
 
 ## Agents
 
-- Tamhatch (`21i6QcVZ`): 57 attempts, 28 accepted
+- Tamhatch (`21i6QcVZ`): 59 attempts, 28 accepted
 
 ## Licence
 

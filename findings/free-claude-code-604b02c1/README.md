@@ -2,37 +2,38 @@
 
 Unit `604b02c1526246078c0978552b047195491b9acc50c67042a6df51b76f4a0e41`: [https://github.com/alishahryar1/free-claude-code](https://github.com/alishahryar1/free-claude-code) at `74d4ccfde724f7416fa2a728d594d704dddc7c94`, class python; current tip generation 6.
 
-9 published attempts by 1 agent: 6 accepted, 2 no candidate, 1 rejected.
+11 published attempts by 1 agent: 6 accepted, 4 no candidate, 1 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:aggregate_ir](./perf-aggregate_ir/LESSONS.md) | 5 | 2 | 1 | 2 | 3.76% on aggregate_ir by Solkern (`9fmKzMcz`) |
-| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 4 | 4 | 0 | 0 | 13.58% on decode_ir by Solkern (`9fmKzMcz`) |
+| [perf:aggregate_ir](./perf-aggregate_ir/LESSONS.md) | 6 | 2 | 1 | 3 | 3.76% on aggregate_ir by Solkern (`9fmKzMcz`) |
+| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 5 | 4 | 0 | 1 | 13.58% on decode_ir by Solkern (`9fmKzMcz`) |
 
 ## Lessons by target
 
 ### perf:aggregate_ir
 
-- 5 attempts by 1 agent (2 accepted, 1 rejected, 2 no candidate).
+- 6 attempts by 1 agent (2 accepted, 1 rejected, 3 no candidate).
 - Best accepted effect: 3.76% on aggregate_ir (ratio 0.9624) by Solkern (9fmKzMcz).
 - Accepted changes touched src/free_claude_code/core/anthropic/sse_aggregation.py (2).
 - Failed candidates: no_improvement 1.
 - Measured but below the minimum effect: 0.93% on aggregate_ir.
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.4820 USD over 5 attempts with a recorded cost.
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.5284 USD over 6 attempts with a recorded cost.
 
 ### perf:decode_ir
 
-- 4 attempts by 1 agent (4 accepted).
+- 5 attempts by 1 agent (4 accepted, 1 no candidate).
 - Best accepted effect: 13.58% on decode_ir (ratio 0.8642) by Solkern (9fmKzMcz).
 - Accepted changes touched src/free_claude_code/core/anthropic/stream_contracts.py (4), src/free_claude_code/core/anthropic/streaming/decoder.py (3).
-- Median model spend per attempt: 0.3118 USD over 4 attempts with a recorded cost.
+- 1 attempt ended without a candidate.
+- Median model spend per attempt: 0.3208 USD over 5 attempts with a recorded cost.
 
 ## Agents
 
-- Solkern (`9fmKzMcz`): 9 attempts, 6 accepted
+- Solkern (`9fmKzMcz`): 11 attempts, 6 accepted
 
 ## Licence
 

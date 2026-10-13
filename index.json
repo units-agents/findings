@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 482,
+ "last_seq": 496,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -2381,6 +2381,146 @@
    "outcome": "no_candidate",
    "provider": "openai",
    "path": "findings/free-claude-code-604b02c1/perf-aggregate_ir/49d734d07b6199d4abb71341db62a4032914c5d117bdb51ac5adb3c08303eeca.json"
+  },
+  {
+   "episode_id": "aa0144b888153ba3ebde90c1958ff6d096c2d5d463beb05a811c8d847c3ac5d7",
+   "seq": 483,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:field_arith_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-field_arith_ir/aa0144b888153ba3ebde90c1958ff6d096c2d5d463beb05a811c8d847c3ac5d7.json"
+  },
+  {
+   "episode_id": "19c2c33130307c09b6bfb5531f5edb3aa540406dc5ca8f887425beff10136cd8",
+   "seq": 484,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:msm_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/anza-cryptography-92e06c95/perf-msm_ir/19c2c33130307c09b6bfb5531f5edb3aa540406dc5ca8f887425beff10136cd8.json"
+  },
+  {
+   "episode_id": "b7299d0cfe02e11c42ceaad676d7b11d4c31ebd451725d43cd6301f2b8dd9bf9",
+   "seq": 485,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "morluto-rea-d571bf6b",
+   "target": "perf:resource_observation_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/morluto-rea-d571bf6b/perf-resource_observation_ir/b7299d0cfe02e11c42ceaad676d7b11d4c31ebd451725d43cd6301f2b8dd9bf9.json"
+  },
+  {
+   "episode_id": "332a7b39030a239525e451c41c8cd3b28e6e0137238a84689966dba7c5819165",
+   "seq": 486,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/332a7b39030a239525e451c41c8cd3b28e6e0137238a84689966dba7c5819165.json"
+  },
+  {
+   "episode_id": "b73c8f1e5fe0dabe7d54f26fb26aa3288f735b501d93571fed266b27fda344e3",
+   "seq": 487,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/free-claude-code-604b02c1/perf-decode_ir/b73c8f1e5fe0dabe7d54f26fb26aa3288f735b501d93571fed266b27fda344e3.json"
+  },
+  {
+   "episode_id": "5b3b5a9d4373c9047150450eed8df833697f6109d4452dc7e3cd5a33b44fe32e",
+   "seq": 488,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:field_arith_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-field_arith_ir/5b3b5a9d4373c9047150450eed8df833697f6109d4452dc7e3cd5a33b44fe32e.json"
+  },
+  {
+   "episode_id": "7b08d79220b75a96e06a38115180ebca2d59e983b8729ee89e6b856a1a7874ab",
+   "seq": 489,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:save_load_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/7b08d79220b75a96e06a38115180ebca2d59e983b8729ee89e6b856a1a7874ab.json"
+  },
+  {
+   "episode_id": "a9041f874d686740bb799dba6fab2e7ce3fdf0b83e1b82b6a54b833db9a9e8ff",
+   "seq": 490,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:scalar_arith_ir",
+   "outcome": "rejected",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-scalar_arith_ir/a9041f874d686740bb799dba6fab2e7ce3fdf0b83e1b82b6a54b833db9a9e8ff.json"
+  },
+  {
+   "episode_id": "e34063679b1d89bf645082d1c96505989f57e131558dd9606c9c5532f805bd8a",
+   "seq": 491,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:field_arith_ir",
+   "outcome": "rejected",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-field_arith_ir/e34063679b1d89bf645082d1c96505989f57e131558dd9606c9c5532f805bd8a.json"
+  },
+  {
+   "episode_id": "228acd8b35e5b545da13e62e4114818550e4ba7793de3e2670fa16768d7e0df3",
+   "seq": 492,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:scalar_mul_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/anza-cryptography-92e06c95/perf-scalar_mul_ir/228acd8b35e5b545da13e62e4114818550e4ba7793de3e2670fa16768d7e0df3.json"
+  },
+  {
+   "episode_id": "31973c8ddd5aced3d5eabfe571be75116f00337d4f101da01e96d98e0d3d56f0",
+   "seq": 493,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:aggregate_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/free-claude-code-604b02c1/perf-aggregate_ir/31973c8ddd5aced3d5eabfe571be75116f00337d4f101da01e96d98e0d3d56f0.json"
+  },
+  {
+   "episode_id": "a708b9ce43d3f54ba565e6dccbcc21cd3ba329499b73afafdb6b2a8faf0ca915",
+   "seq": 494,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "morluto-rea-d571bf6b",
+   "target": "perf:codex_capture_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/morluto-rea-d571bf6b/perf-codex_capture_ir/a708b9ce43d3f54ba565e6dccbcc21cd3ba329499b73afafdb6b2a8faf0ca915.json"
+  },
+  {
+   "episode_id": "9ab88d9e431c751a1814bc0943514e35dd11ed68394e858431453e35a6103148",
+   "seq": 495,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "cryptography-b7c3c37e",
+   "target": "perf:field_arith_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/cryptography-b7c3c37e/perf-field_arith_ir/9ab88d9e431c751a1814bc0943514e35dd11ed68394e858431453e35a6103148.json"
+  },
+  {
+   "episode_id": "d26eefee0b9e3ebf69f529dd2ac7873bed48089f7e5e2fc885e5c28ccde58f67",
+   "seq": 496,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "units-agents-base58-e88ffcd4",
+   "target": "perf:int_codec_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/units-agents-base58-e88ffcd4/perf-int_codec_ir/d26eefee0b9e3ebf69f529dd2ac7873bed48089f7e5e2fc885e5c28ccde58f67.json"
   }
  ]
 }
