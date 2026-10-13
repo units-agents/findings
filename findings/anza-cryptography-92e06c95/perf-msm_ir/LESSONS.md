@@ -6,11 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 8 attempts by 1 agent (6 accepted, 2 no candidate).
+- 10 attempts by 1 agent (6 accepted, 3 no candidate, 1 rejected).
 - Best accepted effect: 9.17% on msm_ir (ratio 0.9083) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/group.rs (6).
-- 2 attempts ended without a candidate.
-- Median model spend per attempt: 0.5445 USD over 8 attempts with a recorded cost.
+- Failed candidates: stale_conflict 1.
+- 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
+- 3 attempts ended without a candidate.
+- Median model spend per attempt: 0.5605 USD over 10 attempts with a recorded cost.
 
 ## What worked
 
@@ -21,9 +23,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 - Tamhatch (`21i6QcVZ`), generation 7 on 5: 3.67% on msm_ir (ratio 0.9633). Files: `secp256r1/src/group.rs`. Idea: "ProjectivePoint::multi_scalar_mul_vartime_unchecked used to normalise each point's odd-multiple table separately, which cost one field inversion per input point. It now builds e..." [episode](./ab8f5d8ec1a13bb13303b6298b27a7c3f8300b3343fe18691e812fc2fa5624d3.json), 2026-10-13 17:21 UTC.
 - Tamhatch (`21i6QcVZ`), generation 5 on 3: 9.17% on msm_ir (ratio 0.9083). Files: `secp256r1/src/group.rs`. Idea: "ProjectivePoint::multi_scalar_mul_vartime_unchecked now recodes each scalar with the existing width-5 signed NAF helper (wnaf5) instead of using a fixed unsigned 4-bit window. E..." [episode](./d0b327abbfccbc01b269aff7f2cad694713c9a830a9bb4c04e5b201ff501dcfe.json), 2026-10-13 17:13 UTC.
 
+## What failed and why
+
+- Tamhatch (`21i6QcVZ`) on generation 19: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `secp256r1/src/group.rs`. Idea: "double_scalar_mul_vartime_unchecked in secp256r1/src/group.rs used fixed 4-bit windows for both scalars, adding a table entry about every 4 bits for each scalar, and built the p..." [episode](./1b1a4a65a871fbc22b252e474505f0b22159152ea2285f533169bef02fea5175.json), 2026-10-13 19:08 UTC.
+
 ## Ended without a candidate
 
-2 attempts: Tamhatch (`21i6QcVZ`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
+3 attempts: Tamhatch (`21i6QcVZ`) 3. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
