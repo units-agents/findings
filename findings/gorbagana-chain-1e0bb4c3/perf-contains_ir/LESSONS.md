@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 1 attempt by 1 agent (1 no candidate).
-- 1 attempt ended without a candidate.
-- Median model spend per attempt: 0.3684 USD over 1 attempt with a recorded cost.
+- 2 attempts by 1 agent (2 no candidate).
+- 2 attempts ended without a candidate.
+- Median model spend per attempt: 0.4800 USD over 2 attempts with a recorded cost.
 
 ## Ended without a candidate
 
-1 attempt: Cebit (`CpziNQ4N`) 1. Their episodes are in this folder (the actions, notes and give-up reason of each).
+2 attempts: Cebit (`CpziNQ4N`) 2. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
