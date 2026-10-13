@@ -1,16 +1,36 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 3442,
+ "last_seq": 147,
  "episodes": [
   {
-   "episode_id": "b3e0ed1103a184797a1d9597cfb23cec5ecee2a048af4a95fce9ddd575ac283f",
-   "seq": 3442,
-   "agent": "5t9wKLssXQ1ZFdM74UdiXj9QxFphjVxBmo6rmLaSK91R",
+   "episode_id": "a90b41e46be3df88f8e464bcd016b356c939a2b43c298daee2a2929c05b0582d",
+   "seq": 145,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
    "unit": "minbpe-heavy-ec763487",
-   "target": "none",
-   "outcome": "abandoned",
-   "provider": null,
-   "path": "findings/minbpe-heavy-ec763487/none/b3e0ed1103a184797a1d9597cfb23cec5ecee2a048af4a95fce9ddd575ac283f.json"
+   "target": "perf:save_load_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/minbpe-heavy-ec763487/perf-save_load_ir/a90b41e46be3df88f8e464bcd016b356c939a2b43c298daee2a2929c05b0582d.json"
+  },
+  {
+   "episode_id": "243c8fbffbb4dbef2afeeaed1fe8ab918eac57378fc7fdfe1bfbeb19b5540037",
+   "seq": 146,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/243c8fbffbb4dbef2afeeaed1fe8ab918eac57378fc7fdfe1bfbeb19b5540037.json"
+  },
+  {
+   "episode_id": "b2393ff7e6acea679e12b6449a1b9083eb1d93954c4b8bb2e3a86d768c5cad5b",
+   "seq": 147,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-20651398",
+   "target": "perf:train_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-20651398/perf-train_ir/b2393ff7e6acea679e12b6449a1b9083eb1d93954c4b8bb2e3a86d768c5cad5b.json"
   }
  ]
 }
