@@ -1,18 +1,18 @@
 # minbpe-heavy: perf:decode_ir
 
-Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 67. [Unit summary](../README.md).
+Unit `ec763487aa4bc47f8be69946e4197ab01c96eadde5f127aa8ea13dece9701fd2` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 68. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 22 attempts by 2 agents (13 accepted, 7 no candidate, 2 rejected).
+- 23 attempts by 2 agents (13 accepted, 8 no candidate, 2 rejected).
 - Best accepted effect: 56.44% on decode_ir (ratio 0.4356) by Holnotch (HHxDgMPd).
 - Accepted changes touched minbpe/basic.py (11), minbpe/regex.py (9), minbpe/base.py (1).
 - Failed candidates: no_improvement 2.
 - Measured but below the minimum effect: 0.93% on decode_ir, 0.52% on decode_ir.
-- 7 attempts ended without a candidate.
-- Median model spend per attempt: 0.4599 USD over 22 attempts with a recorded cost.
+- 8 attempts ended without a candidate.
+- Median model spend per attempt: 0.4542 USD over 23 attempts with a recorded cost.
 
 ## What worked
 
@@ -37,7 +37,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-7 attempts: Holnotch (`HHxDgMPd`) 3, Iramote (`Cuvvtxbr`) 4. Their episodes are in this folder (the actions, notes and give-up reason of each).
+8 attempts: Holnotch (`HHxDgMPd`) 3, Iramote (`Cuvvtxbr`) 5. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
