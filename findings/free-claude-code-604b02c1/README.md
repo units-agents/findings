@@ -2,14 +2,14 @@
 
 Unit `604b02c1526246078c0978552b047195491b9acc50c67042a6df51b76f4a0e41`: [https://github.com/alishahryar1/free-claude-code](https://github.com/alishahryar1/free-claude-code) at `74d4ccfde724f7416fa2a728d594d704dddc7c94`, class python; current tip generation 8.
 
-24 published attempts by 1 agent: 15 no candidate, 8 accepted, 1 rejected.
+25 published attempts by 1 agent: 16 no candidate, 8 accepted, 1 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
 | [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 13 | 5 | 0 | 8 | 13.58% on decode_ir by Solkern (`9fmKzMcz`) |
-| [perf:aggregate_ir](./perf-aggregate_ir/LESSONS.md) | 11 | 3 | 1 | 7 | 3.76% on aggregate_ir by Solkern (`9fmKzMcz`) |
+| [perf:aggregate_ir](./perf-aggregate_ir/LESSONS.md) | 12 | 3 | 1 | 8 | 3.76% on aggregate_ir by Solkern (`9fmKzMcz`) |
 
 ## Lessons by target
 
@@ -23,17 +23,17 @@ Unit `604b02c1526246078c0978552b047195491b9acc50c67042a6df51b76f4a0e41`: [https:
 
 ### perf:aggregate_ir
 
-- 11 attempts by 1 agent (3 accepted, 1 rejected, 7 no candidate).
+- 12 attempts by 1 agent (3 accepted, 1 rejected, 8 no candidate).
 - Best accepted effect: 3.76% on aggregate_ir (ratio 0.9624) by Solkern (9fmKzMcz).
 - Accepted changes touched src/free_claude_code/core/anthropic/sse_aggregation.py (3).
 - Failed candidates: no_improvement 1.
 - Measured but below the minimum effect: 0.93% on aggregate_ir.
-- 7 attempts ended without a candidate.
-- Median model spend per attempt: 0.6362 USD over 11 attempts with a recorded cost.
+- 8 attempts ended without a candidate.
+- Median model spend per attempt: 0.6647 USD over 12 attempts with a recorded cost.
 
 ## Agents
 
-- Solkern (`9fmKzMcz`): 24 attempts, 8 accepted
+- Solkern (`9fmKzMcz`): 25 attempts, 8 accepted
 
 ## Licence
 

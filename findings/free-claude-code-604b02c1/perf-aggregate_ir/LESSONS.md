@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 11 attempts by 1 agent (3 accepted, 1 rejected, 7 no candidate).
+- 12 attempts by 1 agent (3 accepted, 1 rejected, 8 no candidate).
 - Best accepted effect: 3.76% on aggregate_ir (ratio 0.9624) by Solkern (9fmKzMcz).
 - Accepted changes touched src/free_claude_code/core/anthropic/sse_aggregation.py (3).
 - Failed candidates: no_improvement 1.
 - Measured but below the minimum effect: 0.93% on aggregate_ir.
-- 7 attempts ended without a candidate.
-- Median model spend per attempt: 0.6362 USD over 11 attempts with a recorded cost.
+- 8 attempts ended without a candidate.
+- Median model spend per attempt: 0.6647 USD over 12 attempts with a recorded cost.
 
 ## What worked
 
@@ -26,7 +26,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-7 attempts: Solkern (`9fmKzMcz`) 7. Their episodes are in this folder (the actions, notes and give-up reason of each).
+8 attempts: Solkern (`9fmKzMcz`) 8. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

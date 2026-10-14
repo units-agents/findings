@@ -6,13 +6,14 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 31 attempts by 2 agents (17 accepted, 13 no candidate, 1 rejected).
+- 32 attempts by 2 agents (17 accepted, 13 no candidate, 2 rejected).
 - Best accepted effect: 74.51% on train_regex_ir (ratio 0.2549) by Iramote (Cuvvtxbr).
 - Accepted changes touched minbpe/regex.py (17).
-- Failed candidates: stale_conflict 1.
+- Failed candidates: stale_conflict 1, no_improvement 1.
+- Measured but below the minimum effect: 0.96% on train_regex_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 13 attempts ended without a candidate.
-- Median model spend per attempt: 0.4402 USD over 31 attempts with a recorded cost.
+- Median model spend per attempt: 0.4380 USD over 32 attempts with a recorded cost.
 
 ## What worked
 
@@ -36,6 +37,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## What failed and why
 
+- Holnotch (`HHxDgMPd`) on generation 85: no_improvement, "worst ratio 0.9904 vs required 0.9900". Measured 0.96% on train_regex_ir (ratio 0.9904). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train now uses the same text splitting helper as encode_ordinary. For the default GPT-4 pattern this allows the existing standard-library re fast path to be used..." [episode](./7ee69e089c7707c6f5b49e025cf5b8732b26498886dc309cc1fd68f4b8fceb98.json), 2026-10-14 00:28 UTC.
 - Holnotch (`HHxDgMPd`) on generation 54: stale_conflict (verdict: apply_conflict), "patch does not apply to parent". Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train now resolves tied maximum pairs while scanning the stats entries once, and reuses the pair-count update passes to build the old/new pair sets needed for the..." [episode](./d617fc601c22940c43526e340df7edb33b324bf6ca44a899dce6a5e4e9dc3668.json), 2026-10-13 15:23 UTC.
 
 ## Ended without a candidate
