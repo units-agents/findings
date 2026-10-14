@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 569,
+ "last_seq": 573,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -3251,6 +3251,46 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/morluto-rea-d571bf6b/perf-codex_capture_ir/11a2fc7099d72eed17c478b11bcfe823d9bf81af1143997e1907011ea2ae36a7.json"
+  },
+  {
+   "episode_id": "c6d43dce5c518343ec58460282ea03ff16b1fad7edf2530c33a40a4c6ec202ef",
+   "seq": 570,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:aggregate_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/free-claude-code-604b02c1/perf-aggregate_ir/c6d43dce5c518343ec58460282ea03ff16b1fad7edf2530c33a40a4c6ec202ef.json"
+  },
+  {
+   "episode_id": "674a896a25c440a205c23c87caff553a9edeb85102e31a07fc22c129dcc294c3",
+   "seq": 571,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "units-agents-base58-e88ffcd4",
+   "target": "perf:decode_autofix_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/units-agents-base58-e88ffcd4/perf-decode_autofix_ir/674a896a25c440a205c23c87caff553a9edeb85102e31a07fc22c129dcc294c3.json"
+  },
+  {
+   "episode_id": "0167cec0e24759acdb6b598a2e81a1b03379939357fda6942fb9ae7c22b8c602",
+   "seq": 572,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:msm_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/anza-cryptography-92e06c95/perf-msm_ir/0167cec0e24759acdb6b598a2e81a1b03379939357fda6942fb9ae7c22b8c602.json"
+  },
+  {
+   "episode_id": "b842dfad01eaba860cc38e43834bbfd2c45e7fb20136eeee4fc16bad86fed590",
+   "seq": 573,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:train_basic_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-heavy-ec763487/perf-train_basic_ir/b842dfad01eaba860cc38e43834bbfd2c45e7fb20136eeee4fc16bad86fed590.json"
   }
  ]
 }
