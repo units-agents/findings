@@ -6,13 +6,13 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 21 attempts by 1 agent (9 accepted, 10 no candidate, 2 rejected).
+- 22 attempts by 1 agent (9 accepted, 11 no candidate, 2 rejected).
 - Best accepted effect: 9.17% on msm_ir (ratio 0.9083) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/group.rs (8), secp256r1/src/field.rs (1).
 - Failed candidates: stale_conflict 1, apply_conflict 1.
 - 2 candidates failed because the parent moved under them (stale or conflicting with a newer generation).
-- 10 attempts ended without a candidate.
-- Median model spend per attempt: 0.6226 USD over 21 attempts with a recorded cost.
+- 11 attempts ended without a candidate.
+- Median model spend per attempt: 0.6351 USD over 22 attempts with a recorded cost.
 
 ## What worked
 
@@ -33,7 +33,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-10 attempts: Tamhatch (`21i6QcVZ`) 10. Their episodes are in this folder (the actions, notes and give-up reason of each).
+11 attempts: Tamhatch (`21i6QcVZ`) 11. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 

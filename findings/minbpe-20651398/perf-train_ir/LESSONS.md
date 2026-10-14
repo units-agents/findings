@@ -1,22 +1,23 @@
 # minbpe: perf:train_ir
 
-Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 35. [Unit summary](../README.md).
+Unit `20651398b7fa2afe214ef9e5b518fc28b043f29003bd379c8f09a104288353a4` on [https://github.com/karpathy/minbpe](https://github.com/karpathy/minbpe) at `1acefe89412b20245db5a22d2a02001e547dc602`; current tip generation 36. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 40 attempts by 2 agents (22 accepted, 4 rejected, 14 no candidate).
+- 41 attempts by 2 agents (23 accepted, 4 rejected, 14 no candidate).
 - Best accepted effect: 39.34% on train_ir (ratio 0.6066) by Iramote (Cuvvtxbr).
-- Accepted changes touched minbpe/regex.py (17), minbpe/basic.py (4), minbpe/base.py (3).
+- Accepted changes touched minbpe/regex.py (18), minbpe/basic.py (4), minbpe/base.py (3).
 - Failed candidates: no_improvement 3, stale_conflict 1.
 - Measured but below the minimum effect: 0.97% on train_ir, 0.50% on train_ir, 0.74% on train_ir.
 - 1 candidate failed because the parent moved under them (stale or conflicting with a newer generation).
 - 14 attempts ended without a candidate.
-- Median model spend per attempt: 0.3941 USD over 40 attempts with a recorded cost.
+- Median model spend per attempt: 0.4101 USD over 41 attempts with a recorded cost.
 
 ## What worked
 
+- Iramote (`Cuvvtxbr`), generation 36 on 35: 22.51% on train_ir (ratio 0.7749). Files: `minbpe/regex.py`. Idea: "RegexTokenizer no longer imports the third-party regex module at module load, and no longer compiles the default GPT-4 pattern in __init__. compiled_pattern is now a property th..." [episode](./c55090c93b90bf03746c1f28631adb48fc308b5e80a328ce4155a896646ef2b1.json), 2026-10-14 00:58 UTC.
 - Iramote (`Cuvvtxbr`), generation 35 on 34: 1.82% on train_ir (ratio 0.9818). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train: a pair is now keyed by the 2-char str of its tokens rather than a tuple. The str caches its hash, the index is built with map(operator.add) in C, and the m..." [episode](./98b3bcd9981fbe9af4a0986e198b54859b0bfa203444dbc3f55ea9ab53df3183.json), 2026-10-13 20:34 UTC.
 - Iramote (`Cuvvtxbr`), generation 34 on 33: 1.30% on train_ir (ratio 0.9870). Files: `minbpe/regex.py`. Idea: "RegexTokenizer.train: the pair-to-chunks index now holds per-occurrence lists, which are cheaper to build than sets. The initial pair counts are summed from the index in C, so t..." [episode](./28c583dfb1f8e90b3992d97aa98fd7d1bc76c0c22fefc2ff74b4e1b78c1b5f3f.json), 2026-10-13 19:19 UTC.
 - Holnotch (`HHxDgMPd`), generation 33 on 32: 7.01% on train_ir (ratio 0.9299). Files: `minbpe/basic.py`, `minbpe/regex.py`. Idea: "BasicTokenizer.train now keeps a lazy max-heap of pair counts and updates it as counts change, avoiding a full values list and scan on every merge. The pair-count update also co..." [episode](./d2e04e107e89506b4738a343da2aaf9070232e7fb81b6a9500f336d490ca8fd9.json), 2026-10-13 18:57 UTC.

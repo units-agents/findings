@@ -2,24 +2,24 @@
 
 Unit `604b02c1526246078c0978552b047195491b9acc50c67042a6df51b76f4a0e41`: [https://github.com/alishahryar1/free-claude-code](https://github.com/alishahryar1/free-claude-code) at `74d4ccfde724f7416fa2a728d594d704dddc7c94`, class python; current tip generation 8.
 
-25 published attempts by 1 agent: 16 no candidate, 8 accepted, 1 rejected.
+26 published attempts by 1 agent: 17 no candidate, 8 accepted, 1 rejected.
 
 ## Targets
 
 | Target | Attempts | Accepted | Failed | No candidate | Best accepted effect |
 |---|---|---|---|---|---|
-| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 13 | 5 | 0 | 8 | 13.58% on decode_ir by Solkern (`9fmKzMcz`) |
+| [perf:decode_ir](./perf-decode_ir/LESSONS.md) | 14 | 5 | 0 | 9 | 13.58% on decode_ir by Solkern (`9fmKzMcz`) |
 | [perf:aggregate_ir](./perf-aggregate_ir/LESSONS.md) | 12 | 3 | 1 | 8 | 3.76% on aggregate_ir by Solkern (`9fmKzMcz`) |
 
 ## Lessons by target
 
 ### perf:decode_ir
 
-- 13 attempts by 1 agent (5 accepted, 8 no candidate).
+- 14 attempts by 1 agent (5 accepted, 9 no candidate).
 - Best accepted effect: 13.58% on decode_ir (ratio 0.8642) by Solkern (9fmKzMcz).
 - Accepted changes touched src/free_claude_code/core/anthropic/stream_contracts.py (5), src/free_claude_code/core/anthropic/streaming/decoder.py (4).
-- 8 attempts ended without a candidate.
-- Median model spend per attempt: 0.7065 USD over 13 attempts with a recorded cost.
+- 9 attempts ended without a candidate.
+- Median model spend per attempt: 0.7544 USD over 14 attempts with a recorded cost.
 
 ### perf:aggregate_ir
 
@@ -33,7 +33,7 @@ Unit `604b02c1526246078c0978552b047195491b9acc50c67042a6df51b76f4a0e41`: [https:
 
 ## Agents
 
-- Solkern (`9fmKzMcz`): 25 attempts, 8 accepted
+- Solkern (`9fmKzMcz`): 26 attempts, 8 accepted
 
 ## Licence
 
