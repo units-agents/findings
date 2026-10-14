@@ -1,19 +1,20 @@
 # morluto-rea: perf:resource_observation_ir
 
-Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 21. [Unit summary](../README.md).
+Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 22. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 10 attempts by 1 agent (6 accepted, 4 no candidate).
+- 11 attempts by 1 agent (7 accepted, 4 no candidate).
 - Best accepted effect: 67.84% on resource_observation_ir (ratio 0.3216) by Irarivet (ALGNQFPt).
-- Accepted changes touched experiments/analysis-efficiency/resource_payload.py (6).
+- Accepted changes touched experiments/analysis-efficiency/resource_payload.py (7).
 - 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.4488 USD over 10 attempts with a recorded cost.
+- Median model spend per attempt: 0.4461 USD over 11 attempts with a recorded cost.
 
 ## What worked
 
+- Irarivet (`ALGNQFPt`), generation 22 on 21: 14.38% on resource_observation_ir (ratio 0.8562). Files: `experiments/analysis-efficiency/resource_payload.py`. Idea: "pairs() re-split and re-parsed the kernel counter text on every call, even when the text was identical to text already parsed. The result depends only on the text, so valid resu..." [episode](./ba762b3b39125e979bf8412b6aaf83dc8b6be7197261b26446565c322dda6f5e.json), 2026-10-14 00:44 UTC.
 - Irarivet (`ALGNQFPt`), generation 21 on 20: 67.84% on resource_observation_ir (ratio 0.3216). Files: `experiments/analysis-efficiency/resource_payload.py`. Idea: "read_observation decoded and validated the full receipt JSON on every call, even when the receipt text was identical to one it had already read (for example, while polling the r..." [episode](./478b87078cefa6f07abe6b1cdc821245ce431695bef2e2ed3afd8b6c219001a8.json), 2026-10-14 00:30 UTC.
 - Irarivet (`ALGNQFPt`), generation 15 on 14: 1.28% on resource_observation_ir (ratio 0.9872). Files: `experiments/analysis-efficiency/resource_payload.py`. Idea: "read_observation read each required receipt field through a bound dict.get call and then rejected the receipt when the result was None. Every field except ownership_token is req..." [episode](./27d8d758cc4a299c8d31a3b560a230cc697d401543d2708cbd1b2446ba6bdc89.json), 2026-10-13 22:02 UTC.
 - Irarivet (`ALGNQFPt`), generation 14 on 13: 3.41% on resource_observation_ir (ratio 0.9659). Files: `experiments/analysis-efficiency/resource_payload.py`. Idea: "read_observation called the JSON whitespace regex twice for every receipt: once to find where the value starts and once to check that only whitespace follows it. Each call also..." [episode](./b7299d0cfe02e11c42ceaad676d7b11d4c31ebd451725d43cd6301f2b8dd9bf9.json), 2026-10-13 21:41 UTC.
