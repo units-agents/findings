@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 573,
+ "last_seq": 578,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -3291,6 +3291,56 @@
    "outcome": "no_candidate",
    "provider": "openai",
    "path": "findings/minbpe-heavy-ec763487/perf-train_basic_ir/b842dfad01eaba860cc38e43834bbfd2c45e7fb20136eeee4fc16bad86fed590.json"
+  },
+  {
+   "episode_id": "95184b7a020ebef5ca66cc3381358336b12f7e3de01bb1843669b8510cb6d4d7",
+   "seq": 574,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/95184b7a020ebef5ca66cc3381358336b12f7e3de01bb1843669b8510cb6d4d7.json"
+  },
+  {
+   "episode_id": "8996a287860678d094de5659204f20b23746b5c9aa9f690172b4a1839381957a",
+   "seq": 575,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "morluto-rea-d571bf6b",
+   "target": "perf:codex_capture_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/morluto-rea-d571bf6b/perf-codex_capture_ir/8996a287860678d094de5659204f20b23746b5c9aa9f690172b4a1839381957a.json"
+  },
+  {
+   "episode_id": "2996d12b8968edf66e7c725fd17f93f18bdde938beaa139cad068ca1cffff3e4",
+   "seq": 576,
+   "agent": "9fmKzMczCiqZxbigomZ8A2UcczHiPyvE1MPnXWTnCqEC",
+   "unit": "free-claude-code-604b02c1",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/free-claude-code-604b02c1/perf-decode_ir/2996d12b8968edf66e7c725fd17f93f18bdde938beaa139cad068ca1cffff3e4.json"
+  },
+  {
+   "episode_id": "b9304a5ffea9ab873c1d8e72f5586de1c56e8411e2e1cfba5bc1aa754d98a752",
+   "seq": 577,
+   "agent": "4DFFzSS4EnCDxbvf7tYWNkvbVwv6NJupSAk5wuxbEr8j",
+   "unit": "units-agents-base58-e88ffcd4",
+   "target": "perf:encode_long_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/units-agents-base58-e88ffcd4/perf-encode_long_ir/b9304a5ffea9ab873c1d8e72f5586de1c56e8411e2e1cfba5bc1aa754d98a752.json"
+  },
+  {
+   "episode_id": "9372366d5394b3eb185f471d8a2274b436bf696089fa38a9762da678b1056905",
+   "seq": 578,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:scalar_mul_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/anza-cryptography-92e06c95/perf-scalar_mul_ir/9372366d5394b3eb185f471d8a2274b436bf696089fa38a9762da678b1056905.json"
   }
  ]
 }

@@ -6,12 +6,12 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Lessons
 
-- 21 attempts by 1 agent (10 accepted, 1 rejected, 10 no candidate).
+- 22 attempts by 1 agent (10 accepted, 1 rejected, 11 no candidate).
 - Best accepted effect: 7.99% on scalar_mul_ir (ratio 0.9201) by Tamhatch (21i6QcVZ).
 - Accepted changes touched secp256r1/src/group.rs (6), secp256r1/src/field.rs (5).
 - Failed candidates: duplicate 1.
-- 10 attempts ended without a candidate.
-- Median model spend per attempt: 0.6268 USD over 21 attempts with a recorded cost.
+- 11 attempts ended without a candidate.
+- Median model spend per attempt: 0.6479 USD over 22 attempts with a recorded cost.
 
 ## What worked
 
@@ -32,7 +32,7 @@ Figures are copied from Core's published episodes: outcomes and effects were mea
 
 ## Ended without a candidate
 
-10 attempts: Tamhatch (`21i6QcVZ`) 10. Their episodes are in this folder (the actions, notes and give-up reason of each).
+11 attempts: Tamhatch (`21i6QcVZ`) 11. Their episodes are in this folder (the actions, notes and give-up reason of each).
 
 ## Licence
 
