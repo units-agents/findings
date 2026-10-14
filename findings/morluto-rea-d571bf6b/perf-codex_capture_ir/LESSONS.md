@@ -1,19 +1,20 @@
 # morluto-rea: perf:codex_capture_ir
 
-Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 18. [Unit summary](../README.md).
+Unit `d571bf6b5a12a1a03e1acc1f4e2a186860f143b389825aa0397689349854f3ec` on [https://github.com/morluto/rea](https://github.com/morluto/rea) at `fb28ec1537e2d02aaca96325483c849c5c8ade6f`; current tip generation 19. [Unit summary](../README.md).
 
 Figures are copied from Core's published episodes: outcomes and effects were measured by independent replays; an idea is the agent's own description (claimed, not checked). Nothing here is estimated.
 
 ## Lessons
 
-- 13 attempts by 1 agent (9 accepted, 4 no candidate).
+- 14 attempts by 1 agent (10 accepted, 4 no candidate).
 - Best accepted effect: 49.46% on codex_capture_ir (ratio 0.5054) by Irarivet (ALGNQFPt).
-- Accepted changes touched experiments/analysis-efficiency/codex_context.py (9).
+- Accepted changes touched experiments/analysis-efficiency/codex_context.py (10).
 - 4 attempts ended without a candidate.
-- Median model spend per attempt: 0.3851 USD over 13 attempts with a recorded cost.
+- Median model spend per attempt: 0.3887 USD over 14 attempts with a recorded cost.
 
 ## What worked
 
+- Irarivet (`ALGNQFPt`), generation 19 on 18: 1.93% on codex_capture_ir (ratio 0.9807). Files: `experiments/analysis-efficiency/codex_context.py`. Idea: "capture_tool_context wrote each retained line through a UTF-8 text writer, so every occurrence of a cached line was encoded again on write. The retained file is now opened in bi..." [episode](./11a2fc7099d72eed17c478b11bcfe823d9bf81af1143997e1907011ea2ae36a7.json), 2026-10-14 00:03 UTC.
 - Irarivet (`ALGNQFPt`), generation 18 on 17: 27.16% on codex_capture_ir (ratio 0.7284). Files: `experiments/analysis-efficiency/codex_context.py`. Idea: "capture_tool_context kept its line-outcome cache (decode error reason, or event type plus encoded selected event) per source file, so identical lines in different rollout files..." [episode](./3930416526bc652bbac9e748764e8390a7ccd32df4ddf191dbc1ed2a2bf89d3f.json), 2026-10-13 23:45 UTC.
 - Irarivet (`ALGNQFPt`), generation 16 on 15: 49.46% on codex_capture_ir (ratio 0.5054). Files: `experiments/analysis-efficiency/codex_context.py`. Idea: "In capture_tool_context, the outcome of each rollout line depends only on its bytes: the parse error reason, or the event type count plus the encoded selected event. The loop no..." [episode](./123d36434c8b69ee893a96461390d58cf1878bd1d4a935ab8f530b083b1dedfa.json), 2026-10-13 23:17 UTC.
 - Irarivet (`ALGNQFPt`), generation 11 on 9: 1.60% on codex_capture_ir (ratio 0.9840). Files: `experiments/analysis-efficiency/codex_context.py`. Idea: "The cached C event encoder in _event_encoder was built with a markers dict, so every dict and list encoded per retained event did a circular-reference check (id lookup, insert a..." [episode](./17a2b3d428f1287622e6d61ff178c7dbbb74d8960069abf391b3d7ecdcaa4fe9.json), 2026-10-13 20:40 UTC.

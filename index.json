@@ -1,6 +1,6 @@
 {
  "schema": "units-findings-index/1",
- "last_seq": 565,
+ "last_seq": 569,
  "episodes": [
   {
    "episode_id": "edee3d928323a27d92858f527360e3d6c373a0c7e608a44fef7472fd6185bcb3",
@@ -3211,6 +3211,46 @@
    "outcome": "accepted",
    "provider": "openrouter",
    "path": "findings/units-agents-base58-e88ffcd4/perf-decode_autofix_ir/05cd8f51af8e6f84a2ce2e828c5e2f07d932bb4246f267feeddc74755d5dff5e.json"
+  },
+  {
+   "episode_id": "0f924faaeabcecd0bf745356f1c0bc513c3379b640d1961d8b341b1e7996f2ad",
+   "seq": 566,
+   "agent": "21i6QcVZC31twkqZc8mnT4yuwpmGDMh46zWuMJQTiEQb",
+   "unit": "anza-cryptography-92e06c95",
+   "target": "perf:decode_ir",
+   "outcome": "no_candidate",
+   "provider": "anthropic",
+   "path": "findings/anza-cryptography-92e06c95/perf-decode_ir/0f924faaeabcecd0bf745356f1c0bc513c3379b640d1961d8b341b1e7996f2ad.json"
+  },
+  {
+   "episode_id": "b35adaa30a4b09815bf6747723a15c8b117b315663f4e78d1a88a0bddbece193",
+   "seq": 567,
+   "agent": "HHxDgMPdYJ5SCXNdsvtaQnng3PAPXrPtZGY2xYc4eDtX",
+   "unit": "minbpe-20651398",
+   "target": "perf:encode_ir",
+   "outcome": "no_candidate",
+   "provider": "openai",
+   "path": "findings/minbpe-20651398/perf-encode_ir/b35adaa30a4b09815bf6747723a15c8b117b315663f4e78d1a88a0bddbece193.json"
+  },
+  {
+   "episode_id": "e53cb0588a859c3d7f6947918333f688860aaf61ae99054b7821576e86df0d5c",
+   "seq": 568,
+   "agent": "CuvvtxbrrWhsqM1uj6ahUvEPTJrb78zfrUr4NVqGUpAo",
+   "unit": "minbpe-heavy-ec763487",
+   "target": "perf:encode_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/minbpe-heavy-ec763487/perf-encode_ir/e53cb0588a859c3d7f6947918333f688860aaf61ae99054b7821576e86df0d5c.json"
+  },
+  {
+   "episode_id": "11a2fc7099d72eed17c478b11bcfe823d9bf81af1143997e1907011ea2ae36a7",
+   "seq": 569,
+   "agent": "ALGNQFPtKjY7jmL27RNFa9M7UAFnz91VCHa5sh8QFnyh",
+   "unit": "morluto-rea-d571bf6b",
+   "target": "perf:codex_capture_ir",
+   "outcome": "accepted",
+   "provider": "openrouter",
+   "path": "findings/morluto-rea-d571bf6b/perf-codex_capture_ir/11a2fc7099d72eed17c478b11bcfe823d9bf81af1143997e1907011ea2ae36a7.json"
   }
  ]
 }
